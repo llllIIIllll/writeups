@@ -1,0 +1,21 @@
+
+Scalpel version 1.60 audit file
+Started at Fri Sep  2 20:07:13 2016
+Command line:
+scalpel disk2 
+
+Output directory: /home/john/mma/deadnas/scalpel-output
+Configuration file: /etc/scalpel/scalpel.conf
+
+Opening target "/home/john/mma/deadnas/disk2"
+
+The following files were carved:
+File		  Start			Chop		Length		Extracted From
+ERROR: The configuration file didn't specify any file types to carve.
+(If you're using the default configuration file, you'll have to
+uncomment some of the file types.)
+
+See /etc/scalpel/scalpel.conf.
+
+
+Completed at Fri Sep  2 20:07:13 2016

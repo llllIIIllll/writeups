@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Nov  5 10:00:03 2016
+Invocation: foremost flag2.jpg 
+Output directory: /home/john/vote/sanders_fan_club/sandersfanclub.pwn.democrat/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: flag2.jpg
+Start: Sat Nov  5 10:00:03 2016
+Length: 10 KB (11187 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	      10 KB 	          0 	 
+Finish: Sat Nov  5 10:00:03 2016
+
+1 FILES EXTRACTED
+	
+jpg:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat Nov  5 10:00:03 2016

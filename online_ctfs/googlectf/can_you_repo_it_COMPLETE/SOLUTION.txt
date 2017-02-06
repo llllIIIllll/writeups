@@ -1,0 +1,51 @@
+This took a lot longer than it really should have.
+
+I ran `strings` on the initial `illintentions.apk`, and did find the string `git_user`. After some more hunting, I saw the string `l33tdev42`. That looked promising. I searched `github.com` for that username, found him, and then cloned his only repository `testApp`. This all looked promising. I ran a simple `grep` search through all the files to try and find the flag, but that didn't work.
+
+So next I tried `git log` to see all the commits. Nothing in there either, but there was one stating that the author removed the password. Okay... so next I tried `git show`. Found the flag there!
+
+```
+commit 5b315cbbfaa2da9502ffae73f283d36d89f92194
+Author: Niru Ragupathy <niruragu@google.com>
+Date:   Thu Apr 28 13:48:07 2016 -0700
+
+    Oops. removing the passcodes
+
+diff --git a/app/build.gradle b/app/build.gradle
+deleted file mode 100644
+index a531d73..0000000
+--- a/app/build.gradle
++++ /dev/null
+@@ -1,35 +0,0 @@
+-apply plugin: 'com.android.application'
+-
+-android {
+-    compileSdkVersion 23
+-    buildToolsVersion "23.0.2"
+-
+-    defaultConfig {
+-        applicationId "test.leetdev.helloworld"
+-        minSdkVersion 15
+-        targetSdkVersion 23
+-        versionCode 1
+-        versionName "1.0"
+-    }
+-    buildTypes {
+-        release {
+-            minifyEnabled false
+-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+-        }
+-    }
+-    signingConfigs {
+-        create("release") {
+-            storeFile = file("leetdev_android.keystore")
+-            storePassword = "!lPpR4UC6JYaUj"
+-            keyAlias = "appsKeys"
+-            keyPassword = "ctf{TheHairCutTookALoadOffMyMind}"
+-        }
+-    }
+-}
+-
+-dependencies {
+-    compile fileTree(dir: 'libs', include: ['*.jar'])
+```

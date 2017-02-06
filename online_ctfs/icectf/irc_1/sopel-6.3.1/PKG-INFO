@@ -1,0 +1,39 @@
+Metadata-Version: 1.1
+Name: sopel
+Version: 6.3.1
+Summary: Simple and extendible IRC bot
+Home-page: http://sopel.chat/
+Author: Elsie Powell
+Author-email: powell.518@gmail.com
+License: Eiffel Forum License, version 2
+Description: Sopel is a simple, extendible, easy-to-use IRC Utility bot, written in Python. It's designed to be easy to use, easy to run, and easy to make new features for.
+Platform: L
+Platform: i
+Platform: n
+Platform: u
+Platform: x
+Platform:  
+Platform: x
+Platform: 8
+Platform: 6
+Platform: ,
+Platform:  
+Platform: x
+Platform: 8
+Platform: 6
+Platform: -
+Platform: 6
+Platform: 4
+Requires: xmltodict
+
+Requires: pytz
+
+Requires: praw
+
+Requires: pyenchant
+
+Requires: pygeoip
+
+Requires: requests
+
+Requires: backports.ssl_match_hostname

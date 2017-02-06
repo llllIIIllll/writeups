@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]><html class="lt-ie9 no-js" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en" class="ie9 no-js"><!--<![endif]-->
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>About - IceCTF</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta property="og:title" content="IceCTF">
+    <meta property="og:site_name" content="IceCTF">
+    <meta property="og:image" content="http://icec.tf/static/images/logos/icectf_banner_big.png">
+    <meta property="og:image:secure_url" content="https://icec.tf/static/images/logos/icectf_banner_big.png">
+    <meta property="og:url" content="https://icec.tf/">
+    <meta property="og:description" content="IceCTF is a team based hacking competition starting on August 12th, where you and your team will solve a variety of security and computer science based challenges to earn points and win prizes!">
+    <meta property="og:type" content="website">
+
+    <meta name="description" content="IceCTF is a team based hacking competition starting on August 12th, where you and your team will solve a variety of security and computer science based challenges to earn points and win prizes!">
+    <meta name="keywords" content="IceCTF, icectf, ctf, icelandic, hacking, competition" >
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#e3e3e3">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    
+        <link rel="stylesheet" type="text/css" href="/static/components/css/css-comp.css?79dff131" />
+        
+        
+        <link rel="stylesheet" type="text/css" href="/static/css-all.css?4b940845">
+        
+  </head>
+  <body>
+    <!--[if lte IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <header class="head-nav">
+      <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav hide-on-large-only"><i class="medium mdi-navigation-menu white-text text-accent-2"></i></a></div>
+      <ul id="nav-mobile" class="side-nav fixed blue-grey lighten-5">
+        <li class="logo"><a id="logo-container" href="/" class="brand-logo">
+          <img id="front-page-logo" src="/static/images/logos/logo.png" alt="" /></a></li>
+        
+          <li ><a href="/">Home</a>
+        
+          <li  class="active" ><a href="/about">About</a>
+        
+          <li ><a href="https://play.icec.tf/">Play</a>
+        
+          <li ><a href="/faq">FAQ</a>
+        
+          <li ><a href="/contact">Contact</a>
+        
+          <li ><a href="/sponsors">Sponsors</a>
+        
+      </ul>
+    </header>
+    
+    <main>
+
+      <div class="section no-pad-bot blue" id="index-banner">
+        <div class="container">
+          
+<h1 class="header center">About</h1>
+<div class="row center">
+  <h5 class="header col s12 light">About this competition</h5>
+</div>
+
+        </div>
+      </div>
+
+      <br>
+      
+<div class="container">
+  <div class="section" id="prizes">
+    <h5>Awards and Prizes</h5>
+    <p>We know that all teams need more than just the notion of learning to be motivated. This is why we have some awesome awards thanks to our generous <a href="/sponsors">sponsors</a>.</p>
+
+    <p>The prizes are as follows:
+      <ul>
+        <li><b>First place: </b> TBA</li>
+        <li><b>Second place: </b> TBA</li>
+        <li><b>Third place: </b> TBA</li>
+      </ul>
+    </p>
+
+    <p>We will also give T-shirts to the top 5 teams.</p>
+
+    <p><a href="http://syndis.is/">Syndis</a> also invites the members of the top-placed Icelandic academic team to benefit from its tutorship and advising for an independent final project as part of their university curriculum in Fall 2015 or Spring 2016. Syndis is a leading security company in Iceland and abroad, performing advanced security consulting and services for the largest Icelandic corporations and Fortune 100 companies. A successful final project may evolve to a paid internship at Syndis.</p>
+
+    <p>Note that we must be able to contact you via email! If you do not enter a valid email or do respond within the given time, we will give the prize to the next qualifying team.</p>
+  </div>
+  <div class="divider"></div>
+
+  <div class="section">
+    <h5>IceCTF</h5>
+    <p>IceCTF is a computer security contest targeted at anyone with an interest in computer science. The game consists of a series of challenges where participants must reverse engineer, break, hack, decrypt, or do whatever it takes to solve the challenge. The challenges are all set up with the intent of being hacked, making it a great way to get some hands-on experience.</p>
+
+    <p>Challenge yourself and learn new concepts. You never really know how good you are at security and computer science until you really try it out. You might just win.</p>
+
+    <p>Don't know anything about computer science or cyber-security? Fear not. IceCTF is designed to accommodate both novice and advanced players alike. Many challenges will guide you to the right resources. As long as you're willing to learn and do a little research, most challenges should be within reach. Check out the <a href="/faq">FAQ</a> for some tips.</p>
+  </div>
+  <div class="divider"></div>
+
+  <div class="section rules" id="rules">
+    <h5>Rules</h5>
+    <p>We can't really stop you from not obeying the rules. However, infractions <b>will</b> result in disqualification depending on the severity.</p>
+    <ul class="left-arrow">
+      <li>Do not share flags with other teams.</li>
+      <li>Be fair. Obey the team size limit of 3.</li>
+      <li>Duplicate teams composed of the same individuals are not allowed.</li>
+      <li>Try to solve problems rather than brute-forcing the submission system. The probability that you will succeed is very small. Seriously.</li>
+      <li>Do not DDoS or DoS. Sending continuous requests when a challenge calls for such methods is perfectly acceptable. If you know how to perform these attacks, put your skills to better use by solving the challenges. Don't ruin the fun for everyone.</li>
+      <li>Limit the use of automated tools, crawlers, or scanners that send continuous requests over a prolonged period of time. None of these are required to solve any of the challenges.</li>
+      <li>Have fun and learn.</li>
+    </ul>
+  </div>
+  <div class="divider"></div>
+</div>
+<br>
+
+    </main>
+    
+
+    
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">IceCTF</h5>
+            <p class="grey-text text-lighten-4">A Capture the Flag competition.</p>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Pages</h5>
+            <ul>
+              <li><a class="white-text" href="contact">Contact</a>
+              </li>
+              <li><a class="white-text" href="faq">FAQ</a>
+              </li>
+              <li><a class="white-text" href="about">About</a>
+              </li>
+              <li><a class="white-text" href="sponsors">Sponsors</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="white-text" href="https://github.com/IceCTF">Github</a>
+              </li>
+              <li><a class="white-text"
+                      href="https://www.facebook.com/icectf/">Facebook</a>
+              </li>
+              <li><a class="white-text">icectf<span class="hide">ai90jsf90as</span>[at]<span class="hide">bllja9023j</span>icec.tf</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          &copy; IceCTF 2016 | Made with <a class="grey-text text-lighten-2" href="http://materializecss.com/">MaterializeCSS</a>
+          <a class="grey-text text-lighten-2 right" href="https://tldrlegal.com/license/mit-license">MIT License</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-64770282-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
+    <script type="text/javascript" src="/static/components/js/js-comp.js?7d019683"></script>
+    
+    
+    <script type="text/javascript" src="/static/js-all.js?e44909c7"></script>
+    
+  </body>
+</html>

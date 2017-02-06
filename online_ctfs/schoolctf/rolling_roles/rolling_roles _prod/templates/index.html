@@ -1,0 +1,15 @@
+﻿{% extends "layout.html" %}
+{% block styles %}
+    <style>
+         .center {
+                margin-top: 15vh;
+         }
+    </style>
+{% endblock %}
+{% block body %}
+    <div class="row">
+        <div class="heading text-center center">
+          {{ msg | safe }}
+        </div>
+    </div>
+{% endblock %}

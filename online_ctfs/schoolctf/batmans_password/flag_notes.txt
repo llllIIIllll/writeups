@@ -1,0 +1,2 @@
+check1: SchoolCTF
+check2: ...? 13 - each character?

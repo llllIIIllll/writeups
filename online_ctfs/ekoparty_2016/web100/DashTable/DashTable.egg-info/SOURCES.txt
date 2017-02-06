@@ -1,0 +1,19 @@
+MANIFEST.in
+setup.py
+DashTable/__init__.py
+DashTable/dashTable.py
+DashTable/html2list.py
+DashTable/main.py
+DashTable.egg-info/PKG-INFO
+DashTable.egg-info/SOURCES.txt
+DashTable.egg-info/dependency_links.txt
+DashTable.egg-info/entry_points.txt
+DashTable.egg-info/requires.txt
+DashTable.egg-info/top_level.txt
+test_files/colspanANDrowspan2.html
+test_files/colspanANDrowspan_input.html
+test_files/colspan_input.html
+test_files/original  input.html
+test_files/rowspan_input.html
+test_files/simple_input.html
+test_files/simplerowspan_input.html

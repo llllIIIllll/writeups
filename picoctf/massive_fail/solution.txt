@@ -1,0 +1,23 @@
+Check out the /app/controllers/user_controller.rb and the /db/schema.rb
+file
+
+the schema.db file shows you the fields for the user object
+you can see one called `is_admin` 
+
+the `user_controller.rb` explains that in the user creation post form
+it creates the properties based off of all the variables passed to it
+
+if you use Tamper Data or burpsuite you can see that it passes fields
+like user[password] or user[username]
+
+so you can add an element to the POST request
+
+like
+
+
+user[is_admin]  =   1
+
+and then you get the flag. :)
+
+FLAG:
+no_framework_is_without_sin

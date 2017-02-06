@@ -1,0 +1,7 @@
+what
+one
+where
+password"; cat flag.php #
+password
+here
+there

@@ -1,0 +1,44 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel">
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout><v:shapetype id="_x0000_t201" coordsize="21600,21600" o:spt="201"
+  path="m,l,21600r21600,l21600,xe">
+  <v:stroke joinstyle="miter"/>
+  <v:path shadowok="f" o:extrusionok="f" strokeok="f" fillok="f" o:connecttype="rect"/>
+  <o:lock v:ext="edit" shapetype="t"/>
+ </v:shapetype><v:shape id="NOT_ANSWER_CALCULATE" o:spid="_x0000_s1025" type="#_x0000_t201"
+  style='position:absolute;margin-left:66pt;margin-top:15pt;width:264pt;
+  height:45pt;z-index:1;mso-wrap-style:tight' o:button="t" fillcolor="buttonFace [67]"
+  strokecolor="windowText [64]" o:insetmode="auto">
+  <v:fill color2="buttonFace [67]" o:detectmouseclick="t"/>
+  <o:lock v:ext="edit" rotation="t"/>
+  <v:textbox style='mso-direction-alt:auto' o:singleclick="f">
+   <div style='text-align:center'><font face="Calibri" size="220"
+   color="#000000">CALCULATE ANSWER</font></div>
+  </v:textbox>
+  <x:ClientData ObjectType="Button">
+   <x:Anchor>
+    1, 0, 1, 0, 5, 0, 4, 0</x:Anchor>
+   <x:PrintObject>False</x:PrintObject>
+   <x:AutoFill>False</x:AutoFill>
+   <x:FmlaMacro>[0]!CALCULATE</x:FmlaMacro>
+   <x:TextHAlign>Center</x:TextHAlign>
+   <x:TextVAlign>Center</x:TextVAlign>
+  </x:ClientData>
+ </v:shape><v:shape id="NOT_ANSWER" o:spid="_x0000_s1026" type="#_x0000_t201"
+  style='position:absolute;margin-left:66.75pt;margin-top:84.75pt;width:264pt;
+  height:19.5pt;z-index:2;mso-wrap-style:tight' stroked="f" strokecolor="windowText [64]"
+  o:insetmode="auto">
+  <v:imagedata o:relid="rId1" o:title=""/>
+  <x:ClientData ObjectType="Pict">
+   <x:SizeWithCells/>
+   <x:Anchor>
+    1, 1, 5, 13, 5, 1, 6, 19</x:Anchor>
+   <x:Disabled/>
+   <x:AutoLine>False</x:AutoLine>
+   <x:CF>Pict</x:CF>
+   <x:MapOCX/>
+  </x:ClientData>
+ </v:shape></xml>

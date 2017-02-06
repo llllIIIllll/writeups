@@ -1,0 +1,34 @@
+cd /gnome
+ls
+exit
+forever start -c "npm start" .
+forever stop -c "npm start" .
+npm start
+exit
+ls
+cd /gnome/www/
+ls
+npm start
+ls
+vi routes/index.js 
+exit
+npm start
+exit
+npm start
+vi routes/index.js 
+npm start
+vi routes/index.js 
+npm start
+vi routes/index.js 
+npm start
+ls
+cd public/upload/
+ls
+rm -rf *
+cd /var/log/gnome/
+ls
+> error.log 
+> gnome.log 
+> out.log 
+sudo reboot
+exit

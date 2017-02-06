@@ -1,0 +1,13 @@
+It is LFI
+
+you can see in the source code that they give you that the flag location is in /resources/secrets/flag
+
+if you try and load a file other than the images it will tell you there is 
+no such file in /resources/files/whateveryouenter
+
+
+use file=../secrets/flag
+
+
+FLAG:
+i_like_being_included

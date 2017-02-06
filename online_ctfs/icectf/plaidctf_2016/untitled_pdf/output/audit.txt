@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Apr 16 12:09:07 2016
+Invocation: foremost Untitled-1_1a110935ec70b63ad09fec68c89dfacb.pdf 
+Output directory: /home/john/cyber_team/competitions/plaidctf/untitled_pdf/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: Untitled-1_1a110935ec70b63ad09fec68c89dfacb.pdf
+Start: Sat Apr 16 12:09:07 2016
+Length: 62 KB (63628 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.pdf 	      47 KB 	          0 	 
+Finish: Sat Apr 16 12:09:07 2016
+
+1 FILES EXTRACTED
+	
+pdf:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat Apr 16 12:09:07 2016

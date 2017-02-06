@@ -1,0 +1,16 @@
+once upon a time there was a young hacker called m
+it was the sixties they were trying to figure out how to
+in those days your only option was reading large books and
+trying to learn how to program and spend a lot 
+of time punching those can you image what could
+errors due to small and mostly insignicant mistakes but
+how to properly write secure code in those languages
+use those punch cards they like stop program in fortran
+that will take more time to debug and figure out where is
+the bugs but those were the old days can you find the flag
+
+happening if you make small mistakes in one of the punched 
+cards after those hours with results then its
+using this old technology good luck you will need it no
+
+she likes to program in fortran

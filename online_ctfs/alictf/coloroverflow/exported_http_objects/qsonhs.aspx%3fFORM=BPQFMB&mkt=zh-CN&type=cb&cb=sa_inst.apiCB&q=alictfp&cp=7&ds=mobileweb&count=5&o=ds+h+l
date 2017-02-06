@@ -1,0 +1,1 @@
+if(typeof sa_inst.apiCB == 'function') sa_inst.apiCB({"AS":{"Query":"alictfp","FullResults":1,"Results":[{"Type":"AS","Suggests":[{"Txt":"阿里餐厅分配","Type":"KL","Sk":"","HCS":0.0}]}]}} /* pageview_candidate */);

@@ -1,0 +1,39 @@
+
+
+ALLOWED CHARACTERS:
+/
+?
++
+*
+=
+@
+#
+%
+^
+_
+[
+]
+\
+~
+"
+>
+<
+.
+
+
+DISALLOWED CHARACTERS:
+&
+$
+`
+(
+ 
+)
+|
+{
+}
+
+
+We have
+--------
+  Read Access (only of file locations we know)
+  Only one command (no spaces)

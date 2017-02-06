@@ -1,0 +1,21 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Fri May 27 21:06:10 2016
+Invocation: foremost hidden_c6ed1475125fd5083c72b20dfb68eec11f5b6c28966f00c526ac4b6297e0b121.jpg 
+Output directory: /home/john/tjctf/forensics/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: hidden_c6ed1475125fd5083c72b20dfb68eec11f5b6c28966f00c526ac4b6297e0b121.jpg
+Start: Fri May 27 21:06:10 2016
+Length: 88 KB (90946 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+Finish: Fri May 27 21:06:10 2016
+
+0 FILES EXTRACTED
+	
+------------------------------------------------------------------
+
+Foremost finished at Fri May 27 21:06:10 2016

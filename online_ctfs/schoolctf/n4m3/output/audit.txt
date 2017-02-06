@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Nov  6 01:53:22 2016
+Invocation: foremost malware.exe 
+Output directory: /home/john/rschoolctf/n4m3/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: malware.exe
+Start: Sun Nov  6 01:53:22 2016
+Length: 35 KB (36352 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.exe 	      35 KB 	          0 	 09/22/2016 12:24:51
+Finish: Sun Nov  6 01:53:22 2016
+
+1 FILES EXTRACTED
+	
+exe:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sun Nov  6 01:53:22 2016

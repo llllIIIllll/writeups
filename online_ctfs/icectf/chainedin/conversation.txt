@@ -1,0 +1,33 @@
+!=
+Had you gotten the ChainedIn challenge as well? I know you're good with web ahaha
+haha not well
+yes i got it
+I can log in with that agent1568 user, but I don't entirely see how that helps us
+I can see the like AJAX/JavaScript log in, though, so I couldn't tell if it is like serverside javascript I need to run?
+no
+ths is SQLi Blind MongoDB
+MongoDb
+AngularJS Requests
+try burp suite and do that
+like it:
+{"user":"$gt", "pass:"$gt"}}
+you will do that:
+{"user":"admin", "pass":{"$regex": ".{55}"}}
+passwd have 55 chars
+and write python script for exploit it !
+and will get the flag !
+try to read about AngularJS and SQLi Blind MongoDB
+this is my script:
+http://pastebin.com/MrXC1Swr
+#!/usr/bin/python import requests table="" url="http://chainedin.vuln.ic - Pastebin.com
+pastebin.com
+after do this angularjs requests:
+{"user": {"$ne": "agent1568"},"pass": {"$gt": "%s"}}
+do that in burp suite and see the results
+"WELCOME Admin"
+and wrote it as a data variable in my script
+and got tha flag 🙂
+Hmmm, okay, cool. I'll give it a try, thanks
+I've seen the "$gt" mongodb attack before but never put it in action
+Thanks!
+welcome!

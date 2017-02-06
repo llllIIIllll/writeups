@@ -1,0 +1,25 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Mar 19 19:18:49 2016
+Invocation: foremost eyeofthetiger.png 
+Output directory: /home/john/cyber_team/competitions/lasactf/r3ndom_eye_COMPLETE/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: eyeofthetiger.png
+Start: Sat Mar 19 19:18:49 2016
+Length: 1 MB (2087127 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	       1 MB 	          0 	 
+1:	00004052.png 	      12 KB 	    2074750 	  (905 x 460)
+Finish: Sat Mar 19 19:18:49 2016
+
+2 FILES EXTRACTED
+	
+jpg:= 1
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat Mar 19 19:18:49 2016

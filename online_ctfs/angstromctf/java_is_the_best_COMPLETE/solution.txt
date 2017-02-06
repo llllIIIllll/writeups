@@ -1,0 +1,4 @@
+Throw the .class file in JD-GUI. Get the source (which I have saved as the .java) file
+and then strip out all the character tests. You should find the string
+
+	dont_use_java_if_you_wanna_hide_code

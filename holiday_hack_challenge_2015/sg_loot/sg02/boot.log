@@ -1,0 +1,91 @@
+Begin: Loading essential drivers ... done.
+Begin: Running /scripts/init-premount ... done.
+Begin: Mounting root file system ... Begin: Running /scripts/local-top ... done.
+Begin: Running /scripts/local-premount ... done.
+Begin: Running /scripts/local-bottom ... done.
+done.
+Begin: Running /scripts/init-bottom ... done.
+ * Starting Mount filesystems on boot[74G[ OK ]
+ * Starting Populate /dev filesystem[74G[ OK ]
+ * Starting Populate and link to /run filesystem[74G[ OK ]
+ * Stopping Populate /dev filesystem[74G[ OK ]
+ * Stopping Populate and link to /run filesystem[74G[ OK ]
+ * Starting Initialize or finalize resolvconf[74G[ OK ]
+ * Stopping Track if upstart is running in a container[74G[ OK ]
+ * Starting Signal sysvinit that the rootfs is mounted[74G[ OK ]
+ * Starting Clean /tmp directory[74G[ OK ]
+ * Stopping Clean /tmp directory[74G[ OK ]
+Cloud-init v. 0.7.5 running 'init-local' at Mon, 14 Dec 2015 13:31:47 +0000. Up 4.52 seconds.
+cloud-init-nonet[4.76]: waiting 10 seconds for network device
+ * Starting set console keymap[74G[ OK ]
+ * Starting Signal sysvinit that virtual filesystems are mounted[74G[ OK ]
+ * Starting Signal sysvinit that virtual filesystems are mounted[74G[ OK ]
+ * Starting Bridge udev events into upstart[74G[ OK ]
+ * Starting Signal sysvinit that remote filesystems are mounted[74G[ OK ]
+ * Starting device node and kernel event manager[74G[ OK ]
+ * Stopping set console keymap[74G[ OK ]
+ * Starting cold plug devices[74G[ OK ]
+ * Starting log initial device creation[74G[ OK ]
+ * Starting Uncomplicated firewall[74G[ OK ]
+ * Starting configure network device security[74G[ OK ]
+ * Starting configure network device security[74G[ OK ]
+ * Starting Mount network filesystems[74G[ OK ]
+ * Stopping Mount network filesystems[74G[ OK ]
+ * Starting Bridge socket events into upstart[74G[ OK ]
+ * Starting configure network device[74G[ OK ]
+ * Starting Mount network filesystems[74G[ OK ]
+ * Starting configure network device[74G[ OK ]
+cloud-init-nonet[5.99]: static networking is now up
+ * Stopping Mount network filesystems[74G[ OK ]
+Cloud-init v. 0.7.5 running 'init' at Mon, 14 Dec 2015 13:31:49 +0000. Up 6.41 seconds.
+ci-info: ++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++
+ci-info: +--------+------+--------------+---------------+-------------------+
+ci-info: | Device |  Up  |   Address    |      Mask     |     Hw-Address    |
+ci-info: +--------+------+--------------+---------------+-------------------+
+ci-info: |   lo   | True |  127.0.0.1   |   255.0.0.0   |         .         |
+ci-info: |  eth0  | True | 172.31.24.90 | 255.255.240.0 | 02:3c:a5:ff:55:0b |
+ci-info: +--------+------+--------------+---------------+-------------------+
+ci-info: +++++++++++++++++++++++++++++++Route info++++++++++++++++++++++++++++++++
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+ci-info: | Route | Destination |   Gateway   |    Genmask    | Interface | Flags |
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 172.31.16.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   | 172.31.16.0 |   0.0.0.0   | 255.255.240.0 |    eth0   |   U   |
+ci-info: +-------+-------------+-------------+---------------+-----------+-------+
+ * Stopping Mount filesystems on boot[74G[ OK ]
+ * Starting Signal sysvinit that local filesystems are mounted[74G[ OK ]
+ * Starting flush early job output to logs[74G[ OK ]
+ * Stopping Failsafe Boot Delay[74G[ OK ]
+ * Starting System V initialisation compatibility[74G[ OK ]
+ * Stopping flush early job output to logs[74G[ OK ]
+ * Starting D-Bus system message bus[74G[ OK ]
+ * Starting SystemD login management service[74G[ OK ]
+ * Starting system logging daemon[74G[ OK ]
+ * Starting Handle applying cloud-config[74G[ OK ]
+ * Starting Bridge file events into upstart[74G[ OK ]
+ * Starting early crypto disks...       [80G [74G[ OK ]
+Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+ * Starting AppArmor profiles       [80G [74G[ OK ]
+ * Stopping System V initialisation compatibility[74G[ OK ]
+ * Starting System V runlevel compatibility[74G[ OK ]
+ * Starting ACPI daemon[74G[ OK ]
+ * Starting save kernel messages[74G[ OK ]
+ * Starting configure network device security[74G[ OK ]
+ * Starting OpenSSH server[74G[ OK ]
+ * Starting regular background program processing daemon[74G[ OK ]
+ * Starting deferred execution scheduler[74G[ OK ]
+ * Stopping save kernel messages[74G[ OK ]
+ * Stopping CPU interrupts balancing daemon[74G[ OK ]
+ * Starting configure virtual network devices[74G[ OK ]
+ * Starting automatic crash report generation[74G[ OK ]
+Cloud-init v. 0.7.5 running 'modules:config' at Mon, 14 Dec 2015 13:31:51 +0000. Up 7.63 seconds.
+ * Stopping Handle applying cloud-config[74G[ OK ]
+ * Starting database mongod       [80G [74G[ OK ]
+open-vm-tools: not starting as this is not a VMware VM
+landscape-client is not configured, please run landscape-config.
+ * Restoring resolver state...       [80G [74G[ OK ]
+ * Stopping cold plug devices[74G[ OK ]
+ * Stopping log initial device creation[74G[ OK ]
+ * Starting enable remaining boot-time encrypted block devices[74G[ OK ]
+ * Starting authentication failure monitor fail2ban       [80G [74G[ OK ]
+ * Stopping System V runlevel compatibility[74G[ OK ]

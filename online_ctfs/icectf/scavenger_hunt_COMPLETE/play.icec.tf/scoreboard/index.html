@@ -1,0 +1,492 @@
+<html>
+    <head>
+        <title>IceCTF &ndash;  Scoreboard</title>
+        
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.9.0/vis.min.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        
+
+        <link rel="stylesheet" type="text/css" href="/static/css/main.css" />
+        <script>
+            function dismissNotification(id) {
+                api.makeCall("/dismiss/" + id + ".json", {_csrf_token: "qkn4v9se4bhyx5mx62e8di0ta06a6p4lz71ka9jfli7fx1ls1lbk7e832kronew8"}, function() {
+                    $("#notification" + id).slideUp();
+                });
+            }
+        </script>
+
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        
+<style type="text/css">
+    .teamrow:not(.visible) {
+        display: none;
+    }
+    .teamrow.ineligible {
+        color: #888;
+    }
+</style>
+<script>
+    var ineligibleShown = false;
+    function recalcRanks() {
+        $(".teamrow.visible").each(function(i, x) {
+            $(x).children(".rank").html(i + 1);
+        });
+    }
+    function hideIneligible() {
+        $(".teamrow.ineligible").removeClass("visible");
+        $("#toggle").html("Show ineligible teams");
+        recalcRanks();
+    }
+    function showIneligible() {
+        $(".teamrow.ineligible").addClass("visible");
+        $("#toggle").html("Hide ineligible teams");
+        recalcRanks();
+    }
+    function toggleIneligible() {
+        if(ineligibleShown) hideIneligible();
+        else showIneligible();
+        ineligibleShown = !ineligibleShown;
+    }
+    document.onready = function() {
+        hideIneligible();
+    }
+</script>
+
+    </head>
+    <body class="competition-page">
+        <header>
+            <nav class="top-nav blue nav-fixed">
+                <div class="nav-wrapper">
+
+                    <div><a href="#" data-activates="nav-mobile" class="button-collapse top-nav full"><i class="material-icons">menu</i></a></div>
+                    <img class="top-logo" src=/static/img/logo.png></img>
+                    <ul class="right hide-on-med-and-down">
+                        
+                        
+                        
+                        <li><a href="/register/">Register</a></li>
+                        
+                        <li><a href="/login/">Login</a></li>
+                        
+                    </ul>
+                </div>
+
+            </nav>
+            <ul id="nav-mobile" class="side-nav fixed">
+
+                
+                
+                <li><a href="/scoreboard/">
+                        <div class="side-icon"><i class="material-icons red-text">timeline</i></div>
+                        <div class="side-text">Scoreboard</div>
+                    </a></li>
+                <li><a href="/shell/">
+                        <div class="side-icon"><i class="material-icons purple-text">computer</i></div>
+                        <div class="side-text">Shell</div>
+                    </a></li>
+                
+                
+
+                <div class="divider" /></div>
+                
+                
+                
+                <li><a href="/register/">
+                        <div class="side-icon"><i class="material-icons indigo-text">person_add</i></div>
+                        <div class="side-text">Register</div>
+                    </a></li>
+                
+                <li><a href="/login/">
+                        <div class="side-icon"><i class="material-icons amber-text">lock</i></div>
+                        <div class="side-text">Login</div>
+                    </a></li>
+                
+            </ul>
+        </header>
+        <div class="cont">
+            
+            
+        </div>
+        <div class="cont">
+            
+<div class="row">
+    <div class="col s12">
+        <h3>Score progression</h3>
+        <div id="chart"></div>
+    </div>
+</div>
+<h3>Rankings</h3>
+<a href="javascript:toggleIneligible()" id="toggle">Hide ineligible teams</a>
+<table>
+    <thead>
+        <tr><th>Rank</th><th>Team</th><th>Affiliation</th><th>Score</th></tr>
+    </thead>
+    <tbody>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>farmingsimulator2015</td><td>No affiliation</td><td>161</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>4815162342</td><td>DHARMA</td><td>151</td></tr>
+        
+        <tr class="teamrow eligible visible"><td class="rank"></td><td>DDOS Attacks</td><td>Reykjavik University</td><td>121</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>OpenToAll</td><td>No affiliation</td><td>121</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>sec.se</td><td>No affiliation</td><td>116</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Dream in Despair</td><td>Not Iceland</td><td>111</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Bad Switch: Do Not Use</td><td>Untethered by Affiliation</td><td>111</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Krew</td><td>Krewtacular</td><td>106</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>irBodyguard</td><td>irBodyguard</td><td>101</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>LuckDigger</td><td>None</td><td>96</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>l33t_k33tz</td><td>N/A</td><td>91</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>OM3G4</td><td>TJHSST</td><td>86</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>CyBerg</td><td>Bergen County Academies</td><td>86</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>0x90r00t</td><td>No affiliation</td><td>81</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>g3ol4d0</td><td>n0n3</td><td>76</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>__crzxch</td><td>No affiliation</td><td>76</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Delogrand</td><td>USAFA</td><td>76</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>b00m</td><td>Friends</td><td>76</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>AgeOfNull</td><td>University of Maryland</td><td>66</td></tr>
+        
+        <tr class="teamrow eligible visible"><td class="rank"></td><td>gogn.in</td><td>No affiliation</td><td>66</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>enZyme</td><td>biological pwn</td><td>66</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>amember</td><td>No affiliation</td><td>66</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>K Corp</td><td>W-HS</td><td>66</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Unary Operator</td><td>UnB</td><td>66</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Dait</td><td>CND</td><td>66</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>HTS</td><td>hts</td><td>66</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Snatch The Root</td><td>No affiliation</td><td>51</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>RTFM</td><td>CTF-BR</td><td>46</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>UnDirac</td><td>No affiliation</td><td>46</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Sky&#39;s Team</td><td>KMA</td><td>46</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>pwdsec</td><td>vortex</td><td>46</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>objEEdump</td><td>United States Coast Guard Academy</td><td>46</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Cyber Duckies</td><td>No affiliation</td><td>46</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Galaxians</td><td>Galaxy</td><td>46</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Astrovus</td><td>Boerne High School</td><td>46</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>The BruteForcers</td><td>Team</td><td>46</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>participe_ctf</td><td>No affiliation</td><td>46</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>PartOfSpectriX</td><td>SUPCOM</td><td>46</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>dcua</td><td>NTUU &#34;KPI&#34;</td><td>46</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>OneManTeam</td><td>etc</td><td>46</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Invulnerable</td><td>No affiliation</td><td>46</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>wifi free</td><td>UIT</td><td>46</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>JustTheBit</td><td>nomad</td><td>41</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>MorningDev</td><td>Chulalongkorn University</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>InSecurity</td><td>INSA Lyon</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Files0phers</td><td>company</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Ping Of Death</td><td>No affiliation</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>moBot6</td><td>No affiliation</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>BingoPalace</td><td>Unaffiliated</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>ayyy</td><td>N/A</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>CHC</td><td>Cornell University</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>pwn3d</td><td>etc</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>sapphire</td><td>sapphire</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>pyrico</td><td>CTF Hobbyist</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>0x0BADC0DE</td><td>No affiliation</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>93_g</td><td>internet</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Dystopian Narwhals</td><td>DEFCON SG</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Reptilian Shapeshifters</td><td>Reptilian Shapeshifters</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Phiber&#39;s Phreaks</td><td>No affiliation</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>318br</td><td>team</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Hostbusters</td><td>No affiliation</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Just Hit the Core</td><td>No affiliation</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>CU_later</td><td>university</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>chm0d</td><td>No affiliation</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>SNORTMON</td><td>systemarea</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Turd Ferguson</td><td>Wossamotta U</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>pixelz</td><td>friends</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Ghosts</td><td>No affiliation</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>hAIXer</td><td>No affiliation</td><td>36</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Tinted</td><td>No affiliation</td><td>35</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>GD-Team</td><td>No affiliation</td><td>35</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>procastinator</td><td>No affiliation</td><td>35</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>dephault</td><td>dephault</td><td>31</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>xil.se</td><td>xil.se</td><td>26</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Hack8Tic</td><td>Hack8Tic</td><td>26</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Terrald &amp; Sons</td><td>No affiliation</td><td>26</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Scorpions</td><td>No affiliation</td><td>26</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Exceeds Expectations</td><td>Unaffiliated</td><td>26</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Pretty Powerful Popsicle Sticks</td><td>No affiliation</td><td>26</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>asciioverflow</td><td>University of Tulsa</td><td>21</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>UfoX_Team</td><td>No affiliation</td><td>16</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>bi0s</td><td>No affiliation</td><td>16</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Balsn</td><td>NTU</td><td>16</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Ascope</td><td>none</td><td>16</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Fluxion</td><td>No affiliation</td><td>16</td></tr>
+        
+        <tr class="teamrow eligible visible"><td class="rank"></td><td>Augustiner</td><td>Háskólinn í Reykjavík</td><td>16</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>0ctopus</td><td>NCYU</td><td>16</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>FTC</td><td>No affiliation</td><td>16</td></tr>
+        
+        <tr class="teamrow eligible visible"><td class="rank"></td><td>Potato</td><td>No affiliation</td><td>16</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Outofbounds</td><td>None</td><td>16</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Bugs_Bunny</td><td>isetcom</td><td>16</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>blank</td><td>No affiliation</td><td>16</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>UTP Hax</td><td>No affiliation</td><td>16</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>SadDad420</td><td>FIT</td><td>16</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>UIT</td><td>UIT</td><td>16</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>KNXSecurity Team</td><td>KNXSecurity s.r.l.</td><td>16</td></tr>
+        
+        <tr class="teamrow eligible visible"><td class="rank"></td><td>byteMe</td><td>HR</td><td>16</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>noweb</td><td>whu</td><td>16</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Samurai</td><td>N/A</td><td>16</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>BlackEnergy</td><td>APU</td><td>15</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Dispatched</td><td>No affiliation</td><td>15</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>bicycle_overdrive</td><td>University</td><td>15</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>k3rnel-pan1c</td><td>n/a</td><td>15</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>MyTeam</td><td>No affiliation</td><td>11</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Laks og Nødder</td><td>No affiliation</td><td>11</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>TheGoonies</td><td>No affiliation</td><td>11</td></tr>
+        
+        <tr class="teamrow eligible visible"><td class="rank"></td><td>Tema maxima</td><td>No affiliation</td><td>11</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>rmrf</td><td>No affiliation</td><td>11</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>CtfFuntikTeam</td><td>---</td><td>10</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>icectf_x7p3jnyqqfi0h9iiggjtqvtft9l4ddng</td><td>bycycle_override</td><td>10</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>wh03</td><td>No affiliation</td><td>10</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>user237691</td><td>Gurmoney</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Kronis</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Kůl <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="0d454d7f697b">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>@r3 <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="c18981a2aaf2b3b2">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script> &lt;3 :*</td><td>FIT CTU Prague</td><td>1</td></tr>
+        
+        <tr class="teamrow eligible visible"><td class="rank"></td><td>Transparent Hats</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>flago kaptita</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>C2K</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Ox002147</td><td>University of Oxford</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>ISITDTU</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>SiLent</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Memento Mori</td><td>Faith Lutheran High School</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>PepperoniParty</td><td>None</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>lonelyMikrotikGuy</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>W1ngChun</td><td>jnu2016</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Animal.OHYEAH</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>saarsec</td><td>Saarland University</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>cysec</td><td>CySec</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>bnmbnm</td><td>bnmbnm</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>3v01v3</td><td>Team</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Black Technology Royal</td><td>school</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="a5ebd0c694c0e5d7">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>_BugZ</td><td>TU Kaiserslautern</td><td>1</td></tr>
+        
+        <tr class="teamrow eligible visible"><td class="rank"></td><td>Netheimur</td><td>Netheimur ehf</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>h4stoor</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>iSome</td><td>tr</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>L.E.I CTF</td><td>gicungduoc</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>CO2</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>lrn2ctfn00b</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>icmpplease</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>shipit</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>HHSS</td><td>IISEC</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>#TeamLiveBadass</td><td>BestSecretAgentEver</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>イナズマイレブン</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Kerfuffle</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>NIS</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>...</td><td>...</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>login_failed</td><td>No affilation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Catbug</td><td>multiple</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>joizel</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>DefeatedRob&#39;s Pleasure Hub</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>alone</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Whitehatters Academy</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Lavis</td><td>Lavis</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>cyber ninja</td><td>No affiliation</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>Omnomnoms</td><td>Lyceum 1</td><td>1</td></tr>
+        
+        <tr class="teamrow ineligible visible"><td class="rank"></td><td>UCanCMe</td><td>NFU</td><td>1</td></tr>
+        
+    </tbody>
+</table>
+
+        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.4.3/jquery.timeago.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.9.0/vis.min.js"></script>
+        
+        <script src="/static/js/api.js"></script>
+        <script src="/static/js/main.js"></script>
+        <script>
+        $(function() {
+            $("abbr.time[title='1970-01-01 00:00:00']").attr("title", "").removeClass("time").html("None");
+            $("abbr.time").timeago();
+            $('.button-collapse').sideNav();
+        });
+        </script>
+        <script id="toasts" type="text/javascript">
+            
+        </script>
+        
+<script>
+    recalcRanks();
+    var graphData = [["DDOS Attacks", [["2016-08-12 16:00:31.629897", 0], ["2016-08-12 16:00:31.630897", 1], ["2016-08-12 16:02:48.542504", 1], ["2016-08-12 16:02:48.543504", 16], ["2016-08-12 16:03:32.255971", 16], ["2016-08-12 16:03:32.256971", 36], ["2016-08-12 16:04:55.845374", 36], ["2016-08-12 16:04:55.846374", 66], ["2016-08-12 16:06:50.433397", 66], ["2016-08-12 16:06:50.434397", 111], ["2016-08-12 16:08:59.438206", 111], ["2016-08-12 16:08:59.439206", 121], ["2016-08-12 16:09:36.348442", 121]]], ["gogn.in", [["2016-08-12 16:00:31.333982", 0], ["2016-08-12 16:00:31.334982", 1], ["2016-08-12 16:02:30.522471", 1], ["2016-08-12 16:02:30.523471", 16], ["2016-08-12 16:03:22.971550", 16], ["2016-08-12 16:03:22.972550", 36], ["2016-08-12 16:07:04.469680", 36], ["2016-08-12 16:07:04.470680", 66], ["2016-08-12 16:09:36.348663", 66]]], ["Augustiner", [["2016-08-12 16:02:36.515524", 0], ["2016-08-12 16:02:36.516524", 1], ["2016-08-12 16:04:39.184338", 1], ["2016-08-12 16:04:39.185338", 16], ["2016-08-12 16:09:36.348862", 16]]], ["Potato", [["2016-08-12 16:04:37.806793", 0], ["2016-08-12 16:04:37.807793", 1], ["2016-08-12 16:05:42.477800", 1], ["2016-08-12 16:05:42.478800", 16], ["2016-08-12 16:09:36.349050", 16]]], ["byteMe", [["2016-08-12 16:08:51.647319", 0], ["2016-08-12 16:08:51.648319", 1], ["2016-08-12 16:09:22.041743", 1], ["2016-08-12 16:09:22.042743", 16], ["2016-08-12 16:09:36.349249", 16]]], ["Tema maxima", [["2016-08-12 16:00:31.200547", 0], ["2016-08-12 16:00:31.201547", 1], ["2016-08-12 16:08:29.781514", 1], ["2016-08-12 16:08:29.782514", 11], ["2016-08-12 16:09:36.349451", 11]]], ["Transparent Hats", [["2016-08-12 16:00:56.821643", 0], ["2016-08-12 16:00:56.822643", 1], ["2016-08-12 16:09:36.349635", 1]]], ["Netheimur", [["2016-08-12 16:03:47.992552", 0], ["2016-08-12 16:03:47.993552", 1], ["2016-08-12 16:09:36.349813", 1]]]];
+    var groupn = 0;
+    var groups = new vis.DataSet();
+    var items = [];
+    graphData.forEach(function(team) {
+        var teamName = team[0];
+        var scoreEvents = team[1];
+        groups.add({ id: groupn, content: teamName.replace("<", "&lt;").replace(">", "&gt;"), options: { drawPoints: false, interpolation: false } });
+        scoreEvents.forEach(function(evt) {
+            items.push({ x: evt[0], y: evt[1], group: groupn });
+        });
+        groupn++;
+    });
+    var dataset = new vis.DataSet(items);
+    var graph = new vis.Graph2d(document.getElementById('chart'), dataset, groups, {legend: true, dataAxis: {left: {range: {min: 0}}}, showCurrentTime: false});
+</script>
+
+        
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-64770282-2', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+        
+    </body>
+</html>

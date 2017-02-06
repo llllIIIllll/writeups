@@ -1,0 +1,7 @@
+PROMPT
+We found this very mysterious image, it doesn't look complete and there seems to be something hidden on it... does this mean anything to you? filesandcastle.png. This flag is not in the standard flag format. The flag contains digits and no special characters, convert the message to lowercase and then add IceCTF{message} to it. 10331c4d
+
+
+58-7-9.210-13-2.67-3-16.85-17-15.305-18-4.83-12-18.75-8-15.47-4-2.83-20-11.208-6-6.85-11-6.75-7-3.106-9-14
+
+0x10331c4d -> 271785037

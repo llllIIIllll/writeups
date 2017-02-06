@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]><html class="lt-ie9 no-js" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en" class="ie9 no-js"><!--<![endif]-->
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>FAQ - IceCTF</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta property="og:title" content="IceCTF">
+    <meta property="og:site_name" content="IceCTF">
+    <meta property="og:image" content="http://icec.tf/static/images/logos/icectf_banner_big.png">
+    <meta property="og:image:secure_url" content="https://icec.tf/static/images/logos/icectf_banner_big.png">
+    <meta property="og:url" content="https://icec.tf/">
+    <meta property="og:description" content="IceCTF is a team based hacking competition starting on August 12th, where you and your team will solve a variety of security and computer science based challenges to earn points and win prizes!">
+    <meta property="og:type" content="website">
+
+    <meta name="description" content="IceCTF is a team based hacking competition starting on August 12th, where you and your team will solve a variety of security and computer science based challenges to earn points and win prizes!">
+    <meta name="keywords" content="IceCTF, icectf, ctf, icelandic, hacking, competition" >
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#e3e3e3">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    
+        <link rel="stylesheet" type="text/css" href="/static/components/css/css-comp.css?79dff131" />
+        
+        
+        <link rel="stylesheet" type="text/css" href="/static/css-all.css?4b940845">
+        
+  </head>
+  <body>
+    <!--[if lte IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <header class="head-nav">
+      <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav hide-on-large-only"><i class="medium mdi-navigation-menu white-text text-accent-2"></i></a></div>
+      <ul id="nav-mobile" class="side-nav fixed blue-grey lighten-5">
+        <li class="logo"><a id="logo-container" href="/" class="brand-logo">
+          <img id="front-page-logo" src="/static/images/logos/logo.png" alt="" /></a></li>
+        
+          <li ><a href="/">Home</a>
+        
+          <li ><a href="/about">About</a>
+        
+          <li ><a href="https://play.icec.tf/">Play</a>
+        
+          <li  class="active" ><a href="/faq">FAQ</a>
+        
+          <li ><a href="/contact">Contact</a>
+        
+          <li ><a href="/sponsors">Sponsors</a>
+        
+      </ul>
+    </header>
+    
+    <main>
+
+      <div class="section no-pad-bot blue" id="index-banner">
+        <div class="container">
+          
+<h1 class="header center">FAQ</h1>
+<div class="row center">
+  <h5 class="header col s12 light"></h5>
+</div>
+
+        </div>
+      </div>
+
+      <br>
+      
+<div class="container">
+  <div class="section">
+    <div class="row">
+      <ul>
+        <li>
+          <div class="collapsible-header"><i class="mdi-action-info-outline"></i>What is a CTF?</div>
+          <div>
+            <p>A CTF(short for Capture The Flag) is a computer security competition. Contestants are presented with challenges, which test their creativity and technical skills, along with their general problems solving ability. When a problem is solved, it yields a string (the flag), which can be submitted to the scoring server. CTFs are awesome to get started in hacking, and even have <a href="https://ctftime.org/">world competitions</a></p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi-social-plus-one"></i>Who is this for?</div>
+          <div>
+            <p>Generally, this CTF is meant for all audiences which are interested in learning hacking and computer security.</p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi-action-favorite"></i>Why?</div>
+          <div>
+            <p>This CTF is mostly made for people to have fun and learn new things! But at the same time, to increase awareness of vulnerabilities, and teach people to think defensively in terms of computer security.</p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi-device-access-time"></i>When is this?</div>
+          <div>
+            <p>The competition will begin on August 12th at 16:00:00 GMT and end on August 26rd at 16:00:00 GMT. Click on the links to see what it would be in your time zone.</p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi-av-web"></i>Where is this?</div>
+          <div>
+          <p>This competition is entirely online, and participants can physically play from anywhere.</p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi-image-looks-one"></i>Is the competition difficult?</div>
+          <div>
+            <p>Yes, but not too difficult! There are tons of challenges, some of which we expect everyone to be able to solve, and some of which we expect nobody to solve. If the competition is too hard, it won't be fun or educational. If it is too easy, the same applies. Our goal is that most of the challenges are solvable with somewhat little knowledge.</p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi-social-public"></i>Where can I start learning?</div>
+          <div>
+            <p>Don't panic! We aren't expecting contestants to be proficient in computer security, but we do reccomend being comfortable with computer programming. As long as contestants are interested, they should be able to learn something and have fun regardless of background. </p>
+            <p> We reccomend knowing JavaScript, HTML, Python, along with being able to read Java and C code.</p>
+            <p>While this competition will provide you with hints along the way, you can begin learning by reading this <a target="_blank" href="http://bobbyluig.gitbooks.io/csc-learn/">GitBook</a> by CAMS CSC. You can also look at other CTF competitions like <a href="http://picoctf.com/">PicoCTF</a> or try out sample challenges on the <a href="/challenges">Challenges</a> page.</p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi-hardware-computer"></i>What do i need to compete?</div>
+          <div>
+            <p>Participating in the competition requires only a computer with a modern web browser, and being able to install applications. Participation from personal laptops is encouraged.</p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi-communication-comment"></i>What are the challenges like?</div>
+          <div>
+            <p>The challenges will fall into one of the following categories: Cryptography, Forensics, Exploitation, Programming, and Miscellaneous.</p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi-action-help"></i>How do I participate?</div>
+          <div><p>Team registration is now open. Click <a href="https://play.icec.tf/register">here</a> to register.</p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi-social-school"></i>Who can participate?</div>
+          <div>
+            <p>Anyone can participate. However, prizes are restricted to Icelandic residents.</p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi-editor-attach-money"></i>Are there prizes?</div>
+          <div>
+            <p>Aside from knowledge, there will be <a href="about#prizes">prizes</a> awarded to top placing teams.</p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi-action-grade"></i>How are problems scored? (How do we win?)</div>
+          <div>
+            <p>The competition is split into four stages.</p>
+            <ul class="list-bullets">
+              <li><b>Stage 1</b> is meant for participants which don't neccessarily have programming experience, but are good at using a computer.</li>
+              <li><b>Stage 2</b> is meant for participants which have some programming experience</li>
+              <li><b>Stage 3</b> is meant for participants which have a strong background in programming</li>
+              <li><b>Stage 4</b> consists of a diverse set of problems which can range from difficult to (almost) unsolvable</li>
+            </ul>
+            <p>
+              Note that all challenges will be open. Even if you haven't solved anything in stage 1 you'll still be able to view and solve a challenge from stage2.
+            </p>
+            <p>
+            Each stage contains a list of problems which are each worth a fixed number of points based on its difficulty. When a problem is solved, you send the flag to our scoring server, which adds the problem's points to your team's score. The points for a problem does not change as more teams solve it. Once the competition is over, the team(s) with the highest scores are the winners. We calculate the scores independent of time, but time(sum of time spent solving each problem) will be used as a tie breaker.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi-action-thumb-down"></i>Can I cheat?</div>
+          <div>
+            <p>...no, really?</p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi-av-not-interested"></i>What is defined as cheating?</div>
+          <div>
+            <p>Attacking the scoring server, other teams, or machines which are not targets is cheating. This includes breaking into such machines and denying others access to them. Sharing flags or giving overly revealing hints to other teams is cheating, and so is being assisted by people outside the team.</p>
+            <p>
+            Note that using tools from the internet along with information is fine, but specifically asking people on the internet to help you solve the problem is cheating. We encourage you to solve problems on your own using all available resources, but you should solve them yourselves</p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi-social-group-add"></i>How many people can be on a team?</div>
+          <div>
+            <p>Teams can consist of 1-3 contestants.</p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi-social-plus-one"></i>Can I create more than 1 team?</div>
+          <div>
+            <p>No. There is no point in creating multiple accounts. Teams found with duplicated accounts will be disqualified.</p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi-image-exposure-zero"></i>How much does this cost?</div>
+          <div>
+            <p>Nothing!</p>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="mdi-social-whatshot"></i>Does this competition condone hacking?</div>
+          <div>
+            <p>This of course depends on the definition of hacking. We encourage exploring computer systems, and learning how the computer works - when we say hacking, this is what we mean. </p>
+            <p>We do not condone hacking in the sense of breaking into machines illegally, stealing personal information, and launching DDoS attacks, this type of hacking is illegal, and we do not encourage it.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<br>
+
+    </main>
+    
+
+    
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">IceCTF</h5>
+            <p class="grey-text text-lighten-4">A Capture the Flag competition.</p>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Pages</h5>
+            <ul>
+              <li><a class="white-text" href="contact">Contact</a>
+              </li>
+              <li><a class="white-text" href="faq">FAQ</a>
+              </li>
+              <li><a class="white-text" href="about">About</a>
+              </li>
+              <li><a class="white-text" href="sponsors">Sponsors</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="white-text" href="https://github.com/IceCTF">Github</a>
+              </li>
+              <li><a class="white-text"
+                      href="https://www.facebook.com/icectf/">Facebook</a>
+              </li>
+              <li><a class="white-text">icectf<span class="hide">ai90jsf90as</span>[at]<span class="hide">bllja9023j</span>icec.tf</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          &copy; IceCTF 2016 | Made with <a class="grey-text text-lighten-2" href="http://materializecss.com/">MaterializeCSS</a>
+          <a class="grey-text text-lighten-2 right" href="https://tldrlegal.com/license/mit-license">MIT License</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-64770282-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
+    <script type="text/javascript" src="/static/components/js/js-comp.js?7d019683"></script>
+    
+    
+    <script type="text/javascript" src="/static/js-all.js?e44909c7"></script>
+    
+  </body>
+</html>

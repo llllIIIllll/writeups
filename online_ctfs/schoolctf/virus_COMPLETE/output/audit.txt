@@ -1,0 +1,33 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Nov  6 01:38:39 2016
+Invocation: foremost task.png 
+Output directory: /home/john/rschoolctf/virus/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: task.png
+Start: Sun Nov  6 01:38:39 2016
+Length: 10 MB (11384015 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00002596.jpg 	       7 KB 	    1329548 	 
+1:	00002928.jpg 	       5 KB 	    1499621 	 
+2:	00002611.zip 	     170 KB 	    1336958 	 
+3:	00002611.rar 	       88 B 	    1336838 	 
+4:	00000000.png 	       1 MB 	          0 	  (2584 x 1720)
+5:	00021724.png 	     254 KB 	   11123032 	  (958 x 677)
+6:	00002315.pdf 	     140 KB 	    1185709 	 
+Finish: Sun Nov  6 01:38:39 2016
+
+7 FILES EXTRACTED
+	
+jpg:= 2
+zip:= 1
+rar:= 1
+png:= 2
+pdf:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sun Nov  6 01:38:39 2016

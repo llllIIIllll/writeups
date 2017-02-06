@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Built-By: 1.5.0
+Created-By: Android Gradle
+
+Name: lib/arm64-v8a/libhello-jni.so
+SHA1-Digest: yHZcV0B3YfBgRDkbnptcuW5xFyM=
+
+Name: lib/x86/libhello-jni.so
+SHA1-Digest: 6xqOowRwrq0Ugnf8M6wD/EPpKE0=
+
+Name: resources.arsc
+SHA1-Digest: K668aYk4K5WhmprtyAmSVPAy2aA=
+
+Name: classes.dex
+SHA1-Digest: uRkMadDWsJeRIDRLtS5HoDKD8sY=
+
+Name: AndroidManifest.xml
+SHA1-Digest: wiqIgfVLxDFlbNu2d0J8uELit8E=
+
+Name: lib/armeabi-v7a/libhello-jni.so
+SHA1-Digest: UFndBb4Vqm8GUSrsdUzPID2KLGE=
+
+Name: res/mipmap-hdpi-v4/ic_launcher.png
+SHA1-Digest: dgOODFlTpfHDDTUL6xuLQSdAG7w=
+
+Name: res/mipmap-mdpi-v4/ic_launcher.png
+SHA1-Digest: KhYs3OgngrsQpHbyXG/jm5H+8wU=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher.png
+SHA1-Digest: A92PbPheHa+C5hP2bAXLmZFjEYY=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: TtBU8d63+I+lSLj+Tm5DZvZ5i2c=
+
+Name: lib/mips/libhello-jni.so
+SHA1-Digest: 3nWWs09FXXVpigAanb5/eYcpR94=
+
+Name: lib/armeabi/libhello-jni.so
+SHA1-Digest: VLSSQU37QoOToRyBKhnWRGRtHqI=
+
+Name: lib/x86_64/libhello-jni.so
+SHA1-Digest: B3es4v8+r+F34ezGb8ZOk/Nr0+M=
+
+Name: lib/mips64/libhello-jni.so
+SHA1-Digest: SX+ow3HGZc/523VB3ouRqSjpobU=
+

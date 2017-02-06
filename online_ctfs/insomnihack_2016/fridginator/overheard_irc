@@ -1,0 +1,7 @@
+fridge: use oracle for ECB decryption
+
+	search=your-input|type=user 
+
+	fridge: then pad 1st block out, encrypt your query (like aaaaaaaaa|type=user where 0 union select 1,2,3,4....padsomemore), cut block out, and inject 
+
+	it was aes-128-ecb 

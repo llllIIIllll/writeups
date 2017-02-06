@@ -1,0 +1,1 @@
+if(typeof sa_inst.apiCB == 'function') sa_inst.apiCB({"AS":{"Query":"alictf\u007bflag","FullResults":0}} /* pageview_candidate */);

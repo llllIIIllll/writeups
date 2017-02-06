@@ -1,0 +1,15 @@
+<ClientInstRequest><Events><E><T>Event.ClientInst</T><IG>EC1340B78C9A4F6FB4FF2328E364C5E7</IG><TS>1463148944015</TS><D><![CDATA[[{"T":"CI.BoxModel","FID":"CI","Name":"v2.8","SV":"2","P":{"C":0,"N":2,"I":"48b","S":"C+V+MT+K","M":"V+L+M+MT+E+N+C+K+BD","T":18349,"K":"cey+LI.sa_sg sa_sgPN+e5p+8yr+8z1+api.bing.com+qsonhs.aspx+touchstart+touch+mouseup+mouse+cwz+keydown+dkv","F":0},"V":"c80////71//////","L":"@11/a/LI.sa_hd_first//0/1j/a0/15/5/MT+@11/b/@12//0/2o/a0/15/5/MT+@11/c/@12//0/3t/a0/15/5/MT+@11/d/@12//0/4y/a0/15/5/MT+@11/e/@12//0/63/a0/15/5/MT+@11/f/@12//0/78/a0/15/5/MT+@11/g/@12//0/8d/a0/15/5/MT+@11/h/@12//0/9i/a0/15/5/MT+@11/i/@12//0/an/a0/15/5/MT+@11/j/@12//0/bs/a0/15/5/MT+@11/k/@12//0/cx/a0/15/5/MT+@11/l/@12//0/e2/a0/15/5/MT+@11/m/@12//0/f7/a0/15/5/MT+@1c/n/INPUT#sb_form_q//a/a/7m/z/4/K+@13/0//////f7//R+@13/1////0/0/0//R+@13/2///0/0/0/0//R+@13/3///a//9g///R+@13/4////0/0/0//R+@13/5////0/0/0//R+@13/6///0/0/0/0//R+@13/7///0/0/0/0//R+@13/8///0/0/0/0//R+@13/9///0/0/0/0//R+@13/a////0/0/0/0/R+@13/b////0/0/0/0/R+@13/c////0/0/0/0/R+@13/d////0/0/0/0/R+@13/e////0/0/0/0/R+@13/f////0/0/0/0/R+@13/g////0/0/0/0/R+@13/h////0/0/0/0/R+@13/i////0/0/0/0/R+@13/j////0/0/0/0/R+@13/k////0/0/0/0/R+@13/l////0/0/0/0/R+@13/m////0/0/0/0/R+@13/n/////6q///R","E":"@13/1/Y/1b/","N":"@14/i//@3/ls%2Flsp.aspx/@s/9/@4/@14/0/@14/@14/@15/@15+bnf/j//@16/@17/@g/by/@4/-1/0/-1/-1/-1/bze+c8t/k//@16/@17/@g/5j/@4/-1/0/-1/-1/-1/ced+dlf/l//@16/@17/@g/77/@4/-1/0/-1/-1/-1/dsn","C":"bj9/n/@18/@19//6x/z/+bpd//mousedown/@1b/0/6x/z/1+//@1a/////0+//@18/@19//6x/z/+c7q//@1a/@1b/0/75/x/0","K":"@1c/n/@1d/0+dac/n/@1d/0+dc0/n/@1d/0+@1e/n/@1d/0+@1e/n/keypress/0"}]]]></D></E></Events><STS>1463148944015</STS></ClientInstRequest>POST /fd/ls/lsp.aspx HTTP/1.1
+Host: cn.bing.com
+Connection: keep-alive
+Content-Length: 462
+Origin: http://cn.bing.com
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Android SDK built for x86_64 Build/MASTER; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/44.0.2403.119 Mobile Safari/537.36
+Content-Type: text/xml
+Accept: */*
+Referer: http://cn.bing.com/search?q=alictf%7BFlagIsHere%7D&go=Submit&qs=n&form=QBRE&pq=&sc=0-0&sp=-1&sk=
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Cookie: SRCHD=AF=NOFORM; SRCHUID=V=2&GUID=BD340698770C48828475F961A01A8F0C; SRCHUSR=DOB=20160513; _EDGE_S=F=1&SID=28B9498F4C1667E42CB2409B4DB766D1; _EDGE_V=1; MUID=1BA691C7DD666E1B029C98D3DCC76FE3; MUIDB=1BA691C7DD666E1B029C98D3DCC76FE3; RMS=A=AAAAAAAAAAAAAC; SRCHHPGUSR=CW=360&CH=253&PR=4&OR=0&DPR=4; SCRHDN=ASD=0&DURL=#; _SS=SID=28B9498F4C1667E42CB2409B4DB766D1&HV=1463148931
+X-Requested-With: com.android.browser
+
+<ClientInstRequest><Events><E><T>Event.ClientInst</T><IG>EC1340B78C9A4F6FB4FF2328E364C5E7</IG><TS>1463148946535</TS><D><![CDATA[[{"T":"CI.BoxModel","FID":"CI","Name":"v2.8","SV":"2","P":{"C":0,"N":3,"I":"48b","S":"V","M":"V+L+M+MT+E+N+C+K+BD","T":20869,"K":"g3p+e69","F":0},"V":"fiv////85//////","L":"@1f/0//////1j//R","E":"@1f/1/Y/1b/","N":"@13/m//@3/ls%2Flsp.aspx/@s/j/@4/@13/0/@13/@13/@1g/@1g"}]]]></D></E></Events><STS>1463148946535</STS></ClientInstRequest>

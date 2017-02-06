@@ -1,0 +1,4 @@
+Open the file with an online Midi Synthesizer (may have to change the extension) 
+to visualize the notes
+
+Flag: tfjctf{M1diF1L3S}

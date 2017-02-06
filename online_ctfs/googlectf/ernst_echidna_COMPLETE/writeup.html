@@ -1,0 +1,68 @@
+<h1 id="google-ctf-2016-ernst-echidna">Google CTF 2016 :: Ernst Echidna</h1>
+<blockquote>
+<p>Can you hack this website? The robots.txt sure looks interesting.</p>
+</blockquote>
+<hr />
+<p><strong><em>John Hammond | April 29th, 2016</em></strong></p>
+<p>As it says in the challenge prompt, the best place to start here is in the website's <code>robots.txt</code>.</p>
+<pre><code>Disallow: /admin </code></pre>
+<p>It notes that any search engine cannot access the <code>/admin</code> page. Well that must be an interesting page, then, let's check that out!</p>
+<div class="figure">
+<img src="initial_admin.png" alt="The admin pages tells us we are not logged in!" />
+<p class="caption">The admin pages tells us we are not logged in!</p>
+</div>
+<pre><code>You are not logged in!</code></pre>
+<p>Welp, it yells at us because we aren't logged in. Okay then, can we log in?</p>
+<div class="figure">
+<img src="webpage.png" alt="The webpage" />
+<p class="caption">The webpage</p>
+</div>
+<p>Back at the original page, it tells us we can register. Let's try that.</p>
+<p>It's a simple username and password form. I just entered the letter <code>a</code> as my username and then <code>b</code> as my password.</p>
+<div class="figure">
+<img src="register.png" alt="Registering..." />
+<p class="caption">Registering...</p>
+</div>
+<p>It seemed to let me in... but will that <code>/admin</code> page? I navigated back to it.</p>
+<div class="figure">
+<img src="restricted.png" alt="It says, &quot;Sorry, this interface is restricted to administrators only&quot;" />
+<p class="caption">It says, &quot;Sorry, this interface is restricted to administrators only&quot;</p>
+</div>
+<pre><code>Sorry, this interface is restricted to administrators only</code></pre>
+<p>Oh, great, we're not able to access it because we're not an admin. That's annoying -- but it makes sense. So now what do we do?</p>
+<p>Well I reached for the low-hanging fruits and tried to check out my cookies. I did this with [Firefox]'s extension called [Cookie Manager+]. I was able to find the cookie that was set from this site, and it was called <code>md5-hash</code>.</p>
+<div class="figure">
+<img src="cookie_manager.png" alt="Cookie Manager+..." />
+<p class="caption">Cookie Manager+...</p>
+</div>
+<p>It looks like the cookie has its value set to <code>0cc175b9c0f1b6a831c399e269772661</code>, supposedly an [MD5] hash. [MD5] is known to be pretty easy to crack, so... can we crack it?</p>
+<p>I tried it with some cheeky online tool, [md5cracker.org][http://md5cracker.org/].</p>
+<div class="figure">
+<img src="md5cracker.png" alt="md5cracker found it be a!" />
+<p class="caption">md5cracker found it be <code>a</code>!</p>
+</div>
+<p>Oh woah! It's just the letter <code>a</code>... what I put my username to be! Is that all it is doing to validate?</p>
+<p>I wonder if we can <em>trick</em> it to think that I am the administrator just by using <code>admin</code> as my username. I tried that with the login... but it really didn't like that.</p>
+<div class="figure">
+<img src="no_admin.png" />
+
+</div>
+<pre><code>&#39;admin&#39; account already taken!</code></pre>
+<p>But wait, can't we just change our cookie value? Let's just [MD5] hash the value <code>admin</code>, and then see if it will let us access that <code>/admin</code> page!</p>
+<p>I did this with the same online tool [md5cracker.org][http://md5cracker.org/] and got the hash: <code>21232f297a57a5a743894a0e4a801fc3</code></p>
+<div class="figure">
+<img src="hash_admin.png" />
+
+</div>
+<p>Now with [Cookie Manager+] we can set that as our cookie.</p>
+<div class="figure">
+<img src="cookie_edit.png" />
+
+</div>
+<p>Sweet. Now, can we access that <code>/admin</code> page...?</p>
+<div class="figure">
+<img src="flag.png" />
+
+</div>
+<p>Heck yeah we can! Looks like we got our flag!</p>
+<p><strong>The flag is: <code>CTF{renaming-a-bunch-of-levels-sure-is-annoying}</code></strong></p>

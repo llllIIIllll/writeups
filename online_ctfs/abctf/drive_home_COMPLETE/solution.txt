@@ -1,0 +1,12 @@
+This link 
+
+   document/1_TxYCrk5vIMlUjiB1OioXmR7b-Uq_a9aPIh9JyYlPNs/edit?usp=sharing
+
+refers to a Google Docs file. It is the same URL formatting that all Google Documents
+use. So, enter it as a Google Doc URL:
+
+	https://docs.google.com/document/d/1_TxYCrk5vIMlUjiB1OioXmR7b-Uq_a9aPIh9JyYlPNs/edit
+
+You'll find the flag:
+
+	abctf{g00gle_driv3_1s_my_f4v0r1t3}

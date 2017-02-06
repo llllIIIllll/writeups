@@ -1,0 +1,10 @@
+Took some serious hunting in the packets through Wireshark. I filtered through the NBD protocol, and after some perusing through the data I found something interesting in packet #76. I could this weird string in the middle of the data... and it looked like base64: 
+
+
+>>> import base64 as b
+>>> b.b64decode('Q1RGe2JldHRlcmZzLnRoYW4ueW91cnN9')
+'CTF{betterfs.than.yours}'
+>>> 
+
+
+CTF{betterfs.than.yours}

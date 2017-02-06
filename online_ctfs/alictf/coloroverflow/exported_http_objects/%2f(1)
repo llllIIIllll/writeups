@@ -1,0 +1,434 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ALICTF 2015 </title>
+    <link rel="stylesheet" type="text/css" href="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/css/main.css?t=1461834792144" />
+    <link rel="stylesheet" type="text/css" href="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/css/vertical.news.slider.css?t=1461834792144" />
+    <script type="text/javascript" src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/js/jquery.1.7.2.min.js?t=1461834792144"></script>
+    <script type="text/javascript" src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/js/jquery.easing.min.js?t=1461834792144"></script>
+    <script type="text/javascript" src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/js/jquery.cxscroll.min.js?t=1461834792144"></script>
+   <!-- <script type="text/javascript" src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/js/vertical.news.slider.js?t=1461834792144"></script>-->
+    <script type="text/javascript" src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/js/tab.min.js?t=1461834792144"></script>
+    <script type="text/javascript" src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/js/content/index.js?t=1461834792144"></script>
+    <script> var vm_page_year = "/2015";</script>
+    <!--<script type="text/javascript">
+        var vm_page_year = "/2015";
+        $(function(){
+
+            navpos();
+            var home_top = $("#home").offset().top;
+            var news_top = $("#news").offset().top;
+            var competition_top = $("#competition").offset().top;
+            var about_top = $("#about").offset().top;
+            //alert(tops);
+            $(window).scroll(function(){
+                var scroH = $(this).scrollTop()+61;
+                if(scroH>=about_top){
+                    //set_cur(".about");
+                    $('.fixedmenu li').eq(3).addClass('current').siblings().removeClass('current');
+                }else if(scroH>=competition_top){
+                   // set_cur(".competition");
+                    $('.fixedmenu li').eq(2).addClass('current').siblings().removeClass('current');
+                }else if(scroH>=news_top){
+                  //  set_cur(".news");
+                    $('.fixedmenu li').eq(1).addClass('current').siblings().removeClass('current');
+                }else if(scroH>=home_top){
+                    //set_cur(".home");
+                    $('.fixedmenu li').eq(0).addClass('current').siblings().removeClass('current');
+                }
+            });
+
+            $(".nav li").click(function() {
+                var el = $(this).attr('class');
+                $('html, body').animate({
+                    scrollTop: $("#"+el).offset().top-61
+                },{
+                    easing: 'easeOutSine',
+                    duration: 300,
+                    complete:function(){
+                    }
+                });
+            });
+        });
+        $(window).resize(function(){
+            navpos();
+        });
+        function navpos(){
+//	var page_w = $(document).width();
+            var offset = $("#main").offset().left;
+            //var main_w = $("#main").outerWidth();
+            //var right = page_w-offset-main_w-50;
+            //alert(right);
+//	if(right>10){
+//		$(".nav").css('right',right-10);
+//	}else{
+//		$(".nav").css('right',10);
+//	}
+            var page_h = $(window).height()-61;
+            $("#home").css('height',page_h);
+            $("#news").css('height',page_h);
+            $("#competition").css('height',page_h);
+            $("#about").css('height',page_h);
+            $(".home_bg").css('height',page_h);
+            $(".home_bg").css({marginTop:-page_h});
+        }
+        function set_cur(n){
+//            if($(".nav li").hasClass("cur")){
+//                $(".nav li").removeClass("cur");
+//            }
+//            $(".nav li"+n).addClass("cur");
+        }
+    </script>-->
+    <script type="text/javascript" src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/js/tab.min.js?t=1461834792144"></script>
+</head>
+<body>
+<div class="mengban"></div>
+<div class="main_wrap">
+<div id="header">
+    <div class="topbar">
+        <a href="/index.htm"><h1 class="logo"></h1></a>
+
+                    <ul class="nav" style="right: 235px;">
+                <li class="home" id="home"><a href="/index.htm">Home</a></li>
+                <li class="Rule" id="Rule"><a href="/introduction.htm">Rule</a></li>
+                <li class="Team" id="Team"><a href="/2015/teamFinals.htm">Team</a></li>
+                <li class="Rank" id="Rank"><a href="/2015/scoreRankFinals.htm">Rank</a></li>
+                <li class="Story" id="Story"><a href="/story.htm">Story</a></li>
+                <li class="header_line"></li>
+                <li class="Scoreboard" id="Scoreboard"><a href="/2015/scoreBoardFinals.htm">Scoreboard</a></li>
+                <li class="Trend" id="Trend"><a href="/2015/scoreReportFinals.htm">Trend</a></li>
+            </ul>
+            <div class="safe_link safe_link2">
+                <!--<a href="http://security.alibaba.com" target="_blank">阿里巴巴安全应急响应中心</a>-->
+                <div class="header_login"></div>
+                <div class="header_longin_text"><a href="/2015/login.htm">Login</a></div>
+            </div>
+            </div>
+</div><div id="main">
+    <ul class="fixedmenu" style="display: none">
+        <li class="fixedmenu_home"><i class="homeico"></i>Home</li>
+        <li class="fixedmenu_news"><i></i>News</li>
+        <li class="fixedmenu_competition"><i></i>Competition</li>
+        <li class="fixedmenu_about"><i></i>Ali Geeks</li>
+    </ul>
+    <div id="home2" class="box">
+        <div class="home_bt1">
+            <!--<a href="/2015/finalsStoryPage.htm?userToken=">-->
+            <a href="/2015/personalCenter.htm?userToken=">
+                <img src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/images/home_bt1.png"/>
+            </a>
+        </div>
+        <div class="home_bt2"><a href="/story.htm"><img src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/images/home_bt2.png"/></a></div>
+    </div>
+    <div id="news" class="box">
+        <div class="news_text"><p><span style="font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 14px;">ALICTF2015 资格赛名次 <span style="font-size: 14px; color: rgb(0, 176, 240);">已公布</span>。<span style="font-size: 14px;">&nbsp;</span></span></span></p><p><span style="font-size: 14px;"><br/></span></p><p><span style="font-size: 14px;">&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 14px; color: rgb(255, 192, 0);">最新公告：</span><span style="font-size: 14px;">资格赛最终名次请访问 <span style="font-size: 14px; color: rgb(0, 176, 240);">Rule页面</span>，</span></span></p><p><span style="font-size: 14px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;请点击<span style="font-size: 14px; color: rgb(0, 176, 240);">【资格赛名次】</span>侧导航。</span></p><p><span style="font-size: 14px; color: rgb(255, 192, 0);">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span style="font-size: 14px; color: rgb(0, 176, 240);">TOP30</span><span style="font-size: 14px;"> 队伍的writeup下载地址<span style="font-size: 12pt; widows: auto; font-family: &#39;Heiti SC&#39;;">（</span><a href="http://monster.alictf.com/writeup/ALICTF2015_Top30_Writeup.zip" target="_blank" style="white-space: normal;"><span style="text-decoration: none; color: rgb(0, 176, 240); font-size: 12pt; widows: auto; font-family: &#39;Heiti SC&#39;;">点击下载</span></a><span style="font-size: 12pt; widows: auto; font-family: &#39;Heiti SC&#39;;">）</span>。</span></p><p><span style="font-size: 14px; color: rgb(255, 192, 0);"><br/></span></p><p><span style="font-size: 14px; color: rgb(255, 192, 0);"><br/></span></p><p><span style="font-size: 14px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 总决赛的时候，我会对你们温柔。 =_,=&nbsp;</span></p></div>
+    </div>
+    <div id="competition" class="box">
+        <div class="competition_box clearfix">
+            <div class="box_cont box_cont2">
+                <div class="part history">
+                    <div class="partcont">
+                        <dl>
+                            <dt>线上资格赛 3.27-3.29</dt>
+                            <dd>千元云智能大礼包</dd>
+                            <dd>校招直通面试</dd>
+                        </dl>
+                        <dl>
+                            <dt>线下总决赛 4.11-4.12</dt>
+                            <dd>数万元现金奖励</dd>
+                            <dd>拉斯维加斯BlackHat之旅</dd>
+                        </dl>
+                        <dl class="end">
+                            <dt>获奖名单公布 4.20</dt>
+                            <dd>资格赛13~30名</dd>
+                            <dd>总决赛1~12名</dd>
+                        </dl>
+                    </div>
+                    <div class="partbottom szsm"></div>
+                </div>
+                <div class="part topteam ">
+                    <div class="partcont">
+                        <div class="teampic">
+                            <p>
+                                                                    <img src='http://alictfx.oss-cn-hangzhou.aliyuncs.com/teamIco/2015/04/03/20150403150709632963.png' width="140" height="140">
+                                                            </p>
+                            <span class="team_name" title='神秘汪'>
+								                            		神秘汪
+                            	                            </span>
+                        </div>
+
+                         <div class="team_user_pic clearfix">
+                            <div class="leader f_l">
+                                <p class="teamclass">Leader</p>
+                            </div>
+                            <div class="member f_r" style="margin-right:59px">
+                                <p class="teamclass">Member</p>
+                                <ul>
+                                </ul>
+                            </div>
+                        </div>
+
+                                                <div class="team_user_pic clearfix">
+                            <div class="leader f_l">
+                                <p class="teamclass">
+                                                                            <img src='http://alictfx.oss-cn-hangzhou.aliyuncs.com/userIco/2015/02/12/20150212230002133442.png' width="34" height="34">
+                                                                    </p>
+                            </div>
+                            <div class="member f_r" style="margin-right:4px">
+                                <p class="teamclass">
+                                                                            <img src="http://alictfx.oss-cn-hangzhou.aliyuncs.com/userIco/2015/02/12/20150212231029882319.jpg" width="34" height="34" style="margin-right: 23px;">
+                                    
+                                                                            <img src='http://alictfx.oss-cn-hangzhou.aliyuncs.com/userIco/2015/02/12/20150212232441916672.png' width="34" height="34" style="margin-right: 8px;">
+                                                                    </p>
+                                <ul>
+                                </ul>
+                            </div>
+                        </div>
+                         <div class="team_user_pic clearfix">
+                            <div class="leader f_l">
+                                <p class="teamclass" style="float: left; width: 48px;" title="eee">eee</p>
+                            </div>
+                            <div class="member f_r" style="margin-right:4px">
+                                <p class="teamclass" style="float: left; width: 48px;" title="天然萌小狗喵">天然萌小狗喵</p>
+                                <p class="teamclass" style="float: left;margin-left: 15px; width: 48px;" title="skye">skye</p>
+                                <ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partbottom csdw"></div>
+                </div>
+                <div class="part firstclass">
+                    <div class="partcont" style="margin-top: 10px;margin-bottom: 26px">
+                        <table width="100%" border="0" cellspacing="0" class="rank_table_list">
+                            <thead>
+                            <tr>
+                                <td width="38">Rank</td>
+                                <td width="31">&nbsp;</td>
+                                <td width="96">队伍名称</td>
+                                <td width="41">积分</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                                                                        <tr>
+                                    <td>
+                                                                                    <span class="topnum num">1</span>
+                                                                            </td>
+                                    <td>
+                                                                                    <img src='http://alictfx.oss-cn-hangzhou.aliyuncs.com/teamIco/2015/04/03/20150403150709632963.png' width="22" height="18" alt="">
+                                                                            </td>
+                                    <td class="tdWidth" title="神秘汪">神秘汪</td>
+                                    <td>2760</td>
+                                </tr>
+                                                                                            <tr>
+                                    <td>
+                                                                                    <span class="topnum num">2</span>
+                                                                            </td>
+                                    <td>
+                                                                                    <img src='http://alictfx.oss-cn-hangzhou.aliyuncs.com/teamIco/2015/02/17/20150217233437997426.png' width="22" height="18" alt="">
+                                                                            </td>
+                                    <td class="tdWidth" title="wargame">wargame</td>
+                                    <td>2320</td>
+                                </tr>
+                                                                                            <tr>
+                                    <td>
+                                                                                    <span class="topnum num">3</span>
+                                                                            </td>
+                                    <td>
+                                                                                    <img src='http://alictfx.oss-cn-hangzhou.aliyuncs.com/teamIco/2015/03/27/20150327195101927718.jpg' width="22" height="18" alt="">
+                                                                            </td>
+                                    <td class="tdWidth" title="0ops">0ops</td>
+                                    <td>2080</td>
+                                </tr>
+                                                                                            <tr>
+                                    <td>
+                                                                                    <span class="num">4</span>
+                                                                            </td>
+                                    <td>
+                                                                                    <img src='http://alictfx.oss-cn-hangzhou.aliyuncs.com/teamIco/2015/02/16/20150216205930793012.jpg' width="22" height="18" alt="">
+                                                                            </td>
+                                    <td class="tdWidth" title="CNSS">CNSS</td>
+                                    <td>2075</td>
+                                </tr>
+                                                                                            <tr>
+                                    <td>
+                                                                                    <span class="num">5</span>
+                                                                            </td>
+                                    <td>
+                                                                                    <img src='http://alictfx.oss-cn-hangzhou.aliyuncs.com/teamIco/2015/03/29/20150329151400763592.png' width="22" height="18" alt="">
+                                                                            </td>
+                                    <td class="tdWidth" title="香米小组">香米小组</td>
+                                    <td>1985</td>
+                                </tr>
+                                                                                            <tr>
+                                    <td>
+                                                                                    <span class="num">6</span>
+                                                                            </td>
+                                    <td>
+                                                                                    <img src='http://alictfx.oss-cn-hangzhou.aliyuncs.com/teamIco/2015/03/18/20150318085450788711.png' width="22" height="18" alt="">
+                                                                            </td>
+                                    <td class="tdWidth" title="VJ">VJ</td>
+                                    <td>1735</td>
+                                </tr>
+                                                                                            <tr>
+                                    <td>
+                                                                                    <span class="num">7</span>
+                                                                            </td>
+                                    <td>
+                                                                                    <img src='http://alictfx.oss-cn-hangzhou.aliyuncs.com/teamIco/2015/02/13/20150213105639584405.png' width="22" height="18" alt="">
+                                                                            </td>
+                                    <td class="tdWidth" title="REDCON">REDCON</td>
+                                    <td>1685</td>
+                                </tr>
+                                                                                            <tr>
+                                    <td>
+                                                                                    <span class="num">8</span>
+                                                                            </td>
+                                    <td>
+                                                                                    <img src='http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/pic/team_default.jpg' width="22" height="18" alt="">
+                                                                            </td>
+                                    <td class="tdWidth" title="0372">0372</td>
+                                    <td>1435</td>
+                                </tr>
+                                                                                            <tr>
+                                    <td>
+                                                                                    <span class="num">9</span>
+                                                                            </td>
+                                    <td>
+                                                                                    <img src='http://alictfx.oss-cn-hangzhou.aliyuncs.com/teamIco/2015/03/23/20150323142211738342.png' width="22" height="18" alt="">
+                                                                            </td>
+                                    <td class="tdWidth" title="Syclover">Syclover</td>
+                                    <td>1420</td>
+                                </tr>
+                                                                                            <tr>
+                                    <td>
+                                                                                    <span class="num">10</span>
+                                                                            </td>
+                                    <td>
+                                                                                    <img src='http://alictfx.oss-cn-hangzhou.aliyuncs.com/teamIco/2015/02/12/20150212234911721504.jpg' width="22" height="18" alt="">
+                                                                            </td>
+                                    <td class="tdWidth" title="神秘代码SSPD084">神秘代码SSPD084</td>
+                                    <td>1410</td>
+                                </tr>
+                                                                                            <tr>
+                                    <td>
+                                                                                    <span class="num">11</span>
+                                                                            </td>
+                                    <td>
+                                                                                    <img src='http://alictfx.oss-cn-hangzhou.aliyuncs.com/teamIco/2015/03/28/20150328122054106899.jpg' width="22" height="18" alt="">
+                                                                            </td>
+                                    <td class="tdWidth" title="肉壳粉丝团">肉壳粉丝团</td>
+                                    <td>1365</td>
+                                </tr>
+                                                                                            <tr>
+                                    <td>
+                                                                                    <span class="num">12</span>
+                                                                            </td>
+                                    <td>
+                                                                                    <img src='http://alictfx.oss-cn-hangzhou.aliyuncs.com/teamIco/2015/03/27/20150327180206942634.jpg' width="22" height="18" alt="">
+                                                                            </td>
+                                    <td class="tdWidth" title="CNSSH2O">CNSSH2O</td>
+                                    <td>1350</td>
+                                </tr>
+                                                                                        </tbody>
+                        </table>
+                    </div>
+                    <div class="partbottom bspm"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="box">
+
+        <div class="about_box">
+            <div class="zoombox">
+
+                <div class="zoompic">
+                    <img src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/pic/player.jpg" width="916" height="454"/>
+                </div>
+
+                <div class="sliderbox">
+                    <div id="btn-left" class="arrow-btn dasabled"></div>
+                    <div class="slider" id="thumbnail">
+                        <ul>
+                            <li class="current"><a href="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/pic/player.jpg" target="_blank"><img
+                                    src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/pic/small_player.jpg" width="177" height="110"/></a></li>
+                            <li><a href="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/pic/review_1.jpg" target="_blank"><img
+                                    src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/pic/review_small_1.jpg" width="177" height="110"/></a></li>
+                            <li><a href="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/pic/review_2.jpg" target="_blank"><img
+                                    src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/pic/review_small_2.jpg" width="177" height="110"/></a></li>
+                            <li><a href="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/pic/review_3.jpg" target="_blank"><img
+                                    src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/pic/review_small_3.jpg" width="177" height="110"/></a></li>
+                            <li><a href="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/pic/review_4.jpg" target="_blank"><img
+                                    src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/pic/review_small_4.jpg" width="177" height="110"/></a></li>
+                            <li><a href="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/pic/review_5.jpg" target="_blank"><img
+                                    src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/pic/review_small_5.jpg" width="177" height="110"/></a></li>
+                            <li><a href="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/pic/review_6.jpg" target="_blank"><img
+                                    src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/pic/review_small_6.jpg" width="177" height="110"/></a></li>
+
+                        </ul>
+                    </div>
+                    <div id="btn-right" class="arrow-btn"></div>
+                </div>
+
+            </div>
+            <!--slider end-->
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#home").addClass("cur").siblings().removeClass("cur");
+    });
+</script>
+
+
+<div id="footer">
+    <div class="bottom clearfix">
+        <div class="contact f_l">
+            <ul>
+
+                <li>官方旺旺群：1478678950</li>
+                <li>官方邮箱：alictf-notice@service.alibaba.com</li>
+                <li>主办单位：阿里巴巴-安全部 &nbsp;&nbsp; 阿里巴巴-技术发展部</li>
+
+            </ul>
+        </div>
+        <div class="f_logo f_l"></div>
+            <div class="f_share f_l">
+            <p style="text-align: right">
+                <a href="http://weibo.com/alisec" style="margin-right: 10px" target="_blank"><img src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/images/share1.png" width="21" height="21"  alt=""/></a>
+                <a href="http://weibo.com/campusali" style="margin-right: 10px" target="_blank"><img src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/images/share1.png" width="21" height="21"  alt=""/></a>
+                <!--<a href="#" style="margin-right: 10px" target="_blank"><img src="http://alictfx-resource.oss-cn-hangzhou.aliyuncs.com/resource/images/share3.png" width="21" height="21"  alt=""/></a>-->
+            </p>
+           <p style="line-height: 13px;text-align: right">
+               <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253163135'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1253163135%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+            </p>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="http://assets.taobaocdn.com/js/tbra/yui/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="http://assets.taobaocdn.com/apps/support/robot/js/ocs_ask.js?t=1423619132839"></script>
+
+
+<script type="text/javascript">
+	MINERVA_POPUP_URL = 'http://service.taobao.com/support/minerva/robot.htm?sourceId=1511093808';
+</script>
+
+</div>
+<script type="text/javascript">
+    /*slide({
+        handle:document.getElementById("tab02"),
+        content:document.getElementById("tab02").getElementsByTagName("ol"),
+        current:"current",
+        mode:"click"
+    });*/
+</script>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>

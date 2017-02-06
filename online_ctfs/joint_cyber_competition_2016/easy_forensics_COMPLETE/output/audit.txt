@@ -1,0 +1,25 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat May 14 11:04:45 2016
+Invocation: foremost cipher0cc543552e9be5b6830ec9479509b9d1.pdf 
+Output directory: /home/john/jcc/easy_forensics/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: cipher0cc543552e9be5b6830ec9479509b9d1.pdf
+Start: Sat May 14 11:04:45 2016
+Length: 27 KB (28241 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000002.jpg 	       5 KB 	       1108 	 
+1:	00000000.pdf 	      27 KB 	          0 	 
+Finish: Sat May 14 11:04:45 2016
+
+2 FILES EXTRACTED
+	
+jpg:= 1
+pdf:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat May 14 11:04:45 2016

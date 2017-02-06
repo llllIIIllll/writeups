@@ -1,0 +1,54 @@
+r [24, 39, 15, 7]
+s [24, 15, 7, 39]
+
+r [9, 2, 32, 21]  SHIFTS LEFT
+s [9, 32, 21, 2]
+
+r [16, 14, 13, 27]  SHIFTS RIGHT
+s [16, 27, 14, 13]
+
+
+r [20, 17, 8, 24]  SHIFTS RIGHT
+s [20, 24, 17, 8]
+
+r [37, 36, 30, 24] DOES NOT SHIFT AT ALL
+s [37, 36, 30, 24]
+
+r [22, 21, 32, 23] SHIFT RIGHT
+s [22, 32, 23, 21]
+
+r [8, 8, 20, 11] SHIFT LEFT
+s [8, 20, 11, 8]
+
+r [12, 4, 4, 18]
+s [12, 18, 4, 4]
+
+r [12, 11, 21, 24]
+s [12, 21, 24, 11]
+
+
+r [12, 19, 38, 26] DOES NOT SHIFT AT ALL
+s [12, 19, 38, 26]
+
+r [27, 20, 23, 35] 
+s [27, 35, 20, 23]
+
+r [8, 2, 3, 39] SHIFT LEFT
+s [8, 39, 2, 3] 
+
+
+claim: 2 >= 3, SHIFT LAST 3 RIGHT
+	   2 < 3, SHIFT LAST 3 LEFT
+
+	   if one number is within the range of another by 7,
+	   IT DOES NOT SHIFT AT ALL
+
+
+===============================================================
+
+
+r [10, 5, 43, 25, 54, 60]
+
+
+
+r [57, 54, 54, 19, 16, 45]

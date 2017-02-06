@@ -1,0 +1,21 @@
+
+Scalpel version 1.60 audit file
+Started at Sun Jul 17 10:08:38 2016
+Command line:
+scalpel ezmonay.jpg 
+
+Output directory: /home/john/abctf/best_ganondorf/scalpel-output
+Configuration file: /etc/scalpel/scalpel.conf
+
+Opening target "/home/john/abctf/best_ganondorf/ezmonay.jpg"
+
+The following files were carved:
+File		  Start			Chop		Length		Extracted From
+ERROR: The configuration file didn't specify any file types to carve.
+(If you're using the default configuration file, you'll have to
+uncomment some of the file types.)
+
+See /etc/scalpel/scalpel.conf.
+
+
+Completed at Sun Jul 17 10:08:38 2016

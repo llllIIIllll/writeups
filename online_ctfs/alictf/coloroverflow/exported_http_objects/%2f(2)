@@ -1,0 +1,10 @@
+
+<frameset rows="100%">
+<frame src="http://www.alictf.com">
+<noframes>
+<body><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=0a930eea14631493890241212e&asid=AQAAAABN4zVXSNO7UAAAAACARfuOaduqjg==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+请点击下面链接: <a href="http://www.alictf.com">link</a></body>
+</noframes>
+</frameset>

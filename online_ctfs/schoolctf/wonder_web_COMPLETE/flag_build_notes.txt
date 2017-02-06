@@ -1,0 +1,6 @@
+part2 = 17
+part3 = w1ll
+part4 = b3
+part5 = 54f3}
+
+SchoolCTF{50m3d4y_17_w1ll_b3_54f3}

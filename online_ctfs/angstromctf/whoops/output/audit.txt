@@ -1,0 +1,41 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Apr 16 08:49:15 2016
+Invocation: foremost oops.img 
+Output directory: /home/john/cyber_team/competitions/angstromctf/whoops/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: oops.img
+Start: Sat Apr 16 08:49:15 2016
+Length: 50 MB (52428800 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00017850.jpg 	       1 KB 	    9139200 	 
+1:	00017886.jpg 	      13 KB 	    9157632 	 
+2:	00017920.jpg 	     322 KB 	    9175040 	 
+3:	00001264.zip 	     528 KB 	     647595 	 
+4:	00017470.zip 	       8 MB 	    8944640 	 
+5:	00017508.png 	      359 B 	    8964096 	  (24 x 24)
+6:	00017510.png 	      366 B 	    8965120 	  (24 x 24)
+7:	00017512.png 	      309 B 	    8966144 	  (24 x 24)
+8:	00017776.png 	      378 B 	    9101312 	  (24 x 24)
+9:	00017778.png 	      352 B 	    9102336 	  (24 x 24)
+10:	00017780.png 	      294 B 	    9103360 	  (24 x 24)
+11:	00017782.png 	      306 B 	    9104384 	  (24 x 24)
+12:	00017952.png 	       9 KB 	    9191424 	  (80 x 80)
+13:	00018276.pdf 	      64 KB 	    9357312 	 
+14:	00026628.pdf 	      50 KB 	   13633536 	 
+15:	00026758.pdf 	     128 KB 	   13700096 	 
+Finish: Sat Apr 16 08:49:15 2016
+
+16 FILES EXTRACTED
+	
+jpg:= 3
+zip:= 2
+png:= 8
+pdf:= 3
+------------------------------------------------------------------
+
+Foremost finished at Sat Apr 16 08:49:15 2016

@@ -1,0 +1,21 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Nov  6 02:42:42 2016
+Invocation: foremost qr_eb3bdc766963045a2afa3d0ce8747c7cf4f291c8.png 
+Output directory: /home/john/rschoolctf/massqr/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: qr_eb3bdc766963045a2afa3d0ce8747c7cf4f291c8.png
+Start: Sun Nov  6 02:42:42 2016
+Length: 92 KB (94762 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+Finish: Sun Nov  6 02:42:42 2016
+
+0 FILES EXTRACTED
+	
+------------------------------------------------------------------
+
+Foremost finished at Sun Nov  6 02:42:42 2016

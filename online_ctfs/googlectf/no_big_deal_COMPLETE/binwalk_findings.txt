@@ -1,0 +1,2 @@
+31043696      0x1D9B070       MySQL ISAM index file Version 7
+

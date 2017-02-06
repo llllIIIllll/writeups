@@ -1,0 +1,25 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Feb 21 22:03:27 2016
+Invocation: foremost song.mp3 
+Output directory: /home/john/pragyan/miscellaneous/symphony/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: song.mp3
+Start: Sun Feb 21 22:03:27 2016
+Length: 829 KB (849118 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	       2 KB 	        382 	 
+1:	00001657.zip 	      227 B 	     848892 	 
+Finish: Sun Feb 21 22:03:27 2016
+
+2 FILES EXTRACTED
+	
+jpg:= 1
+zip:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sun Feb 21 22:03:27 2016

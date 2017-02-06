@@ -1,0 +1,4 @@
+Some of the spaces are not real spaces, as seen by Sublime Text
+Make those 0s
+make the real spaces 1s
+bin to text

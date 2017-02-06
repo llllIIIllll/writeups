@@ -1,0 +1,3 @@
+http://www.megabeets.net/twctf-2016-web-global-page/
+TWCTF{I_found_simple_LFI}
+

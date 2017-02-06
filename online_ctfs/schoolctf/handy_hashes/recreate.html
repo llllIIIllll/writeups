@@ -1,0 +1,34 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<script type="text/javascript">
+			
+            var pasword = "mine"
+            var url = "http://hashes.task.school-ctf.org/api/password" + '?name=' + 'admin' + "&hash=sha1&salt=pepper";
+
+            xmlhttp = new XMLHttpRequest();
+            xmlhttp.open('PASSWD', url);
+
+            xmlhttp.onreadystatechange=function(event) {
+                if (event.target.readyState == 4) if (event.target.status == 200) {
+                    var ans = JSON.parse(event.target.responseText);
+                    if (ans.hasOwnProperty('Error')) {
+                        alertMsg.text(ans['Error']);
+                    } else {
+                        if (Sha1.hash('pepper' + pasword) == ans['Hash']) {
+                            alert('Welcome back, hero!');
+                        } else {
+                            alert('Wrong password!');
+                        }
+                    }
+                } else {
+                    alert("Unknown error happened!");
+                }
+            }
+            xmlhttp.send();
+        };
+		</script>
+
+	</body>
+</html>

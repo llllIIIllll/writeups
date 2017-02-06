@@ -1,0 +1,24 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Apr 16 21:16:15 2016
+Invocation: foremost carter.jpg 
+Output directory: /home/john/cyber_team/competitions/sctf/banana_boy/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: carter.jpg
+Start: Sat Apr 16 21:16:15 2016
+Length: 189 KB (194188 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	     136 KB 	          0 	 
+1:	00000273.jpg 	      52 KB 	     140147 	 
+Finish: Sat Apr 16 21:16:15 2016
+
+2 FILES EXTRACTED
+	
+jpg:= 2
+------------------------------------------------------------------
+
+Foremost finished at Sat Apr 16 21:16:15 2016

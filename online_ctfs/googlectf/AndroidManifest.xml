@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.hellojni" platformBuildVersionCode="22" platformBuildVersionName="5.1.1-1819727">
+    <uses-sdk android:minSdkVersion="22" android:targetSdkVersion="23" />
+    <permission android:name="ctf.permission._MSG" android:protectionLevel="signature|signatureOrSystem" android:description="@string/android_permission__msg" />
+    <permission android:name="ctf.permission._SEND" android:description="@string/android_permission__msg" />
+    <application android:label="CTF Application" android:icon="@mipmap/ic_launcher">
+        <activity android:label="Main Activity" android:name="com.example.application.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Activity: Is This The Real One" android:name="com.example.application.IsThisTheRealOne" />
+        <activity android:label="This Is The Real One" android:name="com.example.application.ThisIsTheRealOne" />
+        <activity android:label="Definitely Not This One" android:name="com.example.application.DefinitelyNotThisOne" />
+        <receiver android:name="com.example.application.Send_to_Activity" android:exported="true" />
+    </application>
+</manifest>

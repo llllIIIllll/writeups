@@ -1,0 +1,7 @@
+
+Web of Science
+
+By the name of this service, it is the early version of the well-known scientific search engine. Curiously, it's still working.
+
+nc webofscience.2016.volgactf.ru 45678
+

@@ -1,0 +1,8 @@
+get webpage, watch all network traffic with Firebug
+notice that flag2.jpg is being sent as a text/css
+grab its curl command and run it
+the hint at the bottom tells you it should be a plain text thing
+try changing the accept header to text/plain
+
+
+curl 'http://sandersfanclub.pwn.democrat/flag2.jpg' -H 'Accept: text/plain,*/*;q=0.1' -H 'Accept-Encoding: gzip, deflate' -H 'Accept-Language: en-US,en;q=0.5' -H 'Connection: keep-alive' -H 'Host: sandersfanclub.pwn.democrat' -H 'Referer: http://sandersfanclub.pwn.democrat/' -H 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0"

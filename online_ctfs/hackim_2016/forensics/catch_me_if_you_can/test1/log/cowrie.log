@@ -1,0 +1,1323 @@
+2015-10-03 01:15:59-0700 [-] Log opened.
+2015-10-03 01:15:59-0700 [-] twistd 13.2.0 (/usr/bin/python 2.7.6) starting up.
+2015-10-03 01:15:59-0700 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-10-03 01:15:59-0700 [-] HoneyPotSSHFactory starting on 2222
+2015-10-03 01:15:59-0700 [-] Starting factory <cowrie.core.ssh.HoneyPotSSHFactory instance at 0xb69a4a6c>
+2015-10-03 01:15:59-0700 [-] Generating new RSA keypair...
+2015-10-03 01:15:59-0700 [-] Generating new DSA keypair...
+2015-10-03 01:16:00-0700 [-] Loading output engine: jsonlog
+2015-10-03 01:17:35-0700 [-] Received SIGTERM, shutting down.
+2015-10-03 01:17:35-0700 [-] (TCP Port 2222 Closed)
+2015-10-03 01:17:35-0700 [-] Stopping factory <cowrie.core.ssh.HoneyPotSSHFactory instance at 0xb69a4a6c>
+2015-10-03 01:17:35-0700 [-] Main loop terminated.
+2015-10-03 01:17:35-0700 [-] Server Shut Down.
+2015-10-03 08:31:08-0700 [-] Log opened.
+2015-10-03 08:31:08-0700 [-] twistd 13.2.0 (/usr/bin/python 2.7.6) starting up.
+2015-10-03 08:31:08-0700 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-10-03 08:31:08-0700 [-] HoneyPotSSHFactory starting on 2222
+2015-10-03 08:31:08-0700 [-] Starting factory <cowrie.core.ssh.HoneyPotSSHFactory instance at 0xb68e778c>
+2015-10-03 08:31:08-0700 [-] Loading output engine: jsonlog
+2015-10-03 08:37:25-0700 [-] Received SIGTERM, shutting down.
+2015-10-03 08:37:25-0700 [-] (TCP Port 2222 Closed)
+2015-10-03 08:37:25-0700 [-] Stopping factory <cowrie.core.ssh.HoneyPotSSHFactory instance at 0xb68e778c>
+2015-10-03 08:37:25-0700 [-] Main loop terminated.
+2015-10-03 08:37:25-0700 [-] Server Shut Down.
+2015-10-03 08:37:48-0700 [-] Log opened.
+2015-10-03 08:37:48-0700 [-] twistd 13.2.0 (/usr/bin/python 2.7.6) starting up.
+2015-10-03 08:37:48-0700 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-10-03 08:37:48-0700 [-] HoneyPotSSHFactory starting on 22
+2015-10-03 08:37:48-0700 [-] Starting factory <cowrie.core.ssh.HoneyPotSSHFactory instance at 0xb690a7ec>
+2015-10-03 08:37:48-0700 [-] Loading output engine: jsonlog
+2015-10-03 08:38:28-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33332 (192.168.1.100:22) [session: 0]
+2015-10-03 08:38:28-0700 [HoneyPotTransport,0,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,0,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,0,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,0,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,0,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,0,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,0,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:38:28-0700 [HoneyPotTransport,0,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:38:28-0700 [HoneyPotTransport,0,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,0,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,0,192.168.1.104] NEW KEYS
+2015-10-03 08:38:28-0700 [HoneyPotTransport,0,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:38:28-0700 [SSHService ssh-userauth on HoneyPotTransport,0,192.168.1.104] root trying auth none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,0,192.168.1.104] Got remote error, code 11
+	reason: Bye Bye
+2015-10-03 08:38:28-0700 [HoneyPotTransport,0,192.168.1.104] connection lost
+2015-10-03 08:38:28-0700 [HoneyPotTransport,0,192.168.1.104] Connection lost
+2015-10-03 08:38:28-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33333 (192.168.1.100:22) [session: 1]
+2015-10-03 08:38:28-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33334 (192.168.1.100:22) [session: 2]
+2015-10-03 08:38:28-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33335 (192.168.1.100:22) [session: 3]
+2015-10-03 08:38:28-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33336 (192.168.1.100:22) [session: 4]
+2015-10-03 08:38:28-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33337 (192.168.1.100:22) [session: 5]
+2015-10-03 08:38:28-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33338 (192.168.1.100:22) [session: 6]
+2015-10-03 08:38:28-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33339 (192.168.1.100:22) [session: 7]
+2015-10-03 08:38:28-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33340 (192.168.1.100:22) [session: 8]
+2015-10-03 08:38:28-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33341 (192.168.1.100:22) [session: 9]
+2015-10-03 08:38:28-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33342 (192.168.1.100:22) [session: 10]
+2015-10-03 08:38:28-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33343 (192.168.1.100:22) [session: 11]
+2015-10-03 08:38:28-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33344 (192.168.1.100:22) [session: 12]
+2015-10-03 08:38:28-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33345 (192.168.1.100:22) [session: 13]
+2015-10-03 08:38:28-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33346 (192.168.1.100:22) [session: 14]
+2015-10-03 08:38:28-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33347 (192.168.1.100:22) [session: 15]
+2015-10-03 08:38:28-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33348 (192.168.1.100:22) [session: 16]
+2015-10-03 08:38:28-0700 [HoneyPotTransport,12,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,12,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,12,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,12,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,12,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,12,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,12,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:38:28-0700 [HoneyPotTransport,12,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:38:28-0700 [HoneyPotTransport,12,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,12,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,2,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,2,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,2,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,2,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,2,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,2,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,2,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:38:28-0700 [HoneyPotTransport,2,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:38:28-0700 [HoneyPotTransport,2,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,2,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,3,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,3,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,3,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,3,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,3,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,3,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,3,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:38:28-0700 [HoneyPotTransport,3,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:38:28-0700 [HoneyPotTransport,3,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,3,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,5,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,5,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,5,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,5,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,5,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,5,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,5,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:38:28-0700 [HoneyPotTransport,5,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:38:28-0700 [HoneyPotTransport,5,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,5,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,6,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,6,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,6,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,6,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,6,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,6,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,6,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:38:28-0700 [HoneyPotTransport,6,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:38:28-0700 [HoneyPotTransport,6,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,6,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,7,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,7,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,7,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,7,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,7,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,7,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,7,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:38:28-0700 [HoneyPotTransport,7,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:38:28-0700 [HoneyPotTransport,7,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,7,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,8,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,8,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,8,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,8,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,8,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,8,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,8,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:38:28-0700 [HoneyPotTransport,8,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:38:28-0700 [HoneyPotTransport,8,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,8,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,9,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,9,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,9,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,9,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,9,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,9,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,9,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:38:28-0700 [HoneyPotTransport,9,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:38:28-0700 [HoneyPotTransport,9,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,9,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,10,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,10,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,10,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,10,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,10,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,10,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,10,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:38:28-0700 [HoneyPotTransport,10,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:38:28-0700 [HoneyPotTransport,10,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,10,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,11,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,11,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,11,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,11,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,11,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,11,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,11,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:38:28-0700 [HoneyPotTransport,11,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:38:28-0700 [HoneyPotTransport,11,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,11,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,13,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,13,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,13,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,13,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,13,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,13,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,13,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:38:28-0700 [HoneyPotTransport,13,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:38:28-0700 [HoneyPotTransport,13,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,13,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,14,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,14,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,14,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,14,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,14,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,14,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,14,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:38:28-0700 [HoneyPotTransport,14,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:38:28-0700 [HoneyPotTransport,14,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,14,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,1,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,1,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,1,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,1,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,1,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,1,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,1,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:38:28-0700 [HoneyPotTransport,1,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:38:28-0700 [HoneyPotTransport,1,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,1,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,15,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,15,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,15,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,15,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,15,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,15,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:38:28-0700 [HoneyPotTransport,15,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:38:28-0700 [HoneyPotTransport,15,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:38:28-0700 [HoneyPotTransport,15,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:28-0700 [HoneyPotTransport,15,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:29-0700 [HoneyPotTransport,16,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:38:29-0700 [HoneyPotTransport,16,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:38:29-0700 [HoneyPotTransport,16,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:38:29-0700 [HoneyPotTransport,16,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:38:29-0700 [HoneyPotTransport,16,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:38:29-0700 [HoneyPotTransport,16,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:38:29-0700 [HoneyPotTransport,16,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:38:29-0700 [HoneyPotTransport,16,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:38:29-0700 [HoneyPotTransport,16,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:29-0700 [HoneyPotTransport,16,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:29-0700 [HoneyPotTransport,4,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:38:29-0700 [HoneyPotTransport,4,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:38:29-0700 [HoneyPotTransport,4,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:38:29-0700 [HoneyPotTransport,4,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:38:29-0700 [HoneyPotTransport,4,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:38:29-0700 [HoneyPotTransport,4,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:38:29-0700 [HoneyPotTransport,4,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:38:29-0700 [HoneyPotTransport,4,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:38:29-0700 [HoneyPotTransport,4,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:29-0700 [HoneyPotTransport,4,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:38:29-0700 [HoneyPotTransport,11,192.168.1.104] NEW KEYS
+2015-10-03 08:38:29-0700 [HoneyPotTransport,11,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:38:29-0700 [HoneyPotTransport,13,192.168.1.104] NEW KEYS
+2015-10-03 08:38:29-0700 [HoneyPotTransport,13,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:38:29-0700 [HoneyPotTransport,14,192.168.1.104] NEW KEYS
+2015-10-03 08:38:29-0700 [HoneyPotTransport,14,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:38:29-0700 [HoneyPotTransport,1,192.168.1.104] NEW KEYS
+2015-10-03 08:38:29-0700 [HoneyPotTransport,1,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:38:29-0700 [HoneyPotTransport,15,192.168.1.104] NEW KEYS
+2015-10-03 08:38:29-0700 [HoneyPotTransport,15,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:38:29-0700 [HoneyPotTransport,16,192.168.1.104] NEW KEYS
+2015-10-03 08:38:29-0700 [HoneyPotTransport,16,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:38:29-0700 [HoneyPotTransport,4,192.168.1.104] NEW KEYS
+2015-10-03 08:38:29-0700 [HoneyPotTransport,4,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:38:29-0700 [HoneyPotTransport,8,192.168.1.104] NEW KEYS
+2015-10-03 08:38:29-0700 [HoneyPotTransport,8,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:38:29-0700 [HoneyPotTransport,9,192.168.1.104] NEW KEYS
+2015-10-03 08:38:29-0700 [HoneyPotTransport,9,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:38:29-0700 [HoneyPotTransport,10,192.168.1.104] NEW KEYS
+2015-10-03 08:38:29-0700 [HoneyPotTransport,10,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:38:29-0700 [HoneyPotTransport,12,192.168.1.104] NEW KEYS
+2015-10-03 08:38:29-0700 [HoneyPotTransport,12,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:38:29-0700 [HoneyPotTransport,2,192.168.1.104] NEW KEYS
+2015-10-03 08:38:29-0700 [HoneyPotTransport,2,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:38:29-0700 [HoneyPotTransport,3,192.168.1.104] NEW KEYS
+2015-10-03 08:38:29-0700 [HoneyPotTransport,3,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:38:29-0700 [SSHService ssh-userauth on HoneyPotTransport,8,192.168.1.104] root trying auth none
+2015-10-03 08:38:29-0700 [SSHService ssh-userauth on HoneyPotTransport,9,192.168.1.104] root trying auth none
+2015-10-03 08:38:29-0700 [SSHService ssh-userauth on HoneyPotTransport,10,192.168.1.104] root trying auth none
+2015-10-03 08:38:29-0700 [HoneyPotTransport,5,192.168.1.104] NEW KEYS
+2015-10-03 08:38:29-0700 [HoneyPotTransport,5,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:38:29-0700 [HoneyPotTransport,6,192.168.1.104] NEW KEYS
+2015-10-03 08:38:29-0700 [HoneyPotTransport,6,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:38:29-0700 [HoneyPotTransport,7,192.168.1.104] NEW KEYS
+2015-10-03 08:38:29-0700 [HoneyPotTransport,7,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:38:29-0700 [SSHService ssh-userauth on HoneyPotTransport,13,192.168.1.104] root trying auth none
+2015-10-03 08:38:29-0700 [SSHService ssh-userauth on HoneyPotTransport,14,192.168.1.104] root trying auth none
+2015-10-03 08:38:29-0700 [SSHService ssh-userauth on HoneyPotTransport,1,192.168.1.104] root trying auth none
+2015-10-03 08:38:29-0700 [SSHService ssh-userauth on HoneyPotTransport,16,192.168.1.104] root trying auth none
+2015-10-03 08:38:29-0700 [SSHService ssh-userauth on HoneyPotTransport,4,192.168.1.104] root trying auth none
+2015-10-03 08:38:29-0700 [SSHService ssh-userauth on HoneyPotTransport,11,192.168.1.104] root trying auth none
+2015-10-03 08:38:29-0700 [SSHService ssh-userauth on HoneyPotTransport,15,192.168.1.104] root trying auth none
+2015-10-03 08:38:29-0700 [SSHService ssh-userauth on HoneyPotTransport,12,192.168.1.104] root trying auth none
+2015-10-03 08:38:29-0700 [SSHService ssh-userauth on HoneyPotTransport,2,192.168.1.104] root trying auth none
+2015-10-03 08:38:29-0700 [SSHService ssh-userauth on HoneyPotTransport,3,192.168.1.104] root trying auth none
+2015-10-03 08:38:29-0700 [SSHService ssh-userauth on HoneyPotTransport,8,192.168.1.104] root trying auth password
+2015-10-03 08:38:29-0700 [SSHService ssh-userauth on HoneyPotTransport,8,192.168.1.104] login attempt [root/pussy] succeeded
+2015-10-03 08:38:29-0700 [SSHService ssh-userauth on HoneyPotTransport,8,192.168.1.104] root authenticated with password
+2015-10-03 08:38:29-0700 [SSHService ssh-userauth on HoneyPotTransport,8,192.168.1.104] starting service ssh-connection
+2015-10-03 08:38:29-0700 [SSHService ssh-userauth on HoneyPotTransport,9,192.168.1.104] root trying auth password
+2015-10-03 08:38:29-0700 [SSHService ssh-userauth on HoneyPotTransport,9,192.168.1.104] login attempt [root/baseball] succeeded
+2015-10-03 08:38:30-0700 [SSHService ssh-userauth on HoneyPotTransport,9,192.168.1.104] root authenticated with password
+2015-10-03 08:38:30-0700 [SSHService ssh-userauth on HoneyPotTransport,9,192.168.1.104] starting service ssh-connection
+2015-10-03 08:38:30-0700 [SSHService ssh-userauth on HoneyPotTransport,10,192.168.1.104] root trying auth password
+2015-10-03 08:38:30-0700 [SSHService ssh-userauth on HoneyPotTransport,10,192.168.1.104] login attempt [root/football] succeeded
+2015-10-03 08:38:35-0700 [SSHService ssh-userauth on HoneyPotTransport,10,192.168.1.104] root authenticated with password
+2015-10-03 08:38:35-0700 [SSHService ssh-userauth on HoneyPotTransport,10,192.168.1.104] starting service ssh-connection
+2015-10-03 08:38:35-0700 [SSHService ssh-userauth on HoneyPotTransport,5,192.168.1.104] root trying auth none
+2015-10-03 08:38:35-0700 [SSHService ssh-userauth on HoneyPotTransport,7,192.168.1.104] root trying auth none
+2015-10-03 08:38:35-0700 [SSHService ssh-userauth on HoneyPotTransport,12,192.168.1.104] root trying auth password
+2015-10-03 08:38:35-0700 [SSHService ssh-userauth on HoneyPotTransport,12,192.168.1.104] login attempt [root/monkey] succeeded
+2015-10-03 08:38:35-0700 [SSHService ssh-userauth on HoneyPotTransport,12,192.168.1.104] root authenticated with password
+2015-10-03 08:38:35-0700 [SSHService ssh-userauth on HoneyPotTransport,12,192.168.1.104] starting service ssh-connection
+2015-10-03 08:38:35-0700 [SSHService ssh-userauth on HoneyPotTransport,2,192.168.1.104] root trying auth password
+2015-10-03 08:38:35-0700 [SSHService ssh-userauth on HoneyPotTransport,2,192.168.1.104] login attempt [root/123456] failed
+2015-10-03 08:38:35-0700 [SSHService ssh-userauth on HoneyPotTransport,13,192.168.1.104] root trying auth password
+2015-10-03 08:38:35-0700 [SSHService ssh-userauth on HoneyPotTransport,13,192.168.1.104] login attempt [root/696969] succeeded
+2015-10-03 08:38:36-0700 [SSHService ssh-userauth on HoneyPotTransport,13,192.168.1.104] root authenticated with password
+2015-10-03 08:38:36-0700 [SSHService ssh-userauth on HoneyPotTransport,13,192.168.1.104] starting service ssh-connection
+2015-10-03 08:38:36-0700 [SSHService ssh-userauth on HoneyPotTransport,6,192.168.1.104] root trying auth none
+2015-10-03 08:38:36-0700 [SSHService ssh-userauth on HoneyPotTransport,14,192.168.1.104] root trying auth password
+2015-10-03 08:38:36-0700 [SSHService ssh-userauth on HoneyPotTransport,14,192.168.1.104] login attempt [root/abc123] succeeded
+2015-10-03 08:38:37-0700 [SSHService ssh-userauth on HoneyPotTransport,14,192.168.1.104] root authenticated with password
+2015-10-03 08:38:37-0700 [SSHService ssh-userauth on HoneyPotTransport,14,192.168.1.104] starting service ssh-connection
+2015-10-03 08:38:37-0700 [SSHService ssh-userauth on HoneyPotTransport,1,192.168.1.104] root trying auth password
+2015-10-03 08:38:37-0700 [SSHService ssh-userauth on HoneyPotTransport,1,192.168.1.104] login attempt [root/password] succeeded
+2015-10-03 08:38:37-0700 [SSHService ssh-userauth on HoneyPotTransport,1,192.168.1.104] root authenticated with password
+2015-10-03 08:38:37-0700 [SSHService ssh-userauth on HoneyPotTransport,1,192.168.1.104] starting service ssh-connection
+2015-10-03 08:38:37-0700 [SSHService ssh-userauth on HoneyPotTransport,11,192.168.1.104] root trying auth password
+2015-10-03 08:38:37-0700 [SSHService ssh-userauth on HoneyPotTransport,11,192.168.1.104] login attempt [root/letmein] succeeded
+2015-10-03 08:38:38-0700 [SSHService ssh-userauth on HoneyPotTransport,11,192.168.1.104] root authenticated with password
+2015-10-03 08:38:38-0700 [SSHService ssh-userauth on HoneyPotTransport,11,192.168.1.104] starting service ssh-connection
+2015-10-03 08:38:38-0700 [SSHService ssh-userauth on HoneyPotTransport,16,192.168.1.104] root trying auth password
+2015-10-03 08:38:38-0700 [SSHService ssh-userauth on HoneyPotTransport,16,192.168.1.104] login attempt [root/michael] succeeded
+2015-10-03 08:38:38-0700 [SSHService ssh-userauth on HoneyPotTransport,16,192.168.1.104] root authenticated with password
+2015-10-03 08:38:38-0700 [SSHService ssh-userauth on HoneyPotTransport,16,192.168.1.104] starting service ssh-connection
+2015-10-03 08:38:38-0700 [SSHService ssh-userauth on HoneyPotTransport,4,192.168.1.104] root trying auth password
+2015-10-03 08:38:38-0700 [SSHService ssh-userauth on HoneyPotTransport,4,192.168.1.104] login attempt [root/1234] succeeded
+2015-10-03 08:38:39-0700 [SSHService ssh-userauth on HoneyPotTransport,4,192.168.1.104] root authenticated with password
+2015-10-03 08:38:39-0700 [SSHService ssh-userauth on HoneyPotTransport,4,192.168.1.104] starting service ssh-connection
+2015-10-03 08:38:39-0700 [SSHService ssh-userauth on HoneyPotTransport,15,192.168.1.104] root trying auth password
+2015-10-03 08:38:39-0700 [SSHService ssh-userauth on HoneyPotTransport,15,192.168.1.104] login attempt [root/mustang] succeeded
+2015-10-03 08:38:39-0700 [SSHService ssh-userauth on HoneyPotTransport,15,192.168.1.104] root authenticated with password
+2015-10-03 08:38:39-0700 [SSHService ssh-userauth on HoneyPotTransport,15,192.168.1.104] starting service ssh-connection
+2015-10-03 08:38:39-0700 [-] root failed auth password
+2015-10-03 08:38:39-0700 [-] unauthorized login: 
+2015-10-03 08:38:39-0700 [HoneyPotTransport,8,192.168.1.104] connection lost
+2015-10-03 08:38:39-0700 [HoneyPotTransport,8,192.168.1.104] Connection lost
+2015-10-03 08:38:39-0700 [HoneyPotTransport,9,192.168.1.104] connection lost
+2015-10-03 08:38:39-0700 [HoneyPotTransport,9,192.168.1.104] Connection lost
+2015-10-03 08:38:39-0700 [HoneyPotTransport,10,192.168.1.104] connection lost
+2015-10-03 08:38:39-0700 [HoneyPotTransport,10,192.168.1.104] Connection lost
+2015-10-03 08:38:39-0700 [SSHService ssh-userauth on HoneyPotTransport,5,192.168.1.104] root trying auth password
+2015-10-03 08:38:39-0700 [SSHService ssh-userauth on HoneyPotTransport,5,192.168.1.104] login attempt [root/qwerty] succeeded
+2015-10-03 08:38:40-0700 [SSHService ssh-userauth on HoneyPotTransport,5,192.168.1.104] root authenticated with password
+2015-10-03 08:38:40-0700 [SSHService ssh-userauth on HoneyPotTransport,5,192.168.1.104] starting service ssh-connection
+2015-10-03 08:38:40-0700 [SSHService ssh-userauth on HoneyPotTransport,7,192.168.1.104] root trying auth password
+2015-10-03 08:38:40-0700 [SSHService ssh-userauth on HoneyPotTransport,7,192.168.1.104] login attempt [root/dragon] succeeded
+2015-10-03 08:38:40-0700 [SSHService ssh-userauth on HoneyPotTransport,7,192.168.1.104] root authenticated with password
+2015-10-03 08:38:40-0700 [SSHService ssh-userauth on HoneyPotTransport,7,192.168.1.104] starting service ssh-connection
+2015-10-03 08:38:40-0700 [HoneyPotTransport,13,192.168.1.104] connection lost
+2015-10-03 08:38:40-0700 [HoneyPotTransport,13,192.168.1.104] Connection lost
+2015-10-03 08:38:40-0700 [HoneyPotTransport,6,192.168.1.104] Got remote error, code 11
+	reason: Bye Bye
+2015-10-03 08:38:40-0700 [HoneyPotTransport,6,192.168.1.104] connection lost
+2015-10-03 08:38:40-0700 [HoneyPotTransport,6,192.168.1.104] Connection lost
+2015-10-03 08:38:40-0700 [HoneyPotTransport,14,192.168.1.104] connection lost
+2015-10-03 08:38:40-0700 [HoneyPotTransport,14,192.168.1.104] Connection lost
+2015-10-03 08:38:40-0700 [HoneyPotTransport,1,192.168.1.104] connection lost
+2015-10-03 08:38:40-0700 [HoneyPotTransport,1,192.168.1.104] Connection lost
+2015-10-03 08:38:40-0700 [HoneyPotTransport,11,192.168.1.104] connection lost
+2015-10-03 08:38:40-0700 [HoneyPotTransport,11,192.168.1.104] Connection lost
+2015-10-03 08:38:40-0700 [HoneyPotTransport,16,192.168.1.104] connection lost
+2015-10-03 08:38:40-0700 [HoneyPotTransport,16,192.168.1.104] Connection lost
+2015-10-03 08:38:40-0700 [HoneyPotTransport,4,192.168.1.104] connection lost
+2015-10-03 08:38:40-0700 [HoneyPotTransport,4,192.168.1.104] Connection lost
+2015-10-03 08:38:40-0700 [HoneyPotTransport,15,192.168.1.104] connection lost
+2015-10-03 08:38:40-0700 [HoneyPotTransport,15,192.168.1.104] Connection lost
+2015-10-03 08:38:40-0700 [SSHService ssh-userauth on HoneyPotTransport,3,192.168.1.104] root trying auth password
+2015-10-03 08:38:40-0700 [SSHService ssh-userauth on HoneyPotTransport,3,192.168.1.104] login attempt [root/12345678] succeeded
+2015-10-03 08:38:41-0700 [SSHService ssh-userauth on HoneyPotTransport,3,192.168.1.104] root authenticated with password
+2015-10-03 08:38:41-0700 [SSHService ssh-userauth on HoneyPotTransport,3,192.168.1.104] starting service ssh-connection
+2015-10-03 08:38:41-0700 [HoneyPotTransport,12,192.168.1.104] connection lost
+2015-10-03 08:38:41-0700 [HoneyPotTransport,12,192.168.1.104] Connection lost
+2015-10-03 08:38:41-0700 [HoneyPotTransport,2,192.168.1.104] connection lost
+2015-10-03 08:38:41-0700 [HoneyPotTransport,2,192.168.1.104] Connection lost
+2015-10-03 08:38:41-0700 [HoneyPotTransport,3,192.168.1.104] connection lost
+2015-10-03 08:38:41-0700 [HoneyPotTransport,3,192.168.1.104] Connection lost
+2015-10-03 08:38:41-0700 [HoneyPotTransport,5,192.168.1.104] connection lost
+2015-10-03 08:38:41-0700 [HoneyPotTransport,5,192.168.1.104] Connection lost
+2015-10-03 08:38:41-0700 [HoneyPotTransport,7,192.168.1.104] connection lost
+2015-10-03 08:38:41-0700 [HoneyPotTransport,7,192.168.1.104] Connection lost
+2015-10-03 08:39:32-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33349 (192.168.1.100:22) [session: 17]
+2015-10-03 08:39:32-0700 [HoneyPotTransport,17,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,17,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,17,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,17,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,17,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,17,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,17,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:39:32-0700 [HoneyPotTransport,17,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:39:32-0700 [HoneyPotTransport,17,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,17,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,17,192.168.1.104] NEW KEYS
+2015-10-03 08:39:32-0700 [HoneyPotTransport,17,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:39:32-0700 [SSHService ssh-userauth on HoneyPotTransport,17,192.168.1.104] root trying auth none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,17,192.168.1.104] Got remote error, code 11
+	reason: Bye Bye
+2015-10-03 08:39:32-0700 [HoneyPotTransport,17,192.168.1.104] connection lost
+2015-10-03 08:39:32-0700 [HoneyPotTransport,17,192.168.1.104] Connection lost
+2015-10-03 08:39:32-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33350 (192.168.1.100:22) [session: 18]
+2015-10-03 08:39:32-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33351 (192.168.1.100:22) [session: 19]
+2015-10-03 08:39:32-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33352 (192.168.1.100:22) [session: 20]
+2015-10-03 08:39:32-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33353 (192.168.1.100:22) [session: 21]
+2015-10-03 08:39:32-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33354 (192.168.1.100:22) [session: 22]
+2015-10-03 08:39:32-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33355 (192.168.1.100:22) [session: 23]
+2015-10-03 08:39:32-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33356 (192.168.1.100:22) [session: 24]
+2015-10-03 08:39:32-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33357 (192.168.1.100:22) [session: 25]
+2015-10-03 08:39:32-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33358 (192.168.1.100:22) [session: 26]
+2015-10-03 08:39:32-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33359 (192.168.1.100:22) [session: 27]
+2015-10-03 08:39:32-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33360 (192.168.1.100:22) [session: 28]
+2015-10-03 08:39:32-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33361 (192.168.1.100:22) [session: 29]
+2015-10-03 08:39:32-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33362 (192.168.1.100:22) [session: 30]
+2015-10-03 08:39:32-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33363 (192.168.1.100:22) [session: 31]
+2015-10-03 08:39:32-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33364 (192.168.1.100:22) [session: 32]
+2015-10-03 08:39:32-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33365 (192.168.1.100:22) [session: 33]
+2015-10-03 08:39:32-0700 [HoneyPotTransport,19,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,19,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,19,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,19,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,19,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,19,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,19,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:39:32-0700 [HoneyPotTransport,19,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:39:32-0700 [HoneyPotTransport,19,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,19,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,20,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,20,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,20,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,20,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,20,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,20,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,20,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:39:32-0700 [HoneyPotTransport,20,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:39:32-0700 [HoneyPotTransport,20,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,20,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,27,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,27,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,27,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,27,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,27,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,27,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,27,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:39:32-0700 [HoneyPotTransport,27,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:39:32-0700 [HoneyPotTransport,27,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,27,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,21,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,21,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,21,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,21,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,21,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,21,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,21,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:39:32-0700 [HoneyPotTransport,21,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:39:32-0700 [HoneyPotTransport,21,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,21,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,22,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,22,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,22,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,22,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,22,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,22,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,22,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:39:32-0700 [HoneyPotTransport,22,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:39:32-0700 [HoneyPotTransport,22,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,22,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,25,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,25,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,25,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,25,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,25,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,25,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,25,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:39:32-0700 [HoneyPotTransport,25,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:39:32-0700 [HoneyPotTransport,25,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,25,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,24,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,24,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,24,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,24,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,24,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,24,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,24,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:39:32-0700 [HoneyPotTransport,24,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:39:32-0700 [HoneyPotTransport,24,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,24,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,18,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,18,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,18,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,18,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,18,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,18,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,18,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:39:32-0700 [HoneyPotTransport,18,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:39:32-0700 [HoneyPotTransport,18,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,18,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,23,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,23,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,23,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,23,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,23,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,23,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,23,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:39:32-0700 [HoneyPotTransport,23,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:39:32-0700 [HoneyPotTransport,23,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,23,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,26,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,26,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,26,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,26,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,26,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,26,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,26,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:39:32-0700 [HoneyPotTransport,26,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:39:32-0700 [HoneyPotTransport,26,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,26,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,28,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,28,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,28,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,28,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,28,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,28,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:39:32-0700 [HoneyPotTransport,28,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:39:32-0700 [HoneyPotTransport,28,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:39:32-0700 [HoneyPotTransport,28,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:32-0700 [HoneyPotTransport,28,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:33-0700 [HoneyPotTransport,31,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,31,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,31,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,31,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,31,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,31,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,31,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:39:33-0700 [HoneyPotTransport,31,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:39:33-0700 [HoneyPotTransport,31,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:33-0700 [HoneyPotTransport,31,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:33-0700 [HoneyPotTransport,29,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,29,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,29,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,29,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,29,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,29,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,29,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:39:33-0700 [HoneyPotTransport,29,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:39:33-0700 [HoneyPotTransport,29,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:33-0700 [HoneyPotTransport,29,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:33-0700 [HoneyPotTransport,30,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,30,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,30,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,30,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,30,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,30,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,30,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:39:33-0700 [HoneyPotTransport,30,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:39:33-0700 [HoneyPotTransport,30,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:33-0700 [HoneyPotTransport,30,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:33-0700 [HoneyPotTransport,32,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,32,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,32,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,32,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,32,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,32,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,32,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:39:33-0700 [HoneyPotTransport,32,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:39:33-0700 [HoneyPotTransport,32,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:33-0700 [HoneyPotTransport,32,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:33-0700 [HoneyPotTransport,33,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,33,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,33,192.168.1.104] KEXINIT: client supported encryption: ['aes256-ctr', 'aes192-ctr', 'aes128-ctr', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'blowfish-cbc', '3des-cbc', 'des-cbc-ssh1']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,33,192.168.1.104] KEXINIT: client supported MAC: ['hmac-sha1']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,33,192.168.1.104] KEXINIT: client supported compression: ['none']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,33,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:39:33-0700 [HoneyPotTransport,33,192.168.1.104] Remote SSH version: SSH-2.0-libssh-0.6.3
+2015-10-03 08:39:33-0700 [HoneyPotTransport,33,192.168.1.104] kex alg, key alg: diffie-hellman-group1-sha1 ssh-rsa
+2015-10-03 08:39:33-0700 [HoneyPotTransport,33,192.168.1.104] outgoing: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:33-0700 [HoneyPotTransport,33,192.168.1.104] incoming: aes256-ctr hmac-sha1 none
+2015-10-03 08:39:33-0700 [HoneyPotTransport,23,192.168.1.104] NEW KEYS
+2015-10-03 08:39:33-0700 [HoneyPotTransport,23,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:39:33-0700 [HoneyPotTransport,26,192.168.1.104] NEW KEYS
+2015-10-03 08:39:33-0700 [HoneyPotTransport,26,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:39:33-0700 [HoneyPotTransport,27,192.168.1.104] NEW KEYS
+2015-10-03 08:39:33-0700 [HoneyPotTransport,27,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:39:33-0700 [HoneyPotTransport,21,192.168.1.104] NEW KEYS
+2015-10-03 08:39:33-0700 [HoneyPotTransport,21,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:39:33-0700 [HoneyPotTransport,22,192.168.1.104] NEW KEYS
+2015-10-03 08:39:33-0700 [HoneyPotTransport,20,192.168.1.104] NEW KEYS
+2015-10-03 08:39:33-0700 [HoneyPotTransport,20,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:39:33-0700 [HoneyPotTransport,25,192.168.1.104] NEW KEYS
+2015-10-03 08:39:33-0700 [HoneyPotTransport,25,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:39:33-0700 [HoneyPotTransport,24,192.168.1.104] NEW KEYS
+2015-10-03 08:39:33-0700 [HoneyPotTransport,24,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:39:33-0700 [HoneyPotTransport,18,192.168.1.104] NEW KEYS
+2015-10-03 08:39:33-0700 [HoneyPotTransport,18,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:39:33-0700 [HoneyPotTransport,28,192.168.1.104] NEW KEYS
+2015-10-03 08:39:33-0700 [HoneyPotTransport,28,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:39:33-0700 [HoneyPotTransport,31,192.168.1.104] NEW KEYS
+2015-10-03 08:39:33-0700 [HoneyPotTransport,31,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:39:33-0700 [HoneyPotTransport,29,192.168.1.104] NEW KEYS
+2015-10-03 08:39:33-0700 [HoneyPotTransport,29,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:39:33-0700 [HoneyPotTransport,30,192.168.1.104] NEW KEYS
+2015-10-03 08:39:33-0700 [HoneyPotTransport,30,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:39:33-0700 [HoneyPotTransport,32,192.168.1.104] NEW KEYS
+2015-10-03 08:39:33-0700 [HoneyPotTransport,32,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:39:33-0700 [HoneyPotTransport,33,192.168.1.104] NEW KEYS
+2015-10-03 08:39:33-0700 [HoneyPotTransport,33,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:39:33-0700 [HoneyPotTransport,19,192.168.1.104] NEW KEYS
+2015-10-03 08:39:33-0700 [HoneyPotTransport,19,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,23,192.168.1.104] root trying auth none
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,26,192.168.1.104] root trying auth none
+2015-10-03 08:39:33-0700 [HoneyPotTransport,22,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,20,192.168.1.104] root trying auth none
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,24,192.168.1.104] root trying auth none
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,21,192.168.1.104] root trying auth none
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,18,192.168.1.104] root trying auth none
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,31,192.168.1.104] root trying auth none
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,25,192.168.1.104] root trying auth none
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,28,192.168.1.104] root trying auth none
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,27,192.168.1.104] root trying auth none
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,29,192.168.1.104] root trying auth none
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,30,192.168.1.104] root trying auth none
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,32,192.168.1.104] root trying auth none
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,33,192.168.1.104] root trying auth none
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,19,192.168.1.104] root trying auth none
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,23,192.168.1.104] root trying auth password
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,23,192.168.1.104] login attempt [root/princess] succeeded
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,23,192.168.1.104] root authenticated with password
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,23,192.168.1.104] starting service ssh-connection
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,29,192.168.1.104] root trying auth password
+2015-10-03 08:39:33-0700 [SSHService ssh-userauth on HoneyPotTransport,29,192.168.1.104] login attempt [root/daniel] succeeded
+2015-10-03 08:39:34-0700 [SSHService ssh-userauth on HoneyPotTransport,29,192.168.1.104] root authenticated with password
+2015-10-03 08:39:34-0700 [SSHService ssh-userauth on HoneyPotTransport,29,192.168.1.104] starting service ssh-connection
+2015-10-03 08:39:34-0700 [SSHService ssh-userauth on HoneyPotTransport,26,192.168.1.104] root trying auth password
+2015-10-03 08:39:34-0700 [SSHService ssh-userauth on HoneyPotTransport,26,192.168.1.104] login attempt [root/12345678] succeeded
+2015-10-03 08:39:34-0700 [SSHService ssh-userauth on HoneyPotTransport,26,192.168.1.104] root authenticated with password
+2015-10-03 08:39:34-0700 [SSHService ssh-userauth on HoneyPotTransport,26,192.168.1.104] starting service ssh-connection
+2015-10-03 08:39:34-0700 [SSHService ssh-userauth on HoneyPotTransport,24,192.168.1.104] root trying auth password
+2015-10-03 08:39:34-0700 [SSHService ssh-userauth on HoneyPotTransport,24,192.168.1.104] login attempt [root/1234567] succeeded
+2015-10-03 08:39:35-0700 [SSHService ssh-userauth on HoneyPotTransport,24,192.168.1.104] root authenticated with password
+2015-10-03 08:39:35-0700 [SSHService ssh-userauth on HoneyPotTransport,24,192.168.1.104] starting service ssh-connection
+2015-10-03 08:39:35-0700 [SSHService ssh-userauth on HoneyPotTransport,18,192.168.1.104] root trying auth password
+2015-10-03 08:39:35-0700 [SSHService ssh-userauth on HoneyPotTransport,18,192.168.1.104] login attempt [root/123456] failed
+2015-10-03 08:39:35-0700 [SSHService ssh-userauth on HoneyPotTransport,31,192.168.1.104] root trying auth password
+2015-10-03 08:39:35-0700 [SSHService ssh-userauth on HoneyPotTransport,31,192.168.1.104] login attempt [root/monkey] succeeded
+2015-10-03 08:39:35-0700 [SSHService ssh-userauth on HoneyPotTransport,31,192.168.1.104] root authenticated with password
+2015-10-03 08:39:35-0700 [SSHService ssh-userauth on HoneyPotTransport,31,192.168.1.104] starting service ssh-connection
+2015-10-03 08:39:35-0700 [SSHService ssh-userauth on HoneyPotTransport,21,192.168.1.104] root trying auth password
+2015-10-03 08:39:35-0700 [SSHService ssh-userauth on HoneyPotTransport,21,192.168.1.104] login attempt [root/password] succeeded
+2015-10-03 08:39:36-0700 [SSHService ssh-userauth on HoneyPotTransport,21,192.168.1.104] root authenticated with password
+2015-10-03 08:39:36-0700 [SSHService ssh-userauth on HoneyPotTransport,21,192.168.1.104] starting service ssh-connection
+2015-10-03 08:39:36-0700 [SSHService ssh-userauth on HoneyPotTransport,25,192.168.1.104] root trying auth password
+2015-10-03 08:39:36-0700 [SSHService ssh-userauth on HoneyPotTransport,25,192.168.1.104] login attempt [root/rockyou] succeeded
+2015-10-03 08:39:36-0700 [SSHService ssh-userauth on HoneyPotTransport,25,192.168.1.104] root authenticated with password
+2015-10-03 08:39:36-0700 [SSHService ssh-userauth on HoneyPotTransport,25,192.168.1.104] starting service ssh-connection
+2015-10-03 08:39:36-0700 [SSHService ssh-userauth on HoneyPotTransport,20,192.168.1.104] root trying auth password
+2015-10-03 08:39:36-0700 [SSHService ssh-userauth on HoneyPotTransport,20,192.168.1.104] login attempt [root/123456789] succeeded
+2015-10-03 08:39:37-0700 [SSHService ssh-userauth on HoneyPotTransport,20,192.168.1.104] root authenticated with password
+2015-10-03 08:39:37-0700 [SSHService ssh-userauth on HoneyPotTransport,20,192.168.1.104] starting service ssh-connection
+2015-10-03 08:39:37-0700 [SSHService ssh-userauth on HoneyPotTransport,28,192.168.1.104] root trying auth password
+2015-10-03 08:39:37-0700 [SSHService ssh-userauth on HoneyPotTransport,28,192.168.1.104] login attempt [root/nicole] succeeded
+2015-10-03 08:39:37-0700 [SSHService ssh-userauth on HoneyPotTransport,28,192.168.1.104] root authenticated with password
+2015-10-03 08:39:37-0700 [SSHService ssh-userauth on HoneyPotTransport,28,192.168.1.104] starting service ssh-connection
+2015-10-03 08:39:37-0700 [SSHService ssh-userauth on HoneyPotTransport,22,192.168.1.104] root trying auth none
+2015-10-03 08:39:37-0700 [SSHService ssh-userauth on HoneyPotTransport,27,192.168.1.104] root trying auth password
+2015-10-03 08:39:37-0700 [SSHService ssh-userauth on HoneyPotTransport,27,192.168.1.104] login attempt [root/abc123] succeeded
+2015-10-03 08:39:38-0700 [SSHService ssh-userauth on HoneyPotTransport,27,192.168.1.104] root authenticated with password
+2015-10-03 08:39:38-0700 [SSHService ssh-userauth on HoneyPotTransport,27,192.168.1.104] starting service ssh-connection
+2015-10-03 08:39:38-0700 [-] root failed auth password
+2015-10-03 08:39:38-0700 [-] unauthorized login: 
+2015-10-03 08:39:38-0700 [SSHService ssh-userauth on HoneyPotTransport,30,192.168.1.104] root trying auth password
+2015-10-03 08:39:38-0700 [SSHService ssh-userauth on HoneyPotTransport,30,192.168.1.104] login attempt [root/babygirl] succeeded
+2015-10-03 08:39:38-0700 [SSHService ssh-userauth on HoneyPotTransport,30,192.168.1.104] root authenticated with password
+2015-10-03 08:39:38-0700 [SSHService ssh-userauth on HoneyPotTransport,30,192.168.1.104] starting service ssh-connection
+2015-10-03 08:39:38-0700 [SSHService ssh-userauth on HoneyPotTransport,32,192.168.1.104] root trying auth password
+2015-10-03 08:39:38-0700 [SSHService ssh-userauth on HoneyPotTransport,32,192.168.1.104] login attempt [root/lovely] succeeded
+2015-10-03 08:39:39-0700 [SSHService ssh-userauth on HoneyPotTransport,32,192.168.1.104] root authenticated with password
+2015-10-03 08:39:39-0700 [SSHService ssh-userauth on HoneyPotTransport,32,192.168.1.104] starting service ssh-connection
+2015-10-03 08:39:39-0700 [SSHService ssh-userauth on HoneyPotTransport,33,192.168.1.104] root trying auth password
+2015-10-03 08:39:39-0700 [SSHService ssh-userauth on HoneyPotTransport,33,192.168.1.104] login attempt [root/jessica] succeeded
+2015-10-03 08:39:39-0700 [SSHService ssh-userauth on HoneyPotTransport,33,192.168.1.104] root authenticated with password
+2015-10-03 08:39:39-0700 [SSHService ssh-userauth on HoneyPotTransport,33,192.168.1.104] starting service ssh-connection
+2015-10-03 08:39:39-0700 [SSHService ssh-userauth on HoneyPotTransport,19,192.168.1.104] root trying auth password
+2015-10-03 08:39:39-0700 [SSHService ssh-userauth on HoneyPotTransport,19,192.168.1.104] login attempt [root/12345] succeeded
+2015-10-03 08:39:40-0700 [SSHService ssh-userauth on HoneyPotTransport,19,192.168.1.104] root authenticated with password
+2015-10-03 08:39:40-0700 [SSHService ssh-userauth on HoneyPotTransport,19,192.168.1.104] starting service ssh-connection
+2015-10-03 08:39:40-0700 [HoneyPotTransport,23,192.168.1.104] connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,23,192.168.1.104] Connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,29,192.168.1.104] connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,29,192.168.1.104] Connection lost
+2015-10-03 08:39:40-0700 [SSHService ssh-userauth on HoneyPotTransport,22,192.168.1.104] root trying auth password
+2015-10-03 08:39:40-0700 [SSHService ssh-userauth on HoneyPotTransport,22,192.168.1.104] login attempt [root/iloveyou] succeeded
+2015-10-03 08:39:40-0700 [SSHService ssh-userauth on HoneyPotTransport,22,192.168.1.104] root authenticated with password
+2015-10-03 08:39:40-0700 [SSHService ssh-userauth on HoneyPotTransport,22,192.168.1.104] starting service ssh-connection
+2015-10-03 08:39:40-0700 [HoneyPotTransport,24,192.168.1.104] connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,24,192.168.1.104] Connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,31,192.168.1.104] connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,31,192.168.1.104] Connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,26,192.168.1.104] connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,26,192.168.1.104] Connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,32,192.168.1.104] connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,32,192.168.1.104] Connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,30,192.168.1.104] connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,30,192.168.1.104] Connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,28,192.168.1.104] connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,28,192.168.1.104] Connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,19,192.168.1.104] connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,19,192.168.1.104] Connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,20,192.168.1.104] connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,20,192.168.1.104] Connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,21,192.168.1.104] connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,21,192.168.1.104] Connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,33,192.168.1.104] connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,33,192.168.1.104] Connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,27,192.168.1.104] connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,27,192.168.1.104] Connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,25,192.168.1.104] connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,25,192.168.1.104] Connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,18,192.168.1.104] connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,18,192.168.1.104] Connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,22,192.168.1.104] connection lost
+2015-10-03 08:39:40-0700 [HoneyPotTransport,22,192.168.1.104] Connection lost
+2015-10-03 08:43:02-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.104:33366 (192.168.1.100:22) [session: 34]
+2015-10-03 08:43:02-0700 [HoneyPotTransport,34,192.168.1.104] KEXINIT: client supported key exchange: ['curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group1-sha1']
+2015-10-03 08:43:02-0700 [HoneyPotTransport,34,192.168.1.104] KEXINIT: client supported public keys: ['ecdsa-sha2-nistp256-cert-v01@openssh.com', 'ecdsa-sha2-nistp384-cert-v01@openssh.com', 'ecdsa-sha2-nistp521-cert-v01@openssh.com', 'ssh-ed25519-cert-v01@openssh.com', 'ssh-rsa-cert-v01@openssh.com', 'ssh-dss-cert-v01@openssh.com', 'ssh-rsa-cert-v00@openssh.com', 'ssh-dss-cert-v00@openssh.com', 'ecdsa-sha2-nistp256', 'ecdsa-sha2-nistp384', 'ecdsa-sha2-nistp521', 'ssh-ed25519', 'ssh-rsa', 'ssh-dss']
+2015-10-03 08:43:02-0700 [HoneyPotTransport,34,192.168.1.104] KEXINIT: client supported encryption: ['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com', 'chacha20-poly1305@openssh.com', 'arcfour256', 'arcfour128', 'aes128-cbc', '3des-cbc', 'blowfish-cbc', 'cast128-cbc', 'aes192-cbc', 'aes256-cbc', 'arcfour', 'rijndael-cbc@lysator.liu.se']
+2015-10-03 08:43:02-0700 [HoneyPotTransport,34,192.168.1.104] KEXINIT: client supported MAC: ['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-md5-etm@openssh.com', 'hmac-ripemd160-etm@openssh.com', 'hmac-sha1-96-etm@openssh.com', 'hmac-md5-96-etm@openssh.com', 'hmac-md5', 'hmac-ripemd160', 'hmac-ripemd160@openssh.com', 'hmac-sha1-96', 'hmac-md5-96']
+2015-10-03 08:43:02-0700 [HoneyPotTransport,34,192.168.1.104] KEXINIT: client supported compression: ['none', 'zlib@openssh.com', 'zlib']
+2015-10-03 08:43:02-0700 [HoneyPotTransport,34,192.168.1.104] KEXINIT: client supported lang: ['']
+2015-10-03 08:43:02-0700 [HoneyPotTransport,34,192.168.1.104] Remote SSH version: SSH-2.0-OpenSSH_6.7p1 Debian-5
+2015-10-03 08:43:02-0700 [HoneyPotTransport,34,192.168.1.104] kex alg, key alg: diffie-hellman-group-exchange-sha1 ssh-rsa
+2015-10-03 08:43:02-0700 [HoneyPotTransport,34,192.168.1.104] outgoing: aes128-ctr hmac-sha1 none
+2015-10-03 08:43:02-0700 [HoneyPotTransport,34,192.168.1.104] incoming: aes128-ctr hmac-sha1 none
+2015-10-03 08:43:16-0700 [HoneyPotTransport,34,192.168.1.104] NEW KEYS
+2015-10-03 08:43:16-0700 [HoneyPotTransport,34,192.168.1.104] starting service ssh-userauth
+2015-10-03 08:43:17-0700 [SSHService ssh-userauth on HoneyPotTransport,34,192.168.1.104] root trying auth none
+2015-10-03 08:43:17-0700 [SSHService ssh-userauth on HoneyPotTransport,34,192.168.1.104] root trying auth keyboard-interactive
+2015-10-03 08:43:20-0700 [SSHService ssh-userauth on HoneyPotTransport,34,192.168.1.104] login attempt [root/iloveyou] succeeded
+2015-10-03 08:43:21-0700 [SSHService ssh-userauth on HoneyPotTransport,34,192.168.1.104] root authenticated with keyboard-interactive
+2015-10-03 08:43:21-0700 [SSHService ssh-userauth on HoneyPotTransport,34,192.168.1.104] starting service ssh-connection
+2015-10-03 08:43:21-0700 [SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] got channel session request
+2015-10-03 08:43:21-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] channel open
+2015-10-03 08:43:21-0700 [SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] got global no-more-sessions@openssh.com request
+2015-10-03 08:43:21-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] pty request: xterm (24, 80, 0, 0)
+2015-10-03 08:43:21-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] Terminal Size: 24 80
+2015-10-03 08:43:21-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] request_env: LANG=en_IN
+2015-10-03 08:43:21-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] getting shell
+2015-10-03 08:43:21-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] Opening TTY Log: log/tty/20151003-084321-a3b681f5.log
+2015-10-03 08:43:25-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] CMD: w
+2015-10-03 08:43:25-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] Command found: w
+2015-10-03 08:43:29-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] CMD: ifconfig
+2015-10-03 08:43:29-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] Command found: ifconfig
+2015-10-03 08:43:34-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] CMD: ping 8.8.8.8
+2015-10-03 08:43:34-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] Command found: ping 8.8.8.8
+2015-10-03 08:43:45-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] CMD: cd /tmp
+2015-10-03 08:43:45-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] Command found: cd /tmp
+2015-10-03 08:43:46-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] CMD: ls
+2015-10-03 08:43:46-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] Command found: ls
+2015-10-03 08:44:42-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] CMD: wget google.com
+2015-10-03 08:44:42-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] Command found: wget google.com
+2015-10-03 08:44:42-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] Starting factory <HTTPProgressDownloader: http://google.com>
+2015-10-03 08:44:44-0700 [HTTPPageDownloader,client] Downloaded URL (http://google.com) with SHA-256 2622c99af3bbf2a1bf9bb20ace2d04d1cfd0d4f4013a4f32e3db864cc5154b1d to dl/2622c99af3bbf2a1bf9bb20ace2d04d1cfd0d4f4013a4f32e3db864cc5154b1d
+2015-10-03 08:44:44-0700 [HTTPPageDownloader,client] Stopping factory <HTTPProgressDownloader: http://www.google.co.in/?gfe_rd=cr&ei=6_cPVtWFDrLv8weh0IPoAQ>
+2015-10-03 08:44:46-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] CMD: cat index.html 
+2015-10-03 08:44:46-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] Command found: cat index.html
+2015-10-03 08:44:50-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] Received unhandled keyID: [PGDN]
+2015-10-03 08:44:52-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] CMD: ls
+2015-10-03 08:44:52-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] Command found: ls
+2015-10-03 08:45:16-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] CMD: cat iloveyou.com/br/flag.txt
+2015-10-03 08:45:16-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] Command found: cat iloveyou.com/br/flag.txt
+2015-10-03 08:45:16-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.7/dist-packages/twisted/python/context.py", line 118, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/python/context.py", line 81, in callWithContext
+	    return func(*args,**kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/conch/ssh/service.py", line 44, in packetReceived
+	    return f(packet)
+	  File "/usr/lib/python2.7/dist-packages/twisted/conch/ssh/connection.py", line 242, in ssh_CHANNEL_DATA
+	    log.callWithLogger(channel, channel.dataReceived, data)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/python/log.py", line 88, in callWithLogger
+	    return callWithContext({"system": lp}, func, *args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/python/log.py", line 73, in callWithContext
+	    return context.call({ILogContext: newCtx}, func, *args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/python/context.py", line 118, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/python/context.py", line 81, in callWithContext
+	    return func(*args,**kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/conch/ssh/session.py", line 107, in dataReceived
+	    self.client.transport.write(data)
+	  File "/usr/lib/python2.7/dist-packages/twisted/conch/ssh/session.py", line 158, in write
+	    self.proto.dataReceived(data)
+	  File "/opt/cowrie-master/cowrie/core/protocol.py", line 297, in dataReceived
+	    insults.ServerProtocol.dataReceived(self, data)
+	  File "/usr/lib/python2.7/dist-packages/twisted/conch/insults/insults.py", line 431, in dataReceived
+	    self.terminalProtocol.keystrokeReceived(ch, None)
+	  File "/usr/lib/python2.7/dist-packages/twisted/conch/recvline.py", line 199, in keystrokeReceived
+	    m()
+	  File "/opt/cowrie-master/cowrie/core/protocol.py", line 224, in handle_RETURN
+	    return recvline.RecvLine.handle_RETURN(self)
+	  File "/usr/lib/python2.7/dist-packages/twisted/conch/recvline.py", line 257, in handle_RETURN
+	    self.lineReceived(line)
+	  File "/opt/cowrie-master/cowrie/core/protocol.py", line 108, in lineReceived
+	    self.cmdstack[-1].lineReceived(line)
+	  File "/opt/cowrie-master/cowrie/core/honeypot.py", line 73, in lineReceived
+	    self.runCommand()
+	  File "/opt/cowrie-master/cowrie/core/honeypot.py", line 135, in runCommand
+	    self.honeypot.call_command(cmdclass, *rargs)
+	  File "/opt/cowrie-master/cowrie/core/protocol.py", line 207, in call_command
+	    HoneyPotBaseProtocol.call_command(self, cmd, *args)
+	  File "/opt/cowrie-master/cowrie/core/protocol.py", line 117, in call_command
+	    obj.start()
+	  File "/opt/cowrie-master/cowrie/commands/fs.py", line 20, in start
+	    if self.fs.isdir(path):
+	  File "/opt/cowrie-master/cowrie/core/fs.py", line 259, in isdir
+	    if dir[A_TYPE] == T_DIR:
+	exceptions.TypeError: 'bool' object has no attribute '__getitem__'
+	
+2015-10-03 08:45:20-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] Received CTRL-C, exiting..
+2015-10-03 08:45:22-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] CMD: wget iloveyou.com/br/flag.txt
+2015-10-03 08:45:22-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] Command found: wget iloveyou.com/br/flag.txt
+2015-10-03 08:45:22-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] Starting factory <HTTPProgressDownloader: http://iloveyou.com/br/flag.txt>
+2015-10-03 08:45:31-0700 [-] Stopping factory <HTTPProgressDownloader: http://iloveyou.com/br/flag.txt>
+2015-10-03 08:45:57-0700 [HoneyPotTransport,34,192.168.1.104] Got remote error, code 11
+	reason: disconnected by user
+2015-10-03 08:45:57-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,34,192.168.1.104] Closing TTY Log: log/tty/20151003-084321-a3b681f5.log
+2015-10-03 08:45:57-0700 [HoneyPotTransport,34,192.168.1.104] connection lost
+2015-10-03 08:45:57-0700 [HoneyPotTransport,34,192.168.1.104] Connection lost
+2015-10-03 21:30:16-0700 [-] Received SIGTERM, shutting down.
+2015-10-03 21:30:16-0700 [-] (TCP Port 22 Closed)
+2015-10-03 21:30:16-0700 [-] Stopping factory <cowrie.core.ssh.HoneyPotSSHFactory instance at 0xb690a7ec>
+2015-10-03 21:30:16-0700 [-] Main loop terminated.
+2015-10-03 21:30:16-0700 [-] Server Shut Down.
+2015-10-04 23:00:04-0700 [-] Log opened.
+2015-10-04 23:00:04-0700 [-] twistd 13.2.0 (/usr/bin/python 2.7.6) starting up.
+2015-10-04 23:00:04-0700 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-10-04 23:00:04-0700 [-] HoneyPotSSHFactory starting on 22
+2015-10-04 23:00:04-0700 [-] Starting factory <cowrie.core.ssh.HoneyPotSSHFactory instance at 0xb691f7ec>
+2015-10-04 23:00:04-0700 [-] Loading output engine: jsonlog
+2015-10-04 23:00:56-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 10.20.31.41:57012 (10.20.31.140:22) [session: 0]
+2015-10-04 23:00:56-0700 [HoneyPotTransport,0,10.20.31.41] KEXINIT: client supported key exchange: ['diffie-hellman-group-exchange-sha256', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1', 'rsa2048-sha256', 'rsa1024-sha1']
+2015-10-04 23:00:56-0700 [HoneyPotTransport,0,10.20.31.41] KEXINIT: client supported public keys: ['ssh-rsa', 'ssh-dss']
+2015-10-04 23:00:56-0700 [HoneyPotTransport,0,10.20.31.41] KEXINIT: client supported encryption: ['aes256-ctr', 'aes256-cbc', 'rijndael-cbc@lysator.liu.se', 'aes192-ctr', 'aes192-cbc', 'aes128-ctr', 'aes128-cbc', 'blowfish-ctr', 'blowfish-cbc', '3des-ctr', '3des-cbc', 'arcfour256', 'arcfour128']
+2015-10-04 23:00:56-0700 [HoneyPotTransport,0,10.20.31.41] KEXINIT: client supported MAC: ['hmac-sha2-256', 'hmac-sha1', 'hmac-sha1-96', 'hmac-md5']
+2015-10-04 23:00:56-0700 [HoneyPotTransport,0,10.20.31.41] KEXINIT: client supported compression: ['none', 'zlib']
+2015-10-04 23:00:56-0700 [HoneyPotTransport,0,10.20.31.41] KEXINIT: client supported lang: ['']
+2015-10-04 23:00:56-0700 [HoneyPotTransport,0,10.20.31.41] Remote SSH version: SSH-2.0-PuTTY_Release_0.64
+2015-10-04 23:00:56-0700 [HoneyPotTransport,0,10.20.31.41] kex alg, key alg: diffie-hellman-group-exchange-sha1 ssh-rsa
+2015-10-04 23:00:56-0700 [HoneyPotTransport,0,10.20.31.41] outgoing: aes256-ctr hmac-sha1 none
+2015-10-04 23:00:56-0700 [HoneyPotTransport,0,10.20.31.41] incoming: aes256-ctr hmac-sha1 none
+2015-10-04 23:00:58-0700 [HoneyPotTransport,0,10.20.31.41] NEW KEYS
+2015-10-04 23:00:58-0700 [HoneyPotTransport,0,10.20.31.41] starting service ssh-userauth
+2015-10-04 23:01:00-0700 [SSHService ssh-userauth on HoneyPotTransport,0,10.20.31.41] root trying auth none
+2015-10-04 23:01:00-0700 [SSHService ssh-userauth on HoneyPotTransport,0,10.20.31.41] root trying auth keyboard-interactive
+2015-10-04 23:01:03-0700 [SSHService ssh-userauth on HoneyPotTransport,0,10.20.31.41] login attempt [root/iloveyou] succeeded
+2015-10-04 23:01:04-0700 [SSHService ssh-userauth on HoneyPotTransport,0,10.20.31.41] root authenticated with keyboard-interactive
+2015-10-04 23:01:04-0700 [SSHService ssh-userauth on HoneyPotTransport,0,10.20.31.41] starting service ssh-connection
+2015-10-04 23:01:04-0700 [SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] got channel session request
+2015-10-04 23:01:04-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] channel open
+2015-10-04 23:01:04-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] pty request: xterm (24, 80, 0, 0)
+2015-10-04 23:01:04-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Terminal Size: 24 80
+2015-10-04 23:01:04-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] getting shell
+2015-10-04 23:01:04-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Opening TTY Log: log/tty/20151004-230104-9250bef8.log
+2015-10-04 23:01:14-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] CMD: w
+2015-10-04 23:01:14-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Command found: w
+2015-10-04 23:01:17-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] CMD: ifconfig
+2015-10-04 23:01:17-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Command found: ifconfig
+2015-10-04 23:01:27-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] CMD: cd /opt
+2015-10-04 23:01:27-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Command found: cd /opt
+2015-10-04 23:01:28-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] CMD: ls
+2015-10-04 23:01:28-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Command found: ls
+2015-10-04 23:01:36-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] CMD: w
+2015-10-04 23:01:36-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Command found: w
+2015-10-04 23:02:16-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] CMD: wget flag.me/flag.txt
+2015-10-04 23:02:16-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Command found: wget flag.me/flag.txt
+2015-10-04 23:02:16-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Starting factory <HTTPProgressDownloader: http://flag.me/flag.txt>
+2015-10-04 23:02:32-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] INPUT: 
+2015-10-04 23:02:32-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] INPUT: 
+2015-10-04 23:02:46-0700 [-] Stopping factory <HTTPProgressDownloader: http://flag.me/flag.txt>
+2015-10-04 23:02:52-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] CMD: uname -a
+2015-10-04 23:02:52-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Command found: uname -a
+2015-10-04 23:03:01-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] CMD: PATH
+2015-10-04 23:03:01-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Command not found: PATH
+2015-10-04 23:03:04-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] CMD: $PATH
+2015-10-04 23:03:04-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Command not found: $PATH
+2015-10-04 23:03:07-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] CMD: echo $PATH
+2015-10-04 23:03:07-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Command found: echo $PATH
+2015-10-04 23:03:10-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] CMD: echo PATH
+2015-10-04 23:03:10-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Command found: echo PATH
+2015-10-04 23:03:16-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] CMD: pwd
+2015-10-04 23:03:16-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Command found: pwd
+2015-10-04 23:03:22-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] CMD: cd /root
+2015-10-04 23:03:22-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Command found: cd /root
+2015-10-04 23:03:22-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] CMD: ls
+2015-10-04 23:03:22-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Command found: ls
+2015-10-04 23:03:30-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] CMD: wget google.com
+2015-10-04 23:03:30-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Command found: wget google.com
+2015-10-04 23:03:30-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Starting factory <HTTPProgressDownloader: http://google.com>
+2015-10-04 23:03:30-0700 [HTTPPageDownloader,client] Downloaded URL (http://google.com) with SHA-256 feac6b32c24113919d7604cae39106c353de3324964132d21a6fdff336712c24 to dl/feac6b32c24113919d7604cae39106c353de3324964132d21a6fdff336712c24
+2015-10-04 23:03:30-0700 [HTTPPageDownloader,client] Stopping factory <HTTPProgressDownloader: http://www.google.co.in/?gfe_rd=cr&ei=shISVu-jG7Hv8weG9ISABQ>
+2015-10-04 23:04:09-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,10.20.31.41] Closing TTY Log: log/tty/20151004-230104-9250bef8.log
+2015-10-04 23:04:09-0700 [HoneyPotTransport,0,10.20.31.41] connection lost
+2015-10-04 23:04:09-0700 [HoneyPotTransport,0,10.20.31.41] Connection lost
+2015-10-04 23:06:10-0700 [-] Received SIGTERM, shutting down.
+2015-10-04 23:06:10-0700 [-] (TCP Port 22 Closed)
+2015-10-04 23:06:10-0700 [-] Stopping factory <cowrie.core.ssh.HoneyPotSSHFactory instance at 0xb691f7ec>
+2015-10-04 23:06:10-0700 [-] Main loop terminated.
+2015-10-04 23:06:10-0700 [-] Server Shut Down.
+2015-10-07 04:48:23-0700 [-] Log opened.
+2015-10-07 04:48:23-0700 [-] twistd 13.2.0 (/usr/bin/python 2.7.6) starting up.
+2015-10-07 04:48:23-0700 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-10-07 04:48:23-0700 [-] HoneyPotSSHFactory starting on 22
+2015-10-07 04:48:23-0700 [-] Starting factory <cowrie.core.ssh.HoneyPotSSHFactory instance at 0xb68be7ec>
+2015-10-07 04:48:23-0700 [-] Loading output engine: jsonlog
+2015-10-07 06:16:28-0700 [-] Received SIGTERM, shutting down.
+2015-10-07 06:16:32-0700 [-] (TCP Port 22 Closed)
+2015-10-07 06:16:32-0700 [-] Stopping factory <cowrie.core.ssh.HoneyPotSSHFactory instance at 0xb68be7ec>
+2015-10-07 06:16:32-0700 [-] Main loop terminated.
+2015-10-07 06:16:32-0700 [-] Server Shut Down.
+2015-10-10 07:41:32-0700 [-] Log opened.
+2015-10-10 07:41:32-0700 [-] twistd 13.2.0 (/usr/bin/python 2.7.6) starting up.
+2015-10-10 07:41:32-0700 [-] reactor class: twisted.internet.epollreactor.EPollReactor.
+2015-10-10 07:41:32-0700 [-] HoneyPotSSHFactory starting on 22
+2015-10-10 07:41:32-0700 [-] Starting factory <cowrie.core.ssh.HoneyPotSSHFactory instance at 0xb68d87ec>
+2015-10-10 07:41:32-0700 [-] Loading output engine: jsonlog
+2015-10-10 07:42:43-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.103:52419 (192.168.1.104:22) [session: 0]
+2015-10-10 07:42:43-0700 [HoneyPotTransport,0,192.168.1.103] KEXINIT: client supported key exchange: ['diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group1-sha1']
+2015-10-10 07:42:43-0700 [HoneyPotTransport,0,192.168.1.103] KEXINIT: client supported public keys: ['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256']
+2015-10-10 07:42:43-0700 [HoneyPotTransport,0,192.168.1.103] KEXINIT: client supported encryption: ['aes128-ctr', 'aes256-ctr', 'aes128-cbc', 'blowfish-cbc', 'aes256-cbc', '3des-cbc', 'arcfour128', 'arcfour256']
+2015-10-10 07:42:43-0700 [HoneyPotTransport,0,192.168.1.103] KEXINIT: client supported MAC: ['hmac-sha1', 'hmac-md5', 'hmac-sha1-96', 'hmac-md5-96']
+2015-10-10 07:42:43-0700 [HoneyPotTransport,0,192.168.1.103] KEXINIT: client supported compression: ['none']
+2015-10-10 07:42:43-0700 [HoneyPotTransport,0,192.168.1.103] KEXINIT: client supported lang: ['']
+2015-10-10 07:42:43-0700 [HoneyPotTransport,0,192.168.1.103] Remote SSH version: SSH-2.0-paramiko_1.15.1
+2015-10-10 07:42:43-0700 [HoneyPotTransport,0,192.168.1.103] kex alg, key alg: diffie-hellman-group-exchange-sha1 ssh-rsa
+2015-10-10 07:42:43-0700 [HoneyPotTransport,0,192.168.1.103] outgoing: aes128-ctr hmac-sha1 none
+2015-10-10 07:42:43-0700 [HoneyPotTransport,0,192.168.1.103] incoming: aes128-ctr hmac-sha1 none
+2015-10-10 07:42:43-0700 [HoneyPotTransport,0,192.168.1.103] NEW KEYS
+2015-10-10 07:42:43-0700 [HoneyPotTransport,0,192.168.1.103] starting service ssh-userauth
+2015-10-10 07:42:43-0700 [SSHService ssh-userauth on HoneyPotTransport,0,192.168.1.103] root trying auth password
+2015-10-10 07:42:43-0700 [SSHService ssh-userauth on HoneyPotTransport,0,192.168.1.103] login attempt [root/iloveyou] succeeded
+2015-10-10 07:42:44-0700 [SSHService ssh-userauth on HoneyPotTransport,0,192.168.1.103] root authenticated with password
+2015-10-10 07:42:44-0700 [SSHService ssh-userauth on HoneyPotTransport,0,192.168.1.103] starting service ssh-connection
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] got channel session request
+2015-10-10 07:42:44-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] channel open
+2015-10-10 07:42:44-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] asking for subsystem "sftp"
+2015-10-10 07:42:44-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] {'sftp': <class twisted.conch.ssh.filetransfer.FileTransferServer at 0xb69679bc>}
+2015-10-10 07:42:44-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] SFTP openFile: /tmp/urls2.txt
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65551 to 65521 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65705 to 65367 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:44-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:45-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:46-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:47-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] adding 65606 to 65466 in channel 0
+2015-10-10 07:42:48-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] SHA sum 86e98d0e32fbbb0fc8a6b0ede5b21426d5f211d96d49b7dba838095fb7985381
+2015-10-10 07:42:48-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] SFTP getAttrs: /tmp/urls2.txt
+2015-10-10 07:42:48-0700 [SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] got channel session request
+2015-10-10 07:42:48-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] channel open
+2015-10-10 07:42:48-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] executing command "whoami"
+2015-10-10 07:42:48-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] Opening TTY Log: log/tty/20151010-074248-a12a6c4d.log
+2015-10-10 07:42:49-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] CMD: whoami
+2015-10-10 07:42:49-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] Command found: whoami
+2015-10-10 07:42:49-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] sending eof
+2015-10-10 07:42:49-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] sending close 1
+2015-10-10 07:42:49-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] got eof
+2015-10-10 07:42:49-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] remote close
+2015-10-10 07:42:49-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,0,192.168.1.103] Closing TTY Log: log/tty/20151010-074248-a12a6c4d.log
+2015-10-10 07:42:49-0700 [HoneyPotTransport,0,192.168.1.103] connection lost
+2015-10-10 07:42:49-0700 [HoneyPotTransport,0,192.168.1.103] Connection lost
+2015-10-10 07:44:08-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.103:52420 (192.168.1.104:22) [session: 1]
+2015-10-10 07:44:08-0700 [HoneyPotTransport,1,192.168.1.103] KEXINIT: client supported key exchange: ['diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group1-sha1']
+2015-10-10 07:44:08-0700 [HoneyPotTransport,1,192.168.1.103] KEXINIT: client supported public keys: ['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256']
+2015-10-10 07:44:08-0700 [HoneyPotTransport,1,192.168.1.103] KEXINIT: client supported encryption: ['aes128-ctr', 'aes256-ctr', 'aes128-cbc', 'blowfish-cbc', 'aes256-cbc', '3des-cbc', 'arcfour128', 'arcfour256']
+2015-10-10 07:44:08-0700 [HoneyPotTransport,1,192.168.1.103] KEXINIT: client supported MAC: ['hmac-sha1', 'hmac-md5', 'hmac-sha1-96', 'hmac-md5-96']
+2015-10-10 07:44:08-0700 [HoneyPotTransport,1,192.168.1.103] KEXINIT: client supported compression: ['none']
+2015-10-10 07:44:08-0700 [HoneyPotTransport,1,192.168.1.103] KEXINIT: client supported lang: ['']
+2015-10-10 07:44:08-0700 [HoneyPotTransport,1,192.168.1.103] Remote SSH version: SSH-2.0-paramiko_1.15.1
+2015-10-10 07:44:08-0700 [HoneyPotTransport,1,192.168.1.103] kex alg, key alg: diffie-hellman-group-exchange-sha1 ssh-rsa
+2015-10-10 07:44:08-0700 [HoneyPotTransport,1,192.168.1.103] outgoing: aes128-ctr hmac-sha1 none
+2015-10-10 07:44:08-0700 [HoneyPotTransport,1,192.168.1.103] incoming: aes128-ctr hmac-sha1 none
+2015-10-10 07:44:09-0700 [HoneyPotTransport,1,192.168.1.103] NEW KEYS
+2015-10-10 07:44:09-0700 [HoneyPotTransport,1,192.168.1.103] starting service ssh-userauth
+2015-10-10 07:44:09-0700 [SSHService ssh-userauth on HoneyPotTransport,1,192.168.1.103] root trying auth password
+2015-10-10 07:44:09-0700 [SSHService ssh-userauth on HoneyPotTransport,1,192.168.1.103] login attempt [root/iloveyou] succeeded
+2015-10-10 07:44:09-0700 [SSHService ssh-userauth on HoneyPotTransport,1,192.168.1.103] root authenticated with password
+2015-10-10 07:44:09-0700 [SSHService ssh-userauth on HoneyPotTransport,1,192.168.1.103] starting service ssh-connection
+2015-10-10 07:44:09-0700 [SSHService ssh-connection on HoneyPotTransport,1,192.168.1.103] got channel session request
+2015-10-10 07:44:09-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,1,192.168.1.103] channel open
+2015-10-10 07:44:09-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,1,192.168.1.103] asking for subsystem "sftp"
+2015-10-10 07:44:09-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,1,192.168.1.103] {'sftp': <class twisted.conch.ssh.filetransfer.FileTransferServer at 0xb69679bc>}
+2015-10-10 07:44:09-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,1,192.168.1.103] SFTP openFile: /tmp/urls.txt
+2015-10-10 07:44:09-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,1,192.168.1.103] SHA sum 588ddbe999e62158fe49d28b0bfc10defe1df1de284584608016a7265a197948
+2015-10-10 07:44:09-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,1,192.168.1.103] SFTP getAttrs: /tmp/urls.txt
+2015-10-10 07:44:09-0700 [SSHService ssh-connection on HoneyPotTransport,1,192.168.1.103] got channel session request
+2015-10-10 07:44:09-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,192.168.1.103] channel open
+2015-10-10 07:44:09-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,192.168.1.103] executing command "whoami"
+2015-10-10 07:44:09-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,192.168.1.103] Opening TTY Log: log/tty/20151010-074409-c63fabca.log
+2015-10-10 07:44:09-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,192.168.1.103] CMD: whoami
+2015-10-10 07:44:09-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,192.168.1.103] Command found: whoami
+2015-10-10 07:44:09-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,192.168.1.103] sending eof
+2015-10-10 07:44:09-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,192.168.1.103] sending close 1
+2015-10-10 07:44:09-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,192.168.1.103] got eof
+2015-10-10 07:44:09-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,192.168.1.103] remote close
+2015-10-10 07:44:09-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,1,192.168.1.103] Closing TTY Log: log/tty/20151010-074409-c63fabca.log
+2015-10-10 07:44:10-0700 [HoneyPotTransport,1,192.168.1.103] connection lost
+2015-10-10 07:44:10-0700 [HoneyPotTransport,1,192.168.1.103] Connection lost
+2015-10-10 07:46:25-0700 [cowrie.core.ssh.HoneyPotSSHFactory] New connection: 192.168.1.103:52423 (192.168.1.104:22) [session: 2]
+2015-10-10 07:46:25-0700 [HoneyPotTransport,2,192.168.1.103] KEXINIT: client supported key exchange: ['diffie-hellman-group14-sha1', 'diffie-hellman-group-exchange-sha1', 'diffie-hellman-group1-sha1']
+2015-10-10 07:46:25-0700 [HoneyPotTransport,2,192.168.1.103] KEXINIT: client supported public keys: ['ssh-rsa', 'ssh-dss', 'ecdsa-sha2-nistp256']
+2015-10-10 07:46:25-0700 [HoneyPotTransport,2,192.168.1.103] KEXINIT: client supported encryption: ['aes128-ctr', 'aes256-ctr', 'aes128-cbc', 'blowfish-cbc', 'aes256-cbc', '3des-cbc', 'arcfour128', 'arcfour256']
+2015-10-10 07:46:25-0700 [HoneyPotTransport,2,192.168.1.103] KEXINIT: client supported MAC: ['hmac-sha1', 'hmac-md5', 'hmac-sha1-96', 'hmac-md5-96']
+2015-10-10 07:46:25-0700 [HoneyPotTransport,2,192.168.1.103] KEXINIT: client supported compression: ['none']
+2015-10-10 07:46:25-0700 [HoneyPotTransport,2,192.168.1.103] KEXINIT: client supported lang: ['']
+2015-10-10 07:46:25-0700 [HoneyPotTransport,2,192.168.1.103] Remote SSH version: SSH-2.0-paramiko_1.15.1
+2015-10-10 07:46:25-0700 [HoneyPotTransport,2,192.168.1.103] kex alg, key alg: diffie-hellman-group-exchange-sha1 ssh-rsa
+2015-10-10 07:46:25-0700 [HoneyPotTransport,2,192.168.1.103] outgoing: aes128-ctr hmac-sha1 none
+2015-10-10 07:46:25-0700 [HoneyPotTransport,2,192.168.1.103] incoming: aes128-ctr hmac-sha1 none
+2015-10-10 07:46:25-0700 [HoneyPotTransport,2,192.168.1.103] NEW KEYS
+2015-10-10 07:46:25-0700 [HoneyPotTransport,2,192.168.1.103] starting service ssh-userauth
+2015-10-10 07:46:25-0700 [SSHService ssh-userauth on HoneyPotTransport,2,192.168.1.103] root trying auth password
+2015-10-10 07:46:25-0700 [SSHService ssh-userauth on HoneyPotTransport,2,192.168.1.103] login attempt [root/iloveyou] succeeded
+2015-10-10 07:46:25-0700 [SSHService ssh-userauth on HoneyPotTransport,2,192.168.1.103] root authenticated with password
+2015-10-10 07:46:25-0700 [SSHService ssh-userauth on HoneyPotTransport,2,192.168.1.103] starting service ssh-connection
+2015-10-10 07:46:25-0700 [SSHService ssh-connection on HoneyPotTransport,2,192.168.1.103] got channel session request
+2015-10-10 07:46:25-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,2,192.168.1.103] channel open
+2015-10-10 07:46:25-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,2,192.168.1.103] asking for subsystem "sftp"
+2015-10-10 07:46:25-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,2,192.168.1.103] {'sftp': <class twisted.conch.ssh.filetransfer.FileTransferServer at 0xb69679bc>}
+2015-10-10 07:46:25-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,2,192.168.1.103] SFTP openFile: /tmp/urls3.txt
+2015-10-10 07:46:25-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,2,192.168.1.103] SHA sum 46bd85560d104fb45dda1b28397c51fbc76faa09512ba3a24a14ce30244f0a53
+2015-10-10 07:46:25-0700 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,2,192.168.1.103] SFTP getAttrs: /tmp/urls3.txt
+2015-10-10 07:46:25-0700 [SSHService ssh-connection on HoneyPotTransport,2,192.168.1.103] got channel session request
+2015-10-10 07:46:25-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,2,192.168.1.103] channel open
+2015-10-10 07:46:25-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,2,192.168.1.103] executing command "whoami"
+2015-10-10 07:46:25-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,2,192.168.1.103] Opening TTY Log: log/tty/20151010-074625-9287ef3c.log
+2015-10-10 07:46:25-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,2,192.168.1.103] CMD: whoami
+2015-10-10 07:46:25-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,2,192.168.1.103] Command found: whoami
+2015-10-10 07:46:25-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,2,192.168.1.103] sending eof
+2015-10-10 07:46:25-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,2,192.168.1.103] sending close 1
+2015-10-10 07:46:25-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,2,192.168.1.103] got eof
+2015-10-10 07:46:26-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,2,192.168.1.103] remote close
+2015-10-10 07:46:26-0700 [SSHChannel session (1) on SSHService ssh-connection on HoneyPotTransport,2,192.168.1.103] Closing TTY Log: log/tty/20151010-074625-9287ef3c.log
+2015-10-10 07:46:26-0700 [HoneyPotTransport,2,192.168.1.103] connection lost
+2015-10-10 07:46:26-0700 [HoneyPotTransport,2,192.168.1.103] Connection lost

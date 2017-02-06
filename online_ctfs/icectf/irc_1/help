@@ -1,0 +1,40 @@
+You can see more info about any of these commands by doing .help <command> (e.g. .help time) 
+ADMIN         save  quit  msg  part  me  join  set  mode 
+ADMINCHANNEL  unquiet  topic  kickban  kick  tmask  showmask  quiet 
+              unban  ban 
+ANNOUNCE      announce 
+CALC          py  wa  c 
+CLOCK         settz  settimeformat  getchanneltz  t  gettz 
+              setchanneltimeformat  gettimeformat  setchanneltz 
+              getchanneltimeformat 
+CORETASKS     blocks  useserviceauth 
+COUNTDOWN     countdown 
+CURRENCY      btc  cur 
+DICE          choose  d 
+ETYMOLOGY     ety 
+FLAG          flag 
+HELP          help 
+IP            iplookup 
+ISUP          isup 
+LMGTFY        lmgtfy 
+MOVIE         movie 
+RAND          rand 
+REDDIT        redditor  setsafeforwork  getsafeforwork 
+RELOAD        update  load  reload 
+REMIND        in  at 
+SAFETY        safety 
+SEARCH        duck  suggest  search 
+SEEN          seen 
+SPELLCHECK    spellcheck 
+TELL          tell 
+TLD           tld 
+TRANSLATE     translate  mangle 
+UNICODE_INFO  u 
+UNITS         temp  length  weight 
+UPTIME        uptime 
+URL           title 
+VERSION       version 
+WEATHER       setlocation  weather 
+WIKIPEDIA     w 
+WIKTIONARY    wt 
+XKCD          xkcd 

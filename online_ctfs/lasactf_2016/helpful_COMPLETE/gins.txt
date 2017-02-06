@@ -1,0 +1,196 @@
+
+Session Start: Mon Mar 31 22:50:06 2003
+Session Ident: #geekissues
+[22:50] * Now talking in #geekissues
+[22:50] * Topic is 'http://digdug.cx/images/pictures/reaper.png'
+[22:50] * Set by DigDug!~digdug@146.145.207.146 on Mon Mar 31 14:54:37
+[22:51] * tfg is away: Sleeping then school
+[22:51] * tfg has gone to a greater place... away from the computer.
+[22:52] * GD has joined #geekissues
+[22:54] <migas> so how is everybody feeling tonight?
+[22:56] <poorboy> I would like to murder people and burry them in the backyard.
+[22:56] <poorboy> Under the shed.
+[22:56] <poorboy> You?
+[22:57] <Duke\cs> my bed is screaming for me
+[22:58] * Duke\cs is now known as Dukester
+[22:58] <poorboy> screaming for ya eh?
+[22:58] <poorboy> saying "Come lie down... you know you want to..."
+[22:58] <poorboy> Sleep is for the weak.
+[22:58] <Dukester> hehe
+[22:58] <Dukester> where are u from?
+[22:59] <poorboy> Phoenix, az.
+[22:59] <Dukester> ah ok
+[22:59] <Dukester> <- sweden :P
+[22:59] <poorboy> Swede.
+[22:59] <Dukester> late as hell here
+[22:59] <poorboy> I used to work with a swede.
+[22:59] <poorboy> He'd get to talking in english.. and you couldn't shut him up.. short of smacking the hell out of him.
+[22:59] <Dukester> haha
+[22:59] <poorboy> And half the time couldn't understand him when he started rambling.
+[22:59] <poorboy> Get him drunk.. and it was even funnier.
+[23:00] <Dukester> haha
+[23:01] <Dukester> well, night guys..
+[23:01] <poorboy> later weakling. :P
+[23:03] * FRizKo has quit IRC (Read error: 54 (Connection reset by peer))
+[23:03] <Dukester> i was late to work this morning and i will not be late again.. my boss sux
+[23:06] * DrgsOnKds has joined #geekissues
+[23:08] * A1ex has quit IRC (Read error: Connection reset by peer)
+[23:08] * Kurin has joined #geekissues
+[23:10] * laripSOut has quit IRC (Read error: 54 (Connection reset by peer))
+[23:18] * STyLiSh is away, auto-away after 15 minutes, (log\on pager\off)
+[23:27] <migas> You know the average penis size is between 5 and 6 inches, surveys from this top? Nobody wants to be " average ". Is not sure to you to like above the average? This is truly effective! 98% person that attempt Hung-Wang says it does.
+[23:27] * kisama changes topic to 'http://digdug.cx/images/pictures/reaper.png | koamic is the bomb shit.'
+[23:28] <kisama> needs remember size and window position though
+[23:31] * dupe576 has joined #geekissues
+[23:49] <Dekkon> wakka wakka wakka
+[23:50] * johan` has quit IRC (hub.uk hub.se)
+[23:50] * Rjx[afk] has quit IRC (hub.uk hub.se)
+[23:50] * Cerberus2 has quit IRC (hub.uk hub.se)
+[23:50] * |wee- has quit IRC (hub.uk hub.se)
+[23:50] * Ulle has quit IRC (hub.uk hub.se)
+[23:50] * opty has quit IRC (hub.uk hub.se)
+[23:50] * CrazyCoot has quit IRC (hub.uk hub.se)
+[23:50] * c-rOCK has quit IRC (hub.uk hub.se)
+[23:50] * Kurin has quit IRC (hub.uk hub.se)
+[23:50] * br4dley has quit IRC (hub.uk hub.se)
+[23:50] * TGS has quit IRC (hub.uk hub.se)
+[23:50] * DrgdHmstr has quit IRC (hub.uk hub.se)
+[23:50] * beady has quit IRC (hub.uk hub.se)
+[23:50] * GD has quit IRC (hub.uk hub.se)
+[23:50] * Dukester has quit IRC (hub.uk hub.se)
+[23:50] * majk has quit IRC (hub.uk hub.se)
+[23:50] * Cartel_ has quit IRC (hub.uk hub.se)
+[23:50] * BadtzVS has quit IRC (hub.uk hub.se)
+[23:50] * McMoo has quit IRC (hub.uk hub.se)
+[23:50] * Minion has quit IRC (hub.uk hub.se)
+[23:50] * jayhawk has quit IRC (hub.uk hub.se)
+[23:50] * Amanda` has quit IRC (hub.uk hub.se)
+[23:50] * homerj has quit IRC (hub.uk hub.se)
+[23:50] * Kenn has quit IRC (hub.uk hub.se)
+[23:50] * mef has quit IRC (hub.uk hub.se)
+[23:50] * lude has quit IRC (hub.uk hub.se)
+[23:50] * DrgsOnKds has quit IRC (hub.uk hub.se)
+[23:50] * dupe576 has quit IRC (hub.uk hub.se)
+[23:50] * Blaxthos has quit IRC (hub.uk hub.se)
+[23:50] * morphiK has quit IRC (hub.uk hub.se)
+[23:50] * Livewireo has quit IRC (hub.uk hub.se)
+[23:50] * claws03 has quit IRC (hub.uk hub.se)
+[23:50] * nyisles has quit IRC (hub.uk hub.se)
+[23:50] * D1- has quit IRC (hub.uk hub.se)
+[23:50] * Spidey has quit IRC (hub.uk hub.se)
+[23:50] * ogw has quit IRC (hub.uk hub.se)
+[23:50] * tfg has quit IRC (hub.uk hub.se)
+[23:50] * Durandal_ has quit IRC (hub.uk hub.se)
+[23:50] * w3nis has quit IRC (hub.uk hub.se)
+[23:50] * kisama has quit IRC (hub.uk hub.se)
+[23:50] * raistlin` has quit IRC (hub.uk hub.se)
+[23:50] * jafo has quit IRC (hub.uk hub.se)
+[23:50] * cadrin has quit IRC (hub.uk hub.se)
+[23:50] * h3sh has quit IRC (hub.uk hub.se)
+[23:50] * alioth has quit IRC (hub.uk hub.se)
+[23:50] * shaft` has quit IRC (hub.uk hub.se)
+[23:50] * migas has quit IRC (hub.uk hub.se)
+[23:51] * poorboy has quit IRC (hub.uk hub.se)
+[23:51] * hardlined has quit IRC (hub.uk hub.se)
+[23:51] * Badtz has quit IRC (hub.uk hub.se)
+[23:51] * maff has quit IRC (hub.uk hub.se)
+[23:51] * pHluid has quit IRC (hub.uk hub.se)
+[23:51] * Swish has quit IRC (hub.uk hub.se)
+[23:51] * _evolve has quit IRC (hub.uk hub.se)
+[23:51] * ChefJosh has quit IRC (hub.uk hub.se)
+[23:51] * timmo has quit IRC (hub.uk hub.se)
+[23:51] * orge has quit IRC (hub.uk hub.se)
+[23:51] * s13 has quit IRC (hub.uk hub.se)
+[23:51] * godfire has quit IRC (hub.uk hub.se)
+[23:51] * mhek has quit IRC (hub.uk hub.se)
+[23:51] * gzl has quit IRC (hub.uk hub.se)
+[23:51] * devil` has quit IRC (hub.uk hub.se)
+[23:51] * Zanthas has quit IRC (hub.uk hub.se)
+[23:51] * zartik has quit IRC (hub.uk hub.se)
+[23:51] * kriztian has quit IRC (hub.uk hub.se)
+[23:51] * feet has quit IRC (hub.uk hub.se)
+[23:51] * Zombie_ has quit IRC (hub.uk hub.se)
+[23:51] * STyLiSh has quit IRC (hub.uk hub.se)
+[23:51] * |dean has quit IRC (hub.uk hub.se)
+[23:53] <RushMore|> HOLY SHIT
+[23:53] <RushMore|> Yo Dekkon
+[23:56] * Geezuz has quit IRC (Excess Flood)
+[23:56] * D1- has joined #geekissues
+[23:56] * AlexM has joined #geekissues
+[23:56] * dupe576 has joined #geekissues
+[23:56] * Kurin has joined #geekissues
+[23:56] * DrgsOnKds has joined #geekissues
+[23:56] * GD has joined #geekissues
+[23:56] * Dukester has joined #geekissues
+[23:56] * godfire has joined #geekissues
+[23:56] * gzl has joined #geekissues
+[23:56] * Cerberus2 has joined #geekissues
+[23:56] * kisama has joined #geekissues
+[23:56] * cadrin has joined #geekissues
+[23:56] * lude has joined #geekissues
+[23:56] * efnet.demon.co.uk sets mode: +ovoo D1- godfire kisama lude
+[23:56] * h3sh has joined #geekissues
+[23:56] * devil` has joined #geekissues
+[23:56] * |wee- has joined #geekissues
+[23:56] * Kenn has joined #geekissues
+[23:56] * alioth has joined #geekissues
+[23:56] * mef has joined #geekissues
+[23:56] * c-rOCK has joined #geekissues
+[23:56] * efnet.demon.co.uk sets mode: +oovo devil` Kenn mef c-rOCK
+[23:56] * tfg has joined #geekissues
+[23:56] * _evolve has joined #geekissues
+[23:56] * feet has joined #geekissues
+[23:56] * ChefJosh has joined #geekissues
+[23:56] * Ulle has joined #geekissues
+[23:56] * johan` has joined #geekissues
+[23:56] * Amanda` has joined #geekissues
+[23:56] * majk has joined #geekissues
+[23:56] * Cartel_ has joined #geekissues
+[23:56] * hardlined has joined #geekissues
+[23:56] * efnet.demon.co.uk sets mode: +vvov tfg feet Amanda` hardlined
+[23:56] * Zombie_ has joined #geekissues
+[23:56] * br4dley has joined #geekissues
+[23:56] * kriztian has joined #geekissues
+[23:56] * morphiK has joined #geekissues
+[23:56] * STyLiSh has joined #geekissues
+[23:56] * s13 has joined #geekissues
+[23:56] * McMoo has joined #geekissues
+[23:56] * efnet.demon.co.uk sets mode: +ovoo br4dley kriztian s13 McMoo
+[23:56] * Livewireo has joined #geekissues
+[23:56] * Spidey has joined #geekissues
+[23:56] * shaft` has joined #geekissues
+[23:56] * opty has joined #geekissues
+[23:56] * TGS has joined #geekissues
+[23:56] * timmo has joined #geekissues
+[23:56] * efnet.demon.co.uk sets mode: +oovo Spidey shaft` TGS timmo
+[23:56] * raistlin` has joined #geekissues
+[23:56] * mhek has joined #geekissues
+[23:56] * CrazyCoot has joined #geekissues
+[23:56] * ogw has joined #geekissues
+[23:56] * |dean has joined #geekissues
+[23:56] * migas has joined #geekissues
+[23:56] * Rjx[afk] has joined #geekissues
+[23:56] * claws03 has joined #geekissues
+[23:56] * orge has joined #geekissues
+[23:56] * Blaxthos has joined #geekissues
+[23:56] * efnet.demon.co.uk sets mode: +oooo raistlin` migas claws03 Blaxthos
+[23:56] * DrgdHmstr has joined #geekissues
+[23:56] * homerj has joined #geekissues
+[23:56] * Zanthas has joined #geekissues
+[23:56] * beady has joined #geekissues
+[23:56] * Durandal_ has joined #geekissues
+[23:56] * nyisles has joined #geekissues
+[23:56] * poorboy has joined #geekissues
+[23:56] * jafo has joined #geekissues
+[23:56] * efnet.demon.co.uk sets mode: +vovo beady nyisles poorboy jafo
+[23:56] * BadtzVS has joined #geekissues
+[23:56] * zartik has joined #geekissues
+[23:56] * w3nis has joined #geekissues
+[23:56] * efnet.demon.co.uk sets mode: +ovoo BadtzVS BadtzVS zartik w3nis
+[23:56] * Minion has joined #geekissues
+[23:56] * jayhawk has joined #geekissues
+[23:56] * Badtz has joined #geekissues
+[23:56] * maff has joined #geekissues
+[23:56] * pHluid has joined #geekissues
+[23:56] * efnet.demon.co.uk sets mode: +ooov jayhawk Badtz maff pHluid
+[23:56] * Swish has joined #geekissues

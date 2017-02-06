@@ -1,0 +1,232 @@
+body {
+  background: #f2f2f2;
+  padding-top: 74px;
+}
+
+.nav-fixed{
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.nav-fixed {
+  top: 0;
+}
+
+.status-dot {
+  display: inline-block;
+}
+
+.side-nav {
+  background: #f2f2f2;
+  box-shadow: none;
+}
+
+.register-info {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.side-nav a {
+  cursor: pointer;
+  height: 50px;
+  line-height: 50px;
+}
+
+.status-dot {
+  height: 28px;
+  width: 28px;
+  position: absolute;
+  margin-top: 7px;
+}
+
+.challenge-text {
+  margin-left: 50px;
+  display: inline-block;
+}
+
+.side-nav.fixed {
+  top: 69px;
+}
+
+.side-icon {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: -15px;
+}
+
+.side-text {
+  margin-left: 26px;
+}
+
+.collapsible-body {
+  background: white;
+}
+
+.cont {
+  padding-left: 280px;
+  padding-right: 40px;
+}
+
+.top-logo {
+  height: 50px;
+  margin-left: 18px;
+  margin-top: 8px;
+}
+
+.check-icon {
+  margin-right: 0 !important;
+  margin-left: 8px !important;
+}
+
+.check-pad {
+  width: 33px;
+  display: inline-block;
+}
+
+.no-bot {
+  margin-bottom: 0;
+}
+
+.flag-submit {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.flag-form {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.page-title-wrapper {
+  margin-bottom: 2rem;
+}
+
+.page-title
+{
+  font-weight: 300;
+  font-size: 3.2rem;
+  display: inline-block;
+  margin-left: -3px;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.page-title-tag
+{
+  font-size: 3.2rem;
+  display: inline-block;
+}
+
+.form-title
+{
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.panel {
+  padding: 2rem;
+  background: white;
+}
+
+.tabs .tab a {
+  color: #2196F3 !important;
+}
+
+.tabs .indicator {
+  background: #76c2ff !important;
+}
+
+.team-wrapper {
+    background: #f9f9f9;
+    margin-top: 2rem;
+}
+
+.register-submit {
+  margin-top: 35px;
+}
+
+.login-panel {
+  margin-top: 50px;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+.card-header {
+  color: white;
+  padding: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.chat-frame {
+    border-width: 0px;
+    width: calc(100% + 80px);
+    height: calc(100% - 64px);
+    margin-top: -60px;
+    margin-left: -40px;
+}
+
+code, kbd, pre, samp {
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
+.challenge code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+
+.shell-frame {
+    border-width: 0px;
+    width: 100%;
+    height: calc(100% - 64px);
+}
+
+
+/* MEDIUM */
+@media only screen and (max-width : 992px) {
+  .cont {
+    padding-left: 40px;
+  }
+
+  .top-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    position: relative;
+    top: 7px;
+  }
+
+  .login-panel {
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+}
+
+/* SMALL */
+@media only screen and (max-width : 600px) {
+  .register-submit {
+    margin-top: 0;
+  }
+
+  .login-panel {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+}
+
+
+/* V -- DELETE MAYBE -- V */
+
+
+.competition-page .navbar-fixed > nav {
+  background-color: rgb(0, 138, 255) !important;
+}
+

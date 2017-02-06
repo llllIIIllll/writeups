@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Fri Aug 12 19:11:50 2016
+Invocation: foremost audio_problems_210b88f2232e1c9d770bb5d2069c47aabb86301b0adc7ad606956394a00f298b.wav 
+Output directory: /home/john/icectf/audio_problems/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: audio_problems_210b88f2232e1c9d770bb5d2069c47aabb86301b0adc7ad606956394a00f298b.wav
+Start: Fri Aug 12 19:11:50 2016
+Length: 1 MB (1073822 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.wav 	       1 MB 	          0 	 
+Finish: Fri Aug 12 19:11:50 2016
+
+1 FILES EXTRACTED
+	
+rif:= 1
+------------------------------------------------------------------
+
+Foremost finished at Fri Aug 12 19:11:50 2016

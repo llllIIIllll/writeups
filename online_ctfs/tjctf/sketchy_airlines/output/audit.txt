@@ -1,0 +1,21 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat May 28 02:21:59 2016
+Invocation: foremost ticket_0641cfe35e1f6f5c0c6810c971f1c11112ce7c6c4a2d29cde5f142aea650d048.jpg 
+Output directory: /home/john/tjctf/sketchy_airlines/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: ticket_0641cfe35e1f6f5c0c6810c971f1c11112ce7c6c4a2d29cde5f142aea650d048.jpg
+Start: Sat May 28 02:21:59 2016
+Length: 1 MB (1427747 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+Finish: Sat May 28 02:21:59 2016
+
+0 FILES EXTRACTED
+	
+------------------------------------------------------------------
+
+Foremost finished at Sat May 28 02:21:59 2016

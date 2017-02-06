@@ -1,0 +1,21 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Fri May 27 21:10:04 2016
+Invocation: foremost nowisitreallya_948265385e3e040506518fa4942702a9403b8be930e223a8ebce6434a95754f9.txt 
+Output directory: /home/john/tjctf/nowisitreally/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: nowisitreallya_948265385e3e040506518fa4942702a9403b8be930e223a8ebce6434a95754f9.txt
+Start: Fri May 27 21:10:04 2016
+Length: 1 KB (1532 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+Finish: Fri May 27 21:10:04 2016
+
+0 FILES EXTRACTED
+	
+------------------------------------------------------------------
+
+Foremost finished at Fri May 27 21:10:04 2016

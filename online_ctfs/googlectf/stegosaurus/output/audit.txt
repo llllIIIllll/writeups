@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Fri Apr 29 22:30:58 2016
+Invocation: foremost message.png 
+Output directory: /home/john/googlectf/stegosaurus/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: message.png
+Start: Fri Apr 29 22:30:58 2016
+Length: 1 MB (1074749 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	       1 MB 	          0 	  (888 x 592)
+Finish: Fri Apr 29 22:30:58 2016
+
+1 FILES EXTRACTED
+	
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Fri Apr 29 22:30:58 2016

@@ -1,0 +1,81 @@
+/*@media screen
+  {
+  p.test {font-family:verdana,sans-serif;font-size:14px;}
+  }
+@media print
+  {
+  p.test {font-family:times,serif;font-size:10px;}
+  }
+@media handheld
+  {
+  p.test {font-weight:bold;}
+  }*/
+/*body {
+  background-position: top left;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url(images/EPUB_logo.svg);
+  }*/
+img {
+  max-height: none;
+}
+div {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+div.image {
+  margin: 5%;
+  /*padding:5%;*//*border:0.05em solid gray;*//*float: left;*/text-align: center;
+  max-height: none;
+}
+.math {
+  margin: 0.5em;
+  padding: 0.5em;
+  border: 0.05em solid gray;
+  text-align: center;
+}
+.header {
+  margin-left: -10%;
+  /* margin-top: 0em;*/margin-bottom: -1.5em;
+}
+cover.img {
+  max-height: none;
+}
+.heading {
+  font-weight: bold;
+}
+.content p {
+  font-size: medium;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-indent: 1em;
+  text-align: justify;
+}
+.noteanchor {
+  font-size: small;
+  vertical-align: super;
+}
+.endnotes {
+  clear: left;
+  orphans: 1;
+  widows: 1;
+  margin: 1.5em 1em 0 2em;
+  padding: 0;
+  font-size: 90%;
+}
+.notenum {
+  float: left;
+  line-height: 50%;
+  width: 1em;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  text-align: right;
+}
+.note {
+  clear: left;
+}
+.notetext {
+  padding: 0 0 0 0.5em;
+  margin: 0 0 0 1.3em;
+  border-left: 1px black solid;
+}

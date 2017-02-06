@@ -1,0 +1,21 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Oct  8 15:50:32 2016
+Invocation: foremost thecard.img 
+Output directory: /home/john/hackover/thecard/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: thecard.img
+Start: Sat Oct  8 15:50:32 2016
+Length: 16 MB (16777216 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+Finish: Sat Oct  8 15:50:32 2016
+
+0 FILES EXTRACTED
+	
+------------------------------------------------------------------
+
+Foremost finished at Sat Oct  8 15:50:32 2016

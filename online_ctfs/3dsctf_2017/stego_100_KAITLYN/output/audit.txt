@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Mon Dec 19 18:05:05 2016
+Invocation: foremost flag.png 
+Output directory: /home/john/3dsctf/stego_100/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: flag.png
+Start: Mon Dec 19 18:05:05 2016
+Length: 1 MB (1356687 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	       1 MB 	          0 	  (800 x 600)
+Finish: Mon Dec 19 18:05:05 2016
+
+1 FILES EXTRACTED
+	
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Mon Dec 19 18:05:05 2016

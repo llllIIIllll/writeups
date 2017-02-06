@@ -1,0 +1,4 @@
+payload = ' UNION SELECT 1337, 1337, 1337, 1337, 1337 #
+
+use password 1337
+(or whatever you specfy)
