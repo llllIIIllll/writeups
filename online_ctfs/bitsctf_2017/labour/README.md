@@ -1,73 +1,47 @@
-BITSCTF 2017
+Labour
 ========
 
 > John Hammond | Monday, February 6th, 2017
 
 --------------------------------------------
 
-The purpose of this directory and its sub-directories is to contain any information regarding challenges that we as a Cyber Team solved while participating in the online competition [BITSCTF 2017].
-
-The hope with this repository and this specific directory is that users will have a place to post resources, scripts, solution writeups, and any other material that may relate to solving some challenges. If a problem does not have some of your input, whether or not it some code or even a full-blown writeup and solution, feel free to add something!
-
----------------------------
-
-Summary
--------
-
-> Sat, 04 Feb. 2017, 11:30 UTC — Sun, 05 Feb. 2017, 11:30 UTC 
+> Follow your heart, for it leads you straight to the answer.
 > 
-> On-line
-> 
-> A BITSCTF event.
-> 
-> Format: Jeopardy Jeopardy
-> 
-> Official URL: [https://bitsctf.bits-quark.org/](https://bitsctf.bits-quark.org/)
-> 
-> This event's weight is subject of public voting!
-> Event organizers 
-> 
-> *    BITSkrieg
+> Author - Speeeddy
 > 
 
 
-------------
+This was the first miscellaneous challenge, it was worth only `20` points. 
 
-This was a good [CTF]. It had a decent amount of simple and easy challenges, so you might like you were moving and making progress, and there was some really unique and innovative challenges too.
+It didn't have a whole lot of technical merit to it, and the way I ended up solving it was pretty time-consuming (hence the challenge title).
 
-Challenges
-----------
+I plotted all the points on the online [GPS Visualizer](http://www.gpsvisualizer.com/) (you could [upload the file that was supplied](DoSomethingWithThis)) and went through all of the waypoints.
 
-The following is a list of challenges that we successfully completed as part of the [BITSCTF] competition.
+Interestingly enough, the flag turned out to be the concatenation of all of the first capital letters of the countries.
 
-__Note that bolded items have a solution added; regular entries _do not_.__
+```
+Bangladesh
+India
+Turkmenistan
+Sudan
+Chad
+Thailand
+France
+Malesia
+Afganistan
+Pakistan
+Turkey
+Hungary
+Egypt
+Haiti
+Angola
+China
+Kazaksztan
+```
 
-* [__BotBot__](botbot/)
-* [__Batman vs Joker__](batman_vs_joker/)
-* [__Message the admin__](message_the_admin/)
-* Showcasing the admin
-* [__Mission Improbable__](mission_improbable/)
-* Riskv and Reward
-* [__Labour__](labour/)
-* Good Samaritan
-* Enjoy the music
-* [__Banana Princess__](banana_princess/)
-* fanfie
-* Enigma
-* Beginner's Luck
-* Sherlock
-* Black Hole
-* Woodstock-1
-* flagception
-* Tom and Jerry
-* Woodstock-2
-* Gh0st in the Machine
-* Remember me
-* Command-line
-* Random Game
+We had to fill in some underscores and the curly braces to get the proper flag format.
 
-
-
+__The flag was: `BITSCTF{MAP_THE_HACK}`__
 
 [netcat]: https://en.wikipedia.org/wiki/Netcat
 [Wikipedia]: https://www.wikipedia.org/
@@ -398,9 +372,34 @@ __Note that bolded items have a solution added; regular entries _do not_.__
 [vignere cipher]: https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher
 [substitution cipher]: https://en.wikipedia.org/wiki/Substitution_cipher
 [DNA]: https://en.wikipedia.org/wiki/Nucleic_acid_sequence
-[QIWI InfoSEC CTF 2016]: https://ctftime.org/event/385
-[CTF]: https://en.wikipedia.org/wiki/Capture_the_flag#Computer_security
-[BreakIn CTF 2017]: https://ctftime.org/event/418
-[CTFtime]: https://ctftime.org/
-[BITSCTF]: https://ctftime.org/event/417
-[BITSCTF 2017]: https://bitsctf.bits-quark.org/
+[Python bytecode]: http://security.coverity.com/blog/2014/Nov/understanding-python-bytecode.html
+[uncompyle]: https://github.com/gstarnberger/uncompyle
+[Easy Python Decompiler]: https://github.com/aliansi/Easy-Python-Decompiler-v1.3.2
+[marshal]: https://docs.python.org/2/library/marshal.html
+[IDLE]: https://en.wikipedia.org/wiki/IDLE
+[bytecode]: http://whatis.techtarget.com/definition/bytecode
+[dis]: https://docs.python.org/2/library/dis.html
+[rot13]: https://en.wikipedia.org/wiki/ROT13
+[calendar]: https://docs.python.org/2/library/calendar.html
+[datetime]: https://docs.python.org/2/library/datetime.html
+[primefac]: https://pypi.python.org/pypi/primefac
+[re]: https://docs.python.org/2/library/re.html
+[IDA pro]: https://www.hex-rays.com/products/ida/
+[IDA]: https://www.hex-rays.com/products/ida/
+[QR Code]:  https://en.wikipedia.org/wiki/QR_code
+[RGB]: https://en.wikipedia.org/wiki/RGB_color_model
+[RGB color]: https://en.wikipedia.org/wiki/RGB_color_model
+[exiftool]: http://www.sno.phy.queensu.ca/~phil/exiftool/
+[robots.txt]: http://www.robotstxt.org/
+[XSS]: https://en.wikipedia.org/wiki/Cross-site_scripting
+[cross-site scripting]: https://en.wikipedia.org/wiki/Cross-site_scripting
+[cross site scripting]: https://en.wikipedia.org/wiki/Cross-site_scripting
+[cookie catcher]: http://hackwithstyle.blogspot.com/2011/11/what-is-cookie-catcher-and-how-to-get.html
+[johnhammond.org]: http://johnhammond.org
+[HTTP cookie]: https://en.wikipedia.org/wiki/HTTP_cookie
+[HTTP cookies]: https://en.wikipedia.org/wiki/HTTP_cookie
+[cookie]: https://en.wikipedia.org/wiki/HTTP_cookie
+[cookies]: https://en.wikipedia.org/wiki/HTTP_cookie
+[HTTP GET]: http://www.w3schools.com/Tags/ref_httpmethods.asp
+[tee]: https://en.wikipedia.org/wiki/Tee_(command)
+[reverse engineering]: https://en.wikipedia.org/wiki/Reverse_engineering

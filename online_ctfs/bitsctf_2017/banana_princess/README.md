@@ -1,73 +1,96 @@
-BITSCTF 2017
+Banana Princess
 ========
 
 > John Hammond | Monday, February 6th, 2017
 
 --------------------------------------------
 
-The purpose of this directory and its sub-directories is to contain any information regarding challenges that we as a Cyber Team solved while participating in the online competition [BITSCTF 2017].
-
-The hope with this repository and this specific directory is that users will have a place to post resources, scripts, solution writeups, and any other material that may relate to solving some challenges. If a problem does not have some of your input, whether or not it some code or even a full-blown writeup and solution, feel free to add something!
-
----------------------------
-
-Summary
--------
-
-> Sat, 04 Feb. 2017, 11:30 UTC — Sun, 05 Feb. 2017, 11:30 UTC 
+> The princess has been kidnapped! It is up to you to rescue her now, with the help of the minions. They have provided you with a letter (which may or may not have touched the kidnappers hands on its way to you).
 > 
-> On-line
-> 
-> A BITSCTF event.
-> 
-> Format: Jeopardy Jeopardy
-> 
-> Official URL: [https://bitsctf.bits-quark.org/](https://bitsctf.bits-quark.org/)
-> 
-> This event's weight is subject of public voting!
-> Event organizers 
-> 
-> *    BITSkrieg
+> Authors - Speeeddy, Blaze
 > 
 
+This was the first crypto challenge, worth 20 points.
 
-------------
+We were given a [PDF] file [to download](MinionQuest.pdf); but the thing was broken, we couldn't load it into a viewer or really read anything out of it.
 
-This was a good [CTF]. It had a decent amount of simple and easy challenges, so you might like you were moving and making progress, and there was some really unique and innovative challenges too.
+I ran [`file`][file] on the file for some simple and easy recon, but there was really nothing interesting there.
 
-Challenges
-----------
+```
+$ file MinionQuest.pdf 
+MinionQuest.pdf: data
+```
 
-The following is a list of challenges that we successfully completed as part of the [BITSCTF] competition.
+Next I opened up in [`hexedit`][hexedit] (again to get a better idea of what is really up with this file) and everything looked like gibberish. Some of the text looked like [base64], so I tried to decode it but nothing worth while.
 
-__Note that bolded items have a solution added; regular entries _do not_.__
+Eventually, after staring at it for way too long, I took a look at the very top of the file.
 
-* [__BotBot__](botbot/)
-* [__Batman vs Joker__](batman_vs_joker/)
-* [__Message the admin__](message_the_admin/)
-* Showcasing the admin
-* [__Mission Improbable__](mission_improbable/)
-* Riskv and Reward
-* [__Labour__](labour/)
-* Good Samaritan
-* Enjoy the music
-* [__Banana Princess__](banana_princess/)
-* fanfie
-* Enigma
-* Beginner's Luck
-* Sherlock
-* Black Hole
-* Woodstock-1
-* flagception
-* Tom and Jerry
-* Woodstock-2
-* Gh0st in the Machine
-* Remember me
-* Command-line
-* Random Game
+I saw that the file started with bytes representing:
+
+```
+%CQS-1.5.
+```
 
 
+And this looked super weird, [because it should be](https://en.wikipedia.org/wiki/Magic_number_(programming)) `PDF`, but it looked similar to it. On a hunch and gut feeling, I started to check the difference between those letters.
 
+``` python
+>>> ord('P') - ord('C')
+13
+>>> ord('D') - ord('Q')
+-13
+>>> ord('F') - ord('S')
+-13
+```
+
+Aha. Thirteen. That encourages my hunch. I grabbed a random string and tested it:
+
+```
+$ strings MinionQuest.pdf |head
+%CQS-1.5
+4 0 bow
+<</Yvarnevmrq 1/Y 430190/B 6/R 404343/A 1/G 429991/U [ 576 155]>>
+raqbow
+                 
+kers
+4 14
+0000000016 00000 a
+0000000731 00000 a
+0000000791 00000 a
+```
+
+
+I wanted to see if it was simply [ROT13]'d...
+
+```
+$ echo "Yvarnevmrq" | rot13
+Linearized
+```
+
+Yup, that's totally a valid [PDF] element tag.
+
+___The whole [PDF] file must have been [ROT13]'d!___
+
+
+Now to correct it:
+
+```
+$ cat MinionQuest.pdf | rot13 > new.pdf
+new.pdf: PDF document, version 1.5
+```
+
+Got it. Now let's check it out.
+
+![pdf.png](pdf.png)
+
+Of course, they censored the flag.
+
+I tried to pull anything out of the [PDF] with `pdftohtml`. I was able to pull out the original picture and see the flag!
+
+![new-1_1.jpg](new-1_1.jpg)
+
+
+__The flag was: `BITSCTF{save_the_kid}`__
 
 [netcat]: https://en.wikipedia.org/wiki/Netcat
 [Wikipedia]: https://www.wikipedia.org/
@@ -398,9 +421,34 @@ __Note that bolded items have a solution added; regular entries _do not_.__
 [vignere cipher]: https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher
 [substitution cipher]: https://en.wikipedia.org/wiki/Substitution_cipher
 [DNA]: https://en.wikipedia.org/wiki/Nucleic_acid_sequence
-[QIWI InfoSEC CTF 2016]: https://ctftime.org/event/385
-[CTF]: https://en.wikipedia.org/wiki/Capture_the_flag#Computer_security
-[BreakIn CTF 2017]: https://ctftime.org/event/418
-[CTFtime]: https://ctftime.org/
-[BITSCTF]: https://ctftime.org/event/417
-[BITSCTF 2017]: https://bitsctf.bits-quark.org/
+[Python bytecode]: http://security.coverity.com/blog/2014/Nov/understanding-python-bytecode.html
+[uncompyle]: https://github.com/gstarnberger/uncompyle
+[Easy Python Decompiler]: https://github.com/aliansi/Easy-Python-Decompiler-v1.3.2
+[marshal]: https://docs.python.org/2/library/marshal.html
+[IDLE]: https://en.wikipedia.org/wiki/IDLE
+[bytecode]: http://whatis.techtarget.com/definition/bytecode
+[dis]: https://docs.python.org/2/library/dis.html
+[rot13]: https://en.wikipedia.org/wiki/ROT13
+[calendar]: https://docs.python.org/2/library/calendar.html
+[datetime]: https://docs.python.org/2/library/datetime.html
+[primefac]: https://pypi.python.org/pypi/primefac
+[re]: https://docs.python.org/2/library/re.html
+[IDA pro]: https://www.hex-rays.com/products/ida/
+[IDA]: https://www.hex-rays.com/products/ida/
+[QR Code]:  https://en.wikipedia.org/wiki/QR_code
+[RGB]: https://en.wikipedia.org/wiki/RGB_color_model
+[RGB color]: https://en.wikipedia.org/wiki/RGB_color_model
+[exiftool]: http://www.sno.phy.queensu.ca/~phil/exiftool/
+[robots.txt]: http://www.robotstxt.org/
+[XSS]: https://en.wikipedia.org/wiki/Cross-site_scripting
+[cross-site scripting]: https://en.wikipedia.org/wiki/Cross-site_scripting
+[cross site scripting]: https://en.wikipedia.org/wiki/Cross-site_scripting
+[cookie catcher]: http://hackwithstyle.blogspot.com/2011/11/what-is-cookie-catcher-and-how-to-get.html
+[johnhammond.org]: http://johnhammond.org
+[HTTP cookie]: https://en.wikipedia.org/wiki/HTTP_cookie
+[HTTP cookies]: https://en.wikipedia.org/wiki/HTTP_cookie
+[cookie]: https://en.wikipedia.org/wiki/HTTP_cookie
+[cookies]: https://en.wikipedia.org/wiki/HTTP_cookie
+[HTTP GET]: http://www.w3schools.com/Tags/ref_httpmethods.asp
+[tee]: https://en.wikipedia.org/wiki/Tee_(command)
+[reverse engineering]: https://en.wikipedia.org/wiki/Reverse_engineering
