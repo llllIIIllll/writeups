@@ -46,7 +46,7 @@ __Note that bolded items have a solution added; regular entries _do not_.__
 * [__Batman vs Joker__](batman_vs_joker/)
 * [__Message the admin__](message_the_admin/)
 * Showcasing the admin
-* Mission Improbable
+* [__Mission Improbable__](mission_improbable/)
 * Riskv and Reward
 * Labour
 * Good Samaritan
