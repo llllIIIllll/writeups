@@ -1,73 +1,65 @@
-BITSCTF 2017
+Black Hole
 ========
 
-> John Hammond | Monday, February 6th, 2017
+> John Hammond | Tuesday, February 7th, 2017
 
 --------------------------------------------
 
-The purpose of this directory and its sub-directories is to contain any information regarding challenges that we as a Cyber Team solved while participating in the online competition [BITSCTF 2017].
+> We are trying to study the Black Holes. One of the most controversial theory related to Black Holes is the "Information Loss Paradox". Calculations suggest that physical information could permanently disappear in a black hole. But this violates the quantum theory. To test the hypothesis, we sent our flag encoded in Base64 format towards a Black Hole. With the help of our Hubble Space Telescope, we got some pictures of the Black Hole. See if you can recover the flag from this information.
 
-The hope with this repository and this specific directory is that users will have a place to post resources, scripts, solution writeups, and any other material that may relate to solving some challenges. If a problem does not have some of your input, whether or not it some code or even a full-blown writeup and solution, feel free to add something!
+We are given [this image](black_hole.jpg) to work with.
 
----------------------------
+![black_hole.jpg](black_hole.jpg)
 
-Summary
--------
+This was the first forensics problem, with only 10 points, so I thought it should be pretty easy. I tried a lot of the low-hanging fruit until I realized what was up.
 
-> Sat, 04 Feb. 2017, 11:30 UTC — Sun, 05 Feb. 2017, 11:30 UTC 
-> 
-> On-line
-> 
-> A BITSCTF event.
-> 
-> Format: Jeopardy Jeopardy
-> 
-> Official URL: [https://bitsctf.bits-quark.org/](https://bitsctf.bits-quark.org/)
-> 
-> This event's weight is subject of public voting!
-> Event organizers 
-> 
-> *    BITSkrieg
-> 
+The challenge prompt really insisted "we sent our flag encoded in [base64] format towards a black hole"... and when I ran [`strings`][strings], I found something that really looked like [base64] but I couldn't get it to decode.
 
+```
+strings black_hole.jpg
+...
+UQklUQ1RGe1M1IDAwMTQrODF9
+...
+```
 
-------------
+That definitely looked like [base64], so I tried it, but it failed, no matter how much [padding] I tried to tack on.
 
-This was a good [CTF]. It had a decent amount of simple and easy challenges, so you might like you were moving and making progress, and there was some really unique and innovative challenges too.
+``` python
+>>> import base64
+>>> base64.b64decode('UQklUQ1RGe1M1IDAwMTQrODF9')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python2.7/base64.py", line 78, in b64decode
+    raise TypeError(msg)
+TypeError: Incorrect padding
+```
 
-Challenges
-----------
+What the heck? Was this a red-herring?
 
-The following is a list of challenges that we successfully completed as part of the [BITSCTF] competition.
+After my banging my head against the wall for a long while, I eventually told myself it _had_  to be the flag.
 
-__Note that bolded items have a solution added; regular entries _do not_.__
-
-* [__BotBot__](botbot/)
-* [__Batman vs Joker__](batman_vs_joker/)
-* [__Message the admin__](message_the_admin/)
-* Showcasing the admin
-* [__Mission Improbable__](mission_improbable/)
-* Riskv and Reward
-* [__Labour__](labour/)
-* Good Samaritan
-* Enjoy the music
-* [__Banana Princess__](banana_princess/)
-* fanfie
-* Enigma
-* [__Beginner's Luck__](beginners_luck/)
-* [__Sherlock__](sherlock/)
-* [__Black Hole__](black_hole/)
-* Woodstock-1
-* flagception
-* Tom and Jerry
-* Woodstock-2
-* Gh0st in the Machine
-* Remember me
-* Command-line
-* Random Game
+So, I tried the opposite: I tried to _encode_ what the flag should look like, I tried to [base64] encode the starting flag format.
 
 
+``` python
+>>> base64.b64encode('BITSCTF')
+'QklUU0NURg=='
+```
 
+_That looks really similar to what we have..._
+
+___Oh! The starting "U" is out of place, it shouldn't be there!___
+
+Maybe that came from another random string, or whatever. But I tried to remove that 'U' and decode again...
+
+``` python
+>>> base64.b64decode('QklUQ1RGe1M1IDAwMTQrODF9')
+'BITCTF{S5 0014+81}'
+```
+
+Aha! __Win.__
+
+__The flag was: `BITCTF{S5 0014+81}`__
 
 [netcat]: https://en.wikipedia.org/wiki/Netcat
 [Wikipedia]: https://www.wikipedia.org/
@@ -398,9 +390,40 @@ __Note that bolded items have a solution added; regular entries _do not_.__
 [vignere cipher]: https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher
 [substitution cipher]: https://en.wikipedia.org/wiki/Substitution_cipher
 [DNA]: https://en.wikipedia.org/wiki/Nucleic_acid_sequence
-[QIWI InfoSEC CTF 2016]: https://ctftime.org/event/385
-[CTF]: https://en.wikipedia.org/wiki/Capture_the_flag#Computer_security
-[BreakIn CTF 2017]: https://ctftime.org/event/418
-[CTFtime]: https://ctftime.org/
-[BITSCTF]: https://ctftime.org/event/417
-[BITSCTF 2017]: https://bitsctf.bits-quark.org/
+[Python bytecode]: http://security.coverity.com/blog/2014/Nov/understanding-python-bytecode.html
+[uncompyle]: https://github.com/gstarnberger/uncompyle
+[Easy Python Decompiler]: https://github.com/aliansi/Easy-Python-Decompiler-v1.3.2
+[marshal]: https://docs.python.org/2/library/marshal.html
+[IDLE]: https://en.wikipedia.org/wiki/IDLE
+[bytecode]: http://whatis.techtarget.com/definition/bytecode
+[dis]: https://docs.python.org/2/library/dis.html
+[rot13]: https://en.wikipedia.org/wiki/ROT13
+[calendar]: https://docs.python.org/2/library/calendar.html
+[datetime]: https://docs.python.org/2/library/datetime.html
+[primefac]: https://pypi.python.org/pypi/primefac
+[re]: https://docs.python.org/2/library/re.html
+[IDA pro]: https://www.hex-rays.com/products/ida/
+[IDA]: https://www.hex-rays.com/products/ida/
+[QR Code]:  https://en.wikipedia.org/wiki/QR_code
+[RGB]: https://en.wikipedia.org/wiki/RGB_color_model
+[RGB color]: https://en.wikipedia.org/wiki/RGB_color_model
+[exiftool]: http://www.sno.phy.queensu.ca/~phil/exiftool/
+[robots.txt]: http://www.robotstxt.org/
+[XSS]: https://en.wikipedia.org/wiki/Cross-site_scripting
+[cross-site scripting]: https://en.wikipedia.org/wiki/Cross-site_scripting
+[cross site scripting]: https://en.wikipedia.org/wiki/Cross-site_scripting
+[cookie catcher]: http://hackwithstyle.blogspot.com/2011/11/what-is-cookie-catcher-and-how-to-get.html
+[johnhammond.org]: http://johnhammond.org
+[HTTP cookie]: https://en.wikipedia.org/wiki/HTTP_cookie
+[HTTP cookies]: https://en.wikipedia.org/wiki/HTTP_cookie
+[cookie]: https://en.wikipedia.org/wiki/HTTP_cookie
+[cookies]: https://en.wikipedia.org/wiki/HTTP_cookie
+[HTTP GET]: http://www.w3schools.com/Tags/ref_httpmethods.asp
+[tee]: https://en.wikipedia.org/wiki/Tee_(command)
+[reverse engineering]: https://en.wikipedia.org/wiki/Reverse_engineering
+[cryptography]: https://en.wikipedia.org/wiki/Cryptography
+[crypto]: https://en.wikipedia.org/wiki/Cryptography
+[sed]: https://en.wikipedia.org/wiki/Sed
+[padding]: https://en.wikipedia.org/wiki/Padding_(cryptography)
+[xortool]: https://github.com/hellman/xortool
+[XOR Cracker]: https://wiremask.eu/tools/xor-cracker/
