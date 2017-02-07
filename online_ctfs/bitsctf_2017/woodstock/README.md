@@ -5,11 +5,7 @@ Woodstock-1
 
 --------------------------------------------
 
-> Yo dawg, I heard you like flags
-> 
-> So I put a flag in your flag
-> 
-> Flag format: BITSCTF{a1phanum3r1c_w0rds}
+> Someone intercepted a chat between illustris and codelec
 
 Another `10` point forensics challenge.
 
