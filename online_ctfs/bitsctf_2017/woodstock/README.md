@@ -1,72 +1,27 @@
-BITSCTF 2017
+Woodstock-1
 ========
 
-> John Hammond | Monday, February 6th, 2017
+> John Hammond | Tuesday, February 7th, 2017
 
 --------------------------------------------
 
-The purpose of this directory and its sub-directories is to contain any information regarding challenges that we as a Cyber Team solved while participating in the online competition [BITSCTF 2017].
-
-The hope with this repository and this specific directory is that users will have a place to post resources, scripts, solution writeups, and any other material that may relate to solving some challenges. If a problem does not have some of your input, whether or not it some code or even a full-blown writeup and solution, feel free to add something!
-
----------------------------
-
-Summary
--------
-
-> Sat, 04 Feb. 2017, 11:30 UTC — Sun, 05 Feb. 2017, 11:30 UTC 
+> Yo dawg, I heard you like flags
 > 
-> On-line
+> So I put a flag in your flag
 > 
-> A BITSCTF event.
-> 
-> Format: Jeopardy Jeopardy
-> 
-> Official URL: [https://bitsctf.bits-quark.org/](https://bitsctf.bits-quark.org/)
-> 
-> This event's weight is subject of public voting!
-> Event organizers 
-> 
-> *    BITSkrieg
-> 
+> Flag format: BITSCTF{a1phanum3r1c_w0rds}
 
+Another `10` point forensics challenge.
 
-------------
+[`strings`][strings] for the win, again (This challenge has a flag transmitted in the clear).
 
-This was a good [CTF]. It had a decent amount of simple and easy challenges, so you might like you were moving and making progress, and there was some really unique and innovative challenges too.
+``` bash
+#!/bin/bash
 
-Challenges
-----------
+strings ws1_2.pcapng |grep -oE "BITSCTF{.*}" --color=never
+```
 
-The following is a list of challenges that we successfully completed as part of the [BITSCTF] competition.
-
-__Note that bolded items have a solution added; regular entries _do not_.__
-
-* [__BotBot__](botbot/)
-* [__Batman vs Joker__](batman_vs_joker/)
-* [__Message the admin__](message_the_admin/)
-* Showcasing the admin
-* [__Mission Improbable__](mission_improbable/)
-* Riskv and Reward
-* [__Labour__](labour/)
-* Good Samaritan
-* Enjoy the music
-* [__Banana Princess__](banana_princess/)
-* fanfie
-* Enigma
-* [__Beginner's Luck__](beginners_luck/)
-* [__Sherlock__](sherlock/)
-* [__Black Hole__](black_hole/)
-* [__Woodstock-1__](woodstock/)
-* [__flagception__](flagception/)
-* Tom and Jerry
-* Woodstock-2
-* Gh0st in the Machine
-* Remember me
-* Command-line
-* Random Game
-
-
+__The flag was: `BITSCTF{such_s3cure_much_w0w}`__
 
 
 [netcat]: https://en.wikipedia.org/wiki/Netcat
@@ -398,9 +353,40 @@ __Note that bolded items have a solution added; regular entries _do not_.__
 [vignere cipher]: https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher
 [substitution cipher]: https://en.wikipedia.org/wiki/Substitution_cipher
 [DNA]: https://en.wikipedia.org/wiki/Nucleic_acid_sequence
-[QIWI InfoSEC CTF 2016]: https://ctftime.org/event/385
-[CTF]: https://en.wikipedia.org/wiki/Capture_the_flag#Computer_security
-[BreakIn CTF 2017]: https://ctftime.org/event/418
-[CTFtime]: https://ctftime.org/
-[BITSCTF]: https://ctftime.org/event/417
-[BITSCTF 2017]: https://bitsctf.bits-quark.org/
+[Python bytecode]: http://security.coverity.com/blog/2014/Nov/understanding-python-bytecode.html
+[uncompyle]: https://github.com/gstarnberger/uncompyle
+[Easy Python Decompiler]: https://github.com/aliansi/Easy-Python-Decompiler-v1.3.2
+[marshal]: https://docs.python.org/2/library/marshal.html
+[IDLE]: https://en.wikipedia.org/wiki/IDLE
+[bytecode]: http://whatis.techtarget.com/definition/bytecode
+[dis]: https://docs.python.org/2/library/dis.html
+[rot13]: https://en.wikipedia.org/wiki/ROT13
+[calendar]: https://docs.python.org/2/library/calendar.html
+[datetime]: https://docs.python.org/2/library/datetime.html
+[primefac]: https://pypi.python.org/pypi/primefac
+[re]: https://docs.python.org/2/library/re.html
+[IDA pro]: https://www.hex-rays.com/products/ida/
+[IDA]: https://www.hex-rays.com/products/ida/
+[QR Code]:  https://en.wikipedia.org/wiki/QR_code
+[RGB]: https://en.wikipedia.org/wiki/RGB_color_model
+[RGB color]: https://en.wikipedia.org/wiki/RGB_color_model
+[exiftool]: http://www.sno.phy.queensu.ca/~phil/exiftool/
+[robots.txt]: http://www.robotstxt.org/
+[XSS]: https://en.wikipedia.org/wiki/Cross-site_scripting
+[cross-site scripting]: https://en.wikipedia.org/wiki/Cross-site_scripting
+[cross site scripting]: https://en.wikipedia.org/wiki/Cross-site_scripting
+[cookie catcher]: http://hackwithstyle.blogspot.com/2011/11/what-is-cookie-catcher-and-how-to-get.html
+[johnhammond.org]: http://johnhammond.org
+[HTTP cookie]: https://en.wikipedia.org/wiki/HTTP_cookie
+[HTTP cookies]: https://en.wikipedia.org/wiki/HTTP_cookie
+[cookie]: https://en.wikipedia.org/wiki/HTTP_cookie
+[cookies]: https://en.wikipedia.org/wiki/HTTP_cookie
+[HTTP GET]: http://www.w3schools.com/Tags/ref_httpmethods.asp
+[tee]: https://en.wikipedia.org/wiki/Tee_(command)
+[reverse engineering]: https://en.wikipedia.org/wiki/Reverse_engineering
+[cryptography]: https://en.wikipedia.org/wiki/Cryptography
+[crypto]: https://en.wikipedia.org/wiki/Cryptography
+[sed]: https://en.wikipedia.org/wiki/Sed
+[padding]: https://en.wikipedia.org/wiki/Padding_(cryptography)
+[xortool]: https://github.com/hellman/xortool
+[XOR Cracker]: https://wiremask.eu/tools/xor-cracker/
